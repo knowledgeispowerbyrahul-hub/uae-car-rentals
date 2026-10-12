@@ -1,0 +1,239 @@
+=====================================================
+UAE CAR RENTAL NETWORK - LIVE & PENDING STATUS NOTES
+Updated: 2026-10-12T13:44:52.295Z
+=====================================================
+
+TOTAL SITES: 100
+LIVE ON VERCEL: 30
+PENDING:        70
+
+[MANAGEMENT PANELS]:
+Panel 1 (Sites 1-50):   https://panel1-uae.vercel.app
+Panel 2 (Sites 51-100):  https://panel2-uae.vercel.app
+
+=====================================================
+🟢 LIVE WEBSITES (30)
+=====================================================
+[LIVE] #001 - QAS Dubai Car Rental
+       URL:    https://qas-rent-tan.vercel.app
+       Phone:  +971 58 521 1777
+       Folder: /qas-dubai-car-rental
+
+[LIVE] #002 - FAST MOTORS CAR RENTAL LLC
+       URL:    https://fast-motors-rent-resxspf35-carrental3.vercel.app
+       Phone:  +971 50 754 4408
+       Folder: /fast-motors-car-rental
+
+[LIVE] #003 - ADRES CAR RENTAL
+       URL:    https://adres-rent-3418o6o97-carrental3.vercel.app
+       Phone:  +971 56 811 9209
+       Folder: /adres-car-rental
+
+[LIVE] #004 - Rent a car Al barsha
+       URL:    https://al-barsha.vercel.app
+       Phone:  +971 55 541 1362
+       Folder: /al-barsha-rent-a-car
+
+[LIVE] #005 - Swift Car Rental | No Security Deposit
+       URL:    https://swift-jxabo5rrb-carrental3.vercel.app
+       Phone:  +971 54 266 1154
+       Folder: /swift-car-rental
+
+[LIVE] #006 - Exotic Ride Supercar & Chauffeur Service Dubai
+       URL:    https://exotic-ride-do2aghjsw-carrental3.vercel.app
+       Phone:  +971 55 358 6068
+       Folder: /exotic-ride-supercar-chauffeur-service-dubai
+
+[LIVE] #007 - Carx Dubai - Rent a Car in Dubai
+       URL:    https://carx-dubai-in-9vy08kiwc-carrental3.vercel.app
+       Phone:  +971 52 120 1531
+       Folder: /carx-dubai-rent-a-car-in-dubai
+
+[LIVE] #008 - LUXURY CAR RENTAL
+       URL:    https://luxury-ihe24g0p9-carrental3.vercel.app
+       Phone:  +971 58 929 5875
+       Folder: /luxury-car-rental
+
+[LIVE] #009 - RENT & RIDE CAR RENTAL
+       URL:    https://rent-ride-nb6mum4hs-carrental3.vercel.app
+       Phone:  +971 56 414 1472
+       Folder: /rent-ride-car-rental
+
+[LIVE] #010 - Leo Exotics Car Rental - No Deposit
+       URL:    https://leo-exotics-3o2w383kt-carrental3.vercel.app
+       Phone:  +971 58 588 1133
+       Folder: /leo-exotics-car-rental-no-deposit
+
+[LIVE] #011 - Rayan Rent a Car LLC
+       URL:    https://rayan-27pwpyxw7-carrental3.vercel.app
+       Phone:  +971 58 262 6154
+       Folder: /rayan-rent-a-car-llc
+
+[LIVE] #012 - Ferro Car Rental
+       URL:    https://ferro-ag5rnjx4o-carrental3.vercel.app
+       Phone:  +971 50 119 9113
+       Folder: /ferro-car-rental
+
+[LIVE] #013 - Autobaba Car Rental L.L.C
+       URL:    https://autobaba-l-l-19aawjgym-carrental3.vercel.app
+       Phone:  +971 58 577 1771
+       Folder: /autobaba-car-rental-l-l-c
+
+[LIVE] #014 - DUBAI.RENT
+       URL:    https://dubai-rent-lqdqjld01-carrental3.vercel.app
+       Phone:  +971 52 266 5566
+       Folder: /dubai-rent
+
+[LIVE] #015 - Luxxio Car Rental
+       URL:    https://luxxio-3muwh10vn-carrental3.vercel.app
+       Phone:  +971 55 136 5705
+       Folder: /luxxio-car-rental
+
+[LIVE] #016 - Davinci Car Rental Dubai
+       URL:    https://davinci-dubai-m7kn8iwdl-carrental3.vercel.app
+       Phone:  +971 54 555 5248
+       Folder: /davinci-car-rental-dubai
+
+[LIVE] #017 - Dubai RENT A CAR G63 Range Rover Mustang
+       URL:    https://dubai-g63-range-b01mr77mr-carrental3.vercel.app
+       Phone:  +971 52 983 3683
+       Folder: /dubai-rent-a-car-g63-range-rover-mustang
+
+[LIVE] #018 - Camaro Rental Dubai
+       URL:    https://camaro-dubai-nj1ewbgzb-carrental3.vercel.app
+       Phone:  +971 56 684 9661
+       Folder: /camaro-rental-dubai
+
+[LIVE] #019 - Vintx Car Rental
+       URL:    https://vintx-obvut1tlw-carrental3.vercel.app
+       Phone:  +971 52 102 7698
+       Folder: /vintx-car-rental
+
+[LIVE] #020 - Dubai Wheel Drive Car Rental
+       URL:    https://dubai-wheel-mhe49727n-carrental3.vercel.app
+       Phone:  +971 55 544 3017
+       Folder: /dubai-wheel-drive-car-rental
+
+[LIVE] #021 - Black Moon Car Rental
+       URL:    https://black-moon-dxk4t05d2-carrental3.vercel.app
+       Phone:  +971 58 832 0814
+       Folder: /black-moon-car-rental
+
+[LIVE] #022 - F10 Luxury Car Rental
+       URL:    https://f10-luxury-pq848pwci-carrental3.vercel.app
+       Phone:  +971 52 608 0580
+       Folder: /f10-luxury-car-rental
+
+[LIVE] #023 - Veloce Dubai Car Rental
+       URL:    https://veloce-dubai-q6qrg3nqn-carrental3.vercel.app
+       Phone:  +971 55 658 9839
+       Folder: /veloce-dubai-car-rental
+
+[LIVE] #024 - IRC CAR RENTAL
+       URL:    https://irc-91iz2r4oa-carrental3.vercel.app
+       Phone:  +971 58 294 1116
+       Folder: /irc-car-rental
+
+[LIVE] #025 - Gulf Tiger Car Rental LLC
+       URL:    https://gulf-tiger-6apj5oq85-carrental3.vercel.app
+       Phone:  +971 50 879 7626
+       Folder: /gulf-tiger-car-rental-llc
+
+[LIVE] #026 - Abu Dhabi Car Rental With Driver
+       URL:    https://abu-dhabi-with-2f6a43ohh-carrental3.vercel.app
+       Phone:  +971 55 858 6734
+       Folder: /abu-dhabi-car-rental-with-driver
+
+[LIVE] #027 - ROAD KING RENT CAR MZJ
+       URL:    https://road-king-eug5i6fpj-carrental3.vercel.app
+       Phone:  +971 50 174 1267
+       Folder: /road-king-rent-car-mzj
+
+[LIVE] #028 - SHIFT Car Rental | Shams Boutik Mall
+       URL:    https://shift-shams-xvonr6ipi-carrental3.vercel.app
+       Phone:  +971 50 912 8370
+       Folder: /shift-car-rental-shams-boutik-mall
+
+[LIVE] #029 - AUTO PLUS RENT A CAR ABU DHABI
+       URL:    https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app
+       Phone:  +971 50 977 2483
+       Folder: /auto-plus-rent-a-car-abu-dhabi
+
+[LIVE] #030 - Harakat Rent a Car
+       URL:    https://harakat-bpff3rk1v-carrental3.vercel.app
+       Phone:  +971 50 810 5080
+       Folder: /harakat-rent-a-car
+
+=====================================================
+⏳ PENDING WEBSITES (70)
+=====================================================
+[PENDING] #031 - Pro Car Rent - Al Salam Street (pro-car-rent-al-salam-street)
+[PENDING] #032 - Shift Car Rental | Al Wahda Mall (shift-car-rental-al-wahda-mall)
+[PENDING] #033 - PLAZA CAR RENTAL (plaza-car-rental)
+[PENDING] #034 - APPLE RENT A CAR ME-10 (apple-rent-a-car-me-10)
+[PENDING] #035 - Indigo Rent A Car Khalidiya Mall (indigo-rent-a-car-khalidiya-mall)
+[PENDING] #036 - Monaco Rent A Car (monaco-rent-a-car)
+[PENDING] #037 - Safeway Car Rentals (safeway-car-rentals)
+[PENDING] #038 - Top Speed Rent A Car L.L.C. (top-speed-rent-a-car-l-l-c)
+[PENDING] #039 - On Track Car Rentals (on-track-car-rentals)
+[PENDING] #040 - Spider Rent A Car (spider-rent-a-car)
+[PENDING] #041 - White and red cars rental (white-and-red-cars-rental)
+[PENDING] #042 - AeroCar Rent A Car (aerocar-rent-a-car)
+[PENDING] #043 - Fantazya Rent A Car (fantazya-rent-a-car)
+[PENDING] #044 - Spectre Rent A Car (spectre-rent-a-car)
+[PENDING] #045 - Al Shayea Car Rental (al-shayea-car-rental)
+[PENDING] #046 - Afamia Rent a Car (afamia-rent-a-car)
+[PENDING] #047 - Alyah car rental (alyah-car-rental)
+[PENDING] #048 - Tilal Al Emarat Rent A Car (tilal-al-emarat-rent-a-car)
+[PENDING] #049 - Arkan Cars Rental (arkan-cars-rental)
+[PENDING] #050 - For You Rent A Car (for-you-rent-a-car)
+[PENDING] #051 - AL FADA RENT A CAR (al-fada-rent-a-car)
+[PENDING] #052 - Tiger Cars Rental (tiger-cars-rental)
+[PENDING] #053 - Al Sharjah Rent A Car (al-sharjah-rent-a-car)
+[PENDING] #054 - Sunasco Car Rental (sunasco-car-rental)
+[PENDING] #055 - Aldalil Cars Rental (aldalil-cars-rental)
+[PENDING] #056 - Atlantic Rent A Car Establishment (atlantic-rent-a-car-establishment)
+[PENDING] #057 - Al Fareed Rent A Car (al-fareed-rent-a-car)
+[PENDING] #058 - Perfect Rent A Car (perfect-rent-a-car)
+[PENDING] #059 - Al Mahra Rent Car (al-mahra-rent-car)
+[PENDING] #060 - Golden Cup Rent A Car (golden-cup-rent-a-car)
+[PENDING] #061 - Monte Carlo Rent a Car (monte-carlo-rent-a-car)
+[PENDING] #062 - Seven Seas Rent A Car (seven-seas-rent-a-car)
+[PENDING] #063 - Eurocar (eurocar)
+[PENDING] #064 - ALNASEH Car Rental (alnaseh-car-rental)
+[PENDING] #065 - Best Choice Car Rental LLC (best-choice-car-rental-llc)
+[PENDING] #066 - Creek Rent A Car (creek-rent-a-car)
+[PENDING] #067 - Selective Car Rental (selective-car-rental)
+[PENDING] #068 - Aldy Rent A Car (aldy-rent-a-car)
+[PENDING] #069 - Ahlan Rent A Car (ahlan-rent-a-car)
+[PENDING] #070 - Al Attar Car Rental (al-attar-car-rental)
+[PENDING] #071 - Makkiayh Car Rental LLC. (makkiayh-car-rental-llc)
+[PENDING] #072 - ATU Luxury Cars Dubai (atu-luxury-cars-dubai)
+[PENDING] #073 - Armeny Rent A Car Dubai (armeny-rent-a-car-dubai)
+[PENDING] #074 - ACC Car Rental LLC (acc-car-rental-llc)
+[PENDING] #075 - Ashtar Car Rental (ashtar-car-rental)
+[PENDING] #076 - R Car Rental LLC (r-car-rental-llc)
+[PENDING] #077 - Golden Drive Car Rental LLC (golden-drive-car-rental-llc)
+[PENDING] #078 - Al Fadhel Car Rental (al-fadhel-car-rental)
+[PENDING] #079 - Easy Deal Car Rental Dubai (easy-deal-car-rental-dubai)
+[PENDING] #080 - SAS Luxury Car Rentals Dubai (sas-luxury-car-rentals-dubai)
+[PENDING] #081 - Rent A Car In Dubai (rent-a-car-in-dubai)
+[PENDING] #082 - R Dynamic Car Rental (r-dynamic-car-rental)
+[PENDING] #083 - SS1 Rent A Car (ss1-rent-a-car)
+[PENDING] #084 - Oro Car Rental (oro-car-rental)
+[PENDING] #085 - 4AZ Super Car Rentals Dubai (4az-super-car-rentals-dubai)
+[PENDING] #086 - Sast Urus Car Rental (sast-urus-car-rental)
+[PENDING] #087 - Venusyum Car Rental (venusyum-car-rental)
+[PENDING] #088 - Driftty Speed Car Rental LLC (driftty-speed-car-rental-llc)
+[PENDING] #089 - Shawaheen Car Rental (shawaheen-car-rental)
+[PENDING] #090 - Haiwan Car Rental Dubai (haiwan-car-rental-dubai)
+[PENDING] #091 - Al Ramool Rent A Car (al-ramool-rent-a-car)
+[PENDING] #092 - Ready To Ride Car Rental (ready-to-ride-car-rental)
+[PENDING] #093 - Miete Car Rental Company (miete-car-rental-company)
+[PENDING] #094 - Prime Keys Car Rental LLC (prime-keys-car-rental-llc)
+[PENDING] #095 - Come And Rent Car Rental (come-and-rent-car-rental)
+[PENDING] #096 - Al-Emad Cars & Bus Rental (al-emad-cars-bus-rental)
+[PENDING] #097 - Al Omari Rent A Car (al-omari-rent-a-car)
+[PENDING] #098 - Atlantic Rent A Car LLC (atlantic-rent-a-car-llc)
+[PENDING] #099 - Silver Drive Rent A Car (silver-drive-rent-a-car)
+[PENDING] #100 - Harrods Rent A Car LLC (harrods-rent-a-car-llc)

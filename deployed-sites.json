@@ -1,0 +1,238 @@
+{
+  "1": {
+    "id": 1,
+    "folder": "qas-dubai-car-rental",
+    "name": "QAS Dubai Car Rental",
+    "shortName": "qas-rent",
+    "liveUrl": "https://qas-rent-tan.vercel.app"
+  },
+  "2": {
+    "id": 2,
+    "folder": "fast-motors-car-rental",
+    "name": "FAST MOTORS CAR RENTAL LLC",
+    "shortName": "fast-motors-rent",
+    "liveUrl": "https://fast-motors-rent-resxspf35-carrental3.vercel.app"
+  },
+  "3": {
+    "id": 3,
+    "folder": "adres-car-rental",
+    "name": "ADRES CAR RENTAL",
+    "shortName": "adres-rent",
+    "liveUrl": "https://adres-rent-3418o6o97-carrental3.vercel.app"
+  },
+  "4": {
+    "id": 4,
+    "folder": "al-barsha-rent-a-car",
+    "name": "Rent a car Al barsha",
+    "shortName": "al-barsha",
+    "liveUrl": "https://al-barsha.vercel.app"
+  },
+  "5": {
+    "id": 5,
+    "folder": "swift-car-rental",
+    "name": "Swift Car Rental | No Security Deposit",
+    "shortName": "swift",
+    "phone": "+971 54 266 1154",
+    "liveUrl": "https://swift-jxabo5rrb-carrental3.vercel.app"
+  },
+  "6": {
+    "id": 6,
+    "folder": "exotic-ride-supercar-chauffeur-service-dubai",
+    "name": "Exotic Ride Supercar & Chauffeur Service Dubai",
+    "shortName": "exotic-ride-dub",
+    "phone": "+971 55 358 6068",
+    "liveUrl": "https://exotic-ride-do2aghjsw-carrental3.vercel.app"
+  },
+  "7": {
+    "id": 7,
+    "folder": "carx-dubai-rent-a-car-in-dubai",
+    "name": "Carx Dubai - Rent a Car in Dubai",
+    "shortName": "carx-dubai-in-d",
+    "phone": "+971 52 120 1531",
+    "liveUrl": "https://carx-dubai-in-9vy08kiwc-carrental3.vercel.app"
+  },
+  "8": {
+    "id": 8,
+    "folder": "luxury-car-rental",
+    "name": "LUXURY CAR RENTAL",
+    "shortName": "luxury",
+    "phone": "+971 58 929 5875",
+    "liveUrl": "https://luxury-ihe24g0p9-carrental3.vercel.app"
+  },
+  "9": {
+    "id": 9,
+    "folder": "rent-ride-car-rental",
+    "name": "RENT & RIDE CAR RENTAL",
+    "shortName": "rent-ride",
+    "phone": "+971 56 414 1472",
+    "liveUrl": "https://rent-ride-nb6mum4hs-carrental3.vercel.app"
+  },
+  "10": {
+    "id": 10,
+    "folder": "leo-exotics-car-rental-no-deposit",
+    "name": "Leo Exotics Car Rental - No Deposit",
+    "shortName": "leo-exotics-no",
+    "phone": "+971 58 588 1133",
+    "liveUrl": "https://leo-exotics-3o2w383kt-carrental3.vercel.app"
+  },
+  "11": {
+    "id": 11,
+    "folder": "rayan-rent-a-car-llc",
+    "name": "Rayan Rent a Car LLC",
+    "shortName": "rayan",
+    "phone": "+971 58 262 6154",
+    "liveUrl": "https://rayan-27pwpyxw7-carrental3.vercel.app"
+  },
+  "12": {
+    "id": 12,
+    "folder": "ferro-car-rental",
+    "name": "Ferro Car Rental",
+    "shortName": "ferro",
+    "phone": "+971 50 119 9113",
+    "liveUrl": "https://ferro-ag5rnjx4o-carrental3.vercel.app"
+  },
+  "13": {
+    "id": 13,
+    "folder": "autobaba-car-rental-l-l-c",
+    "name": "Autobaba Car Rental L.L.C",
+    "shortName": "autobaba-l-l-c",
+    "phone": "+971 58 577 1771",
+    "liveUrl": "https://autobaba-l-l-19aawjgym-carrental3.vercel.app"
+  },
+  "14": {
+    "id": 14,
+    "folder": "dubai-rent",
+    "name": "DUBAI.RENT",
+    "shortName": "dubai-rent",
+    "phone": "+971 52 266 5566",
+    "liveUrl": "https://dubai-rent-lqdqjld01-carrental3.vercel.app"
+  },
+  "15": {
+    "id": 15,
+    "folder": "luxxio-car-rental",
+    "name": "Luxxio Car Rental",
+    "shortName": "luxxio",
+    "phone": "+971 55 136 5705",
+    "liveUrl": "https://luxxio-3muwh10vn-carrental3.vercel.app"
+  },
+  "16": {
+    "id": 16,
+    "folder": "davinci-car-rental-dubai",
+    "name": "Davinci Car Rental Dubai",
+    "shortName": "davinci-dubai",
+    "phone": "+971 54 555 5248",
+    "liveUrl": "https://davinci-dubai-m7kn8iwdl-carrental3.vercel.app"
+  },
+  "17": {
+    "id": 17,
+    "folder": "dubai-rent-a-car-g63-range-rover-mustang",
+    "name": "Dubai RENT A CAR G63 Range Rover Mustang",
+    "shortName": "dubai-g63-range",
+    "phone": "+971 52 983 3683",
+    "liveUrl": "https://dubai-g63-range-b01mr77mr-carrental3.vercel.app"
+  },
+  "18": {
+    "id": 18,
+    "folder": "camaro-rental-dubai",
+    "name": "Camaro Rental Dubai",
+    "shortName": "camaro-dubai",
+    "phone": "+971 56 684 9661",
+    "liveUrl": "https://camaro-dubai-nj1ewbgzb-carrental3.vercel.app"
+  },
+  "19": {
+    "id": 19,
+    "folder": "vintx-car-rental",
+    "name": "Vintx Car Rental",
+    "shortName": "vintx",
+    "phone": "+971 52 102 7698",
+    "liveUrl": "https://vintx-obvut1tlw-carrental3.vercel.app"
+  },
+  "20": {
+    "id": 20,
+    "folder": "dubai-wheel-drive-car-rental",
+    "name": "Dubai Wheel Drive Car Rental",
+    "shortName": "dubai-wheel-dri",
+    "phone": "+971 55 544 3017",
+    "liveUrl": "https://dubai-wheel-mhe49727n-carrental3.vercel.app"
+  },
+  "21": {
+    "id": 21,
+    "folder": "black-moon-car-rental",
+    "name": "Black Moon Car Rental",
+    "shortName": "black-moon",
+    "phone": "+971 58 832 0814",
+    "liveUrl": "https://black-moon-dxk4t05d2-carrental3.vercel.app"
+  },
+  "22": {
+    "id": 22,
+    "folder": "f10-luxury-car-rental",
+    "name": "F10 Luxury Car Rental",
+    "shortName": "f10-luxury",
+    "phone": "+971 52 608 0580",
+    "liveUrl": "https://f10-luxury-pq848pwci-carrental3.vercel.app"
+  },
+  "23": {
+    "id": 23,
+    "folder": "veloce-dubai-car-rental",
+    "name": "Veloce Dubai Car Rental",
+    "shortName": "veloce-dubai",
+    "phone": "+971 55 658 9839",
+    "liveUrl": "https://veloce-dubai-q6qrg3nqn-carrental3.vercel.app"
+  },
+  "24": {
+    "id": 24,
+    "folder": "irc-car-rental",
+    "name": "IRC CAR RENTAL",
+    "shortName": "irc",
+    "phone": "+971 58 294 1116",
+    "liveUrl": "https://irc-91iz2r4oa-carrental3.vercel.app"
+  },
+  "25": {
+    "id": 25,
+    "folder": "gulf-tiger-car-rental-llc",
+    "name": "Gulf Tiger Car Rental LLC",
+    "shortName": "gulf-tiger",
+    "phone": "+971 50 879 7626",
+    "liveUrl": "https://gulf-tiger-6apj5oq85-carrental3.vercel.app"
+  },
+  "26": {
+    "id": 26,
+    "folder": "abu-dhabi-car-rental-with-driver",
+    "name": "Abu Dhabi Car Rental With Driver",
+    "shortName": "abu-dhabi-with",
+    "phone": "+971 55 858 6734",
+    "liveUrl": "https://abu-dhabi-with-2f6a43ohh-carrental3.vercel.app"
+  },
+  "27": {
+    "id": 27,
+    "folder": "road-king-rent-car-mzj",
+    "name": "ROAD KING RENT CAR MZJ",
+    "shortName": "road-king-mzj",
+    "phone": "+971 50 174 1267",
+    "liveUrl": "https://road-king-eug5i6fpj-carrental3.vercel.app"
+  },
+  "28": {
+    "id": 28,
+    "folder": "shift-car-rental-shams-boutik-mall",
+    "name": "SHIFT Car Rental | Shams Boutik Mall",
+    "shortName": "shift-shams-bou",
+    "phone": "+971 50 912 8370",
+    "liveUrl": "https://shift-shams-xvonr6ipi-carrental3.vercel.app"
+  },
+  "29": {
+    "id": 29,
+    "folder": "auto-plus-rent-a-car-abu-dhabi",
+    "name": "AUTO PLUS RENT A CAR ABU DHABI",
+    "shortName": "auto-plus-abu-d",
+    "phone": "+971 50 977 2483",
+    "liveUrl": "https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app"
+  },
+  "30": {
+    "id": 30,
+    "folder": "harakat-rent-a-car",
+    "name": "Harakat Rent a Car",
+    "shortName": "harakat",
+    "phone": "+971 50 810 5080",
+    "liveUrl": "https://harakat-bpff3rk1v-carrental3.vercel.app"
+  }
+}
