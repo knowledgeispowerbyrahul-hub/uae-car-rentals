@@ -508,6 +508,41 @@ function generatePanelHtml(panelNum, ownerName, clients, otherPanelUrl, otherPan
   .tag-no { background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.2); }
   .tag-pending { background: rgba(245, 158, 11, 0.1); color: #fbbf24; border-color: rgba(245, 158, 11, 0.2); }
 
+  .select-wa {
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--border);
+    background: #0d0f15;
+    transition: all 0.15s;
+  }
+  .select-wa.wa-yes {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border-color: rgba(16, 185, 129, 0.35);
+  }
+  .select-wa.wa-no {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border-color: rgba(239, 68, 68, 0.35);
+  }
+  .select-wa.wa-pending {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border-color: rgba(245, 158, 11, 0.35);
+  }
+
+  .btn-wa.dimmed {
+    opacity: 0.6;
+    background: #1f2937 !important;
+    border-color: #374151 !important;
+    color: #9ca3af !important;
+  }
+
   .select-status {
     background: #0d0f15;
     border: 1px solid var(--border);
@@ -793,7 +828,12 @@ function init() {
       const parsed = JSON.parse(s);
       list = INITIAL_DATA.map(initItem => {
         const found = parsed.find(p => p.id === initItem.id);
-        return found ? { ...initItem, funnel: found.funnel, notes: found.notes } : initItem;
+        return found ? { 
+          ...initItem, 
+          funnel: found.funnel || initItem.funnel, 
+          notes: (found.notes !== undefined) ? found.notes : initItem.notes,
+          waStatus: found.waStatus || initItem.waStatus
+        } : initItem;
       });
     } catch(e) { 
       list = JSON.parse(JSON.stringify(INITIAL_DATA)); 
@@ -929,6 +969,17 @@ function changeStatus(id, newStatus) {
   }
 }
 
+function changeWaStatus(id, newStatus) {
+  const c = list.find(x => x.id === id);
+  if (c) {
+    c.waStatus = newStatus;
+    save();
+    render();
+    const label = newStatus === 'yes' ? '🟢 Has WA' : (newStatus === 'no' ? '🔴 No WA' : '🟡 Pending');
+    toast(c.name + ': WhatsApp set to ' + label);
+  }
+}
+
 function escapeHtml(str) {
   if (!str) return '';
   return String(str)
@@ -949,7 +1000,6 @@ function render() {
 
   tb.innerHTML = items.map(c => {
     const waClass = c.waStatus === 'yes' ? 'tag-yes' : (c.waStatus === 'no' ? 'tag-no' : 'tag-pending');
-    const waLabel = c.waStatus === 'yes' ? '● Has WA' : (c.waStatus === 'no' ? '● No WA' : '● Pending');
     const waUrl = \`https://wa.me/\${c.whatsapp}?text=\${encodeURIComponent("Hello " + c.name + ", here is your live website.")}\`;
     const siteUrl = c.liveUrl || '#';
     const currentNote = getRowNote(c.id);
@@ -967,9 +1017,14 @@ function render() {
         </td>
 
         <td>
-          <div style="display:flex; align-items:center; gap:6px;">
+          <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap;">
             <a class="btn-call" href="tel:\${(c.phone||'').replace(/[^0-9+]/g, '')}">📞 Call</a>
-            \${c.waStatus === 'yes' ? \`<a class="btn-wa" href="\${waUrl}" target="_blank">💬 WA</a>\` : \`<span class="tag \${waClass}">\${waLabel}</span>\`}
+            <a class="btn-wa \${c.waStatus === 'no' ? 'dimmed' : ''}" href="\${waUrl}" target="_blank" title="Open WhatsApp Chat">💬 WA</a>
+            <select class="select-wa wa-\${c.waStatus}" onchange="changeWaStatus(\${c.id}, this.value)" title="Click to select WhatsApp status">
+              <option value="yes" \${c.waStatus === 'yes' ? 'selected' : ''}>🟢 Has WA</option>
+              <option value="no" \${c.waStatus === 'no' ? 'selected' : ''}>🔴 No WA</option>
+              <option value="pending" \${c.waStatus === 'pending' ? 'selected' : ''}>🟡 Pending</option>
+            </select>
           </div>
           <div style="font-size:10px; color:var(--muted); font-family:'JetBrains Mono'; margin-top:3px;">\${c.phone}</div>
         </td>
@@ -1029,8 +1084,8 @@ window.addEventListener('DOMContentLoaded', init);
 fs.mkdirSync(path.join(WORKSPACE, 'panel1'), { recursive: true });
 fs.mkdirSync(path.join(WORKSPACE, 'panel2'), { recursive: true });
 
-const html1 = generatePanelHtml(1, 'Rahul', rahulClients, 'https://panel2-uae.vercel.app', '👤 Switch to Het\'s Panel (#31–60) →');
-const html2 = generatePanelHtml(2, 'Het', hetClients, 'https://panel1-uae.vercel.app', '← 👤 Switch to Rahul\'s Panel (#1–30)');
+const html1 = generatePanelHtml(1, 'Rahul', rahulClients, 'https://panel2-het.vercel.app', '👤 Switch to Het\'s Panel (#31–60) →');
+const html2 = generatePanelHtml(2, 'Het', hetClients, 'https://panel1-rahul.vercel.app', '← 👤 Switch to Rahul\'s Panel (#1–30)');
 
 fs.writeFileSync(path.join(WORKSPACE, 'panel1/index.html'), html1);
 fs.writeFileSync(path.join(WORKSPACE, 'panel2/index.html'), html2);

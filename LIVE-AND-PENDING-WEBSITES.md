@@ -10,8 +10,8 @@
 - **⏳ Pending Deployments:** 367 Companies (#61 to #427)
 
 ### 🌐 Live CRM Sales Panels:
-- **Rahul's Sales Panel (Sites #1–30):** [https://panel1-uae.vercel.app](https://panel1-uae.vercel.app)
-- **Het's Sales Panel (Sites #31–60):** [https://panel2-uae.vercel.app](https://panel2-uae.vercel.app)
+- **Rahul's Sales Panel (Sites #1–30):** [https://panel1-rahul.vercel.app](https://panel1-rahul.vercel.app)
+- **Het's Sales Panel (Sites #31–60):** [https://panel2-het.vercel.app](https://panel2-het.vercel.app)
 
 ## 👤 1. Rahul's Live Sales Clients (30)
 

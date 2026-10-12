@@ -10,8 +10,8 @@ TOTAL CLIENT DATABASE: 427 Companies
 ⏳ PENDING DEPLOYMENTS:   367 Companies (#061 to #427)
 
 [LIVE CRM SALES PANELS]:
-1. RAHUL'S PANEL (Sites 1-30):  https://panel1-uae.vercel.app
-2. HET'S PANEL   (Sites 31-60): https://panel2-uae.vercel.app
+1. RAHUL'S PANEL (Sites 1-30):  https://panel1-rahul.vercel.app
+2. HET'S PANEL   (Sites 31-60): https://panel2-het.vercel.app
 
 =========================================================================
 👤 1. RAHUL'S SALES CLIENTS (30 LIVE WEBSITES)
