@@ -1,0 +1,18 @@
+{
+  "name": "Golden Car Rent A Car",
+  "short": "Golden Car",
+  "domain": "http://www.goldencarrentacar.com",
+  "phone": "+971 50 221 9708",
+  "whatsapp": "971502219708",
+  "email": "booking@goldencarrentacar.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Golden Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/GOLDEN+CAR+RENT+A+CAR/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

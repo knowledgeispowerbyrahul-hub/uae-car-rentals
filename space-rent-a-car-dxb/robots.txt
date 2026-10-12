@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.space-rent-a-car-dxb.ae/sitemap.xml

@@ -1,0 +1,18 @@
+{
+  "name": "First Way Rent A Car",
+  "short": "First Way",
+  "domain": "https://www.first-way-rent-a-car.ae",
+  "phone": "+971 50 446 9777",
+  "whatsapp": "971504469777",
+  "email": "booking@firstwayrentacar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by First Way in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/First+Way+Rent+a+Car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

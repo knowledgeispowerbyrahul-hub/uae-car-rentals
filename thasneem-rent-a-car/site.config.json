@@ -1,0 +1,18 @@
+{
+  "name": "Thasneem Rent A Car",
+  "short": "Thasneem",
+  "domain": "http://www.thasneemrentacar.com",
+  "phone": "+971 56 501 2800",
+  "whatsapp": "971565012800",
+  "email": "booking@thasneemrentacar.ae",
+  "address": "Al Jerf 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Thasneem in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Thasneem+Rent+A+Car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

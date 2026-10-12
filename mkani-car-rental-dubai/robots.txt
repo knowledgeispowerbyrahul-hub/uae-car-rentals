@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.mkani-car-rental-dubai.ae/sitemap.xml

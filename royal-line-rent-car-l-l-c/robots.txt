@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.royal-line-rent-car-l-l-c.ae/sitemap.xml

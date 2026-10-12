@@ -1,0 +1,18 @@
+{
+  "name": "Where To Rent A Car",
+  "short": "Where To",
+  "domain": "https://wheretorentacar.com/english",
+  "phone": "+971 50 137 6680",
+  "whatsapp": "971501376680",
+  "email": "booking@wheretorentacar.ae",
+  "address": "Dubai Hills / Al Barsha South,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Where To in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Where+to+Rent+a+car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

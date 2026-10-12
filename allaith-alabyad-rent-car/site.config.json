@@ -1,0 +1,18 @@
+{
+  "name": "Allaith Alabyad Rent Car",
+  "short": "Allaith Alabyad",
+  "domain": "https://www.instagram.com/al.laith.alabyad",
+  "phone": "+971 50 862 4923",
+  "whatsapp": "971508624923",
+  "email": "booking@allaithalabyadrentcar.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Allaith Alabyad in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/allaithalabyad+rent+car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

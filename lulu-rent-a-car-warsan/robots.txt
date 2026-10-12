@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.lulu-rent-a-car-warsan.ae/sitemap.xml

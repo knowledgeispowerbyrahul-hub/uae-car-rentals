@@ -1,0 +1,18 @@
+{
+  "name": "Car House Cars Rental",
+  "short": "Car House",
+  "domain": "https://www.car-house-cars-rental.ae",
+  "phone": "+971 52 120 4120",
+  "whatsapp": "971521204120",
+  "email": "booking@carhousecarsrental.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Car House in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Car+House+Cars+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

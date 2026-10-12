@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.island-car-park-rental.ae/sitemap.xml

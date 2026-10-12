@@ -1,0 +1,18 @@
+{
+  "name": "My Car Rent A Car",
+  "short": "My Car",
+  "domain": "https://www.my-car-rent-a-car.ae",
+  "phone": "+971 55 455 8313",
+  "whatsapp": "971554558313",
+  "email": "booking@mycarrentacar.ae",
+  "address": "Al Jurf Industrial 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by My Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/MY+CAR+Rent+A+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

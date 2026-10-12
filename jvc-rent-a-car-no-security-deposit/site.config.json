@@ -1,0 +1,18 @@
+{
+  "name": "JVC Rent A Car No Security Deposit",
+  "short": "JVC No",
+  "domain": "https://www.jvc-rent-a-car-no-security-deposit.ae",
+  "phone": "+971 56 200 4141",
+  "whatsapp": "971562004141",
+  "email": "booking@jvcrentacarnosecuritydeposit.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by JVC No in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/JVC+Rent+A+Car+%7C+No+Security+Deposit/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

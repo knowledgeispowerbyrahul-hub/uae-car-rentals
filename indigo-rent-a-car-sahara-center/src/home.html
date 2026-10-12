@@ -1,0 +1,347 @@
+<main class="container">
+  <section class="ocd-hero" id="top">
+    <img class="ocd-hero-img" src="/assets/img/hero-showroom.jpg" alt="Luxury car rental showroom in Dubai" fetchpriority="high">
+    <div class="ocd-hero-in">
+      <div class="seg" role="tablist"><button class="on" type="button">RENT</button><button type="button">BUY</button><button type="button">SELL</button></div>
+      <h1 id="heroTitle">RENT A CAR DUBAI</h1>
+      <p id="heroSub">Car Rental in Dubai. Book Direct. No Hidden Fees.</p>
+      <form class="pill-search" id="searchForm">
+        <span class="mag"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#search"/></svg></span>
+        <input name="q" type="text" placeholder="Search by brand or model (e.g. BMW, Mercedes, SUV)" aria-label="Search cars" autocomplete="off">
+        <button class="btn-s big" type="submit">View All Cars &nbsp;›</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="brand-strip">
+    <button class="arr" id="bPrev" aria-label="Previous">‹</button>
+    <div class="bscroll" id="bScroll"><!--BRANDCHIPS--></div>
+    <button class="arr" id="bNext" aria-label="Next">›</button>
+  </div>
+
+  <div class="trust reveal">
+    <div class="trust-item">
+      <div class="trust-ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#truck"/></svg></div>
+      <div class="trust-content">
+        <b>Free Doorstep Delivery</b>
+        <span>Hotel, residence or DXB airport</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#wallet"/></svg></div>
+      <div class="trust-content">
+        <b>Zero Hidden Charges</b>
+        <span>Clear, upfront &amp; all-inclusive rates</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#shield"/></svg></div>
+      <div class="trust-content">
+        <b>Fully Insured Fleet</b>
+        <span>Comprehensive cover &amp; 24/7 roadside aid</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#headset"/></svg></div>
+      <div class="trust-content">
+        <b>24/7 VIP Concierge</b>
+        <span>Instant response via Call or WhatsApp</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- CATEGORIES -->
+<section class="hs" id="categories">
+  <div class="container">
+    <div class="hs-head reveal"><div class="eyebrow">Browse by type</div><h2>Find the right car for every trip</h2><p>From budget-friendly city hatchbacks to head-turning exotic supercars, choose your category.</p></div>
+    <div class="cats">
+      <a class="cat reveal" href="/suv-rental-dubai"><img src="/assets/img/cars/suv.jpg" alt="SUV rental Dubai" loading="lazy"><h3>SUVs</h3><span>from AED 220/day</span></a>
+      <a class="cat reveal" href="/luxury-car-rental-dubai"><img src="/assets/img/cars/luxury.jpg" alt="Luxury car rental Dubai" loading="lazy"><h3>Luxury</h3><span>from AED 450/day</span></a>
+      <a class="cat reveal" href="/sports-car-rental-dubai"><img src="/assets/img/cars/sports.jpg" alt="Sports car rental Dubai" loading="lazy"><h3>Sports &amp; Supercars</h3><span>from AED 1,200/day</span></a>
+      <a class="cat reveal" href="/convertible-car-rental-dubai"><img src="/assets/img/cars/convertible.jpg" alt="Convertible rental Dubai" loading="lazy"><h3>Convertibles</h3><span>from AED 650/day</span></a>
+      <a class="cat reveal" href="/cheap-car-rental-dubai"><img src="/assets/img/cars/economy.jpg" alt="Economy car rental Dubai" loading="lazy"><h3>Economy</h3><span>from AED 79/day</span></a>
+      <a class="cat reveal" href="/van-rental-dubai"><img src="/assets/img/cars/van.jpg" alt="Van rental Dubai" loading="lazy"><h3>Vans &amp; Buses</h3><span>from AED 300/day</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FLEET -->
+<section class="hs alt" id="fleet">
+  <div class="container">
+    <div class="hs-row reveal">
+      <div class="hs-head left"><div class="eyebrow">Featured fleet</div><h2>Most popular rentals in Dubai</h2><p>Daily, weekly and monthly prices shown on every car. Fully insured and delivered to your doorstep.</p></div>
+      <a href="/rent-a-car-dubai" class="btn-o">View all cars →</a>
+    </div>
+    <div class="filters reveal">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="suv">SUV</button>
+      <button class="chip" data-filter="luxury">Luxury</button>
+      <button class="chip" data-filter="sports">Sports</button>
+      <button class="chip" data-filter="convertible">Convertible</button>
+      <button class="chip" data-filter="economy">Economy</button>
+      <button class="chip" data-filter="van">Van</button>
+    </div>
+    <div class="cars" id="homeFleet"></div>
+    <div class="center-cta"><a href="/rent-a-car-dubai" class="btn-o">View All Cars →</a></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="hs" id="why">
+  <div class="container">
+    <div class="hs-head center reveal">
+      <div class="eyebrow">Why choose us</div>
+      <h2>Car rental in Dubai, done properly</h2>
+      <p>We keep it simple: pristine vehicles, transparent pricing, and concierge service that's with you 24/7.</p>
+    </div>
+    <div class="features">
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#truck"/></svg></div><h3>Free Delivery &amp; Pickup</h3><p>We deliver directly to your hotel, private residence, or airport terminal across Dubai.</p></div>
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#wallet"/></svg></div><h3>No Hidden Charges</h3><p>The price you see is the price you pay. Clean contracts and prompt deposit returns.</p></div>
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#shield"/></svg></div><h3>Fully Insured</h3><p>Comprehensive RTA insurance included with 24/7 roadside assistance across the UAE.</p></div>
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#bolt"/></svg></div><h3>Book in 2 Minutes</h3><p>Pick your car, send documents on WhatsApp, and receive your booking confirmation in minutes.</p></div>
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#key"/></svg></div><h3>Low or Zero Deposit</h3><p>Enjoy flexible deposit terms, including zero-deposit options on economy and monthly rentals.</p></div>
+      <div class="feature reveal"><div class="ico"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#headset"/></svg></div><h3>24/7 Support</h3><p>Real automotive experts on call and WhatsApp around the clock in English and Arabic.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BRANDS -->
+<section class="hs alt" id="brands">
+  <div class="container">
+    <div class="hs-head center reveal">
+      <div class="eyebrow">Top brands</div>
+      <h2>Rent by brand</h2>
+      <p>Choose from Dubai's widest collection of prestige and everyday automotive brands.</p>
+    </div>
+    <div class="brands"><!--BRANDGRID--></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS (PROFESSIONAL LUXURY DESIGN) -->
+<section class="hs" id="reviews">
+  <div class="container">
+    <div class="hs-head center reveal">
+      <div class="eyebrow">Client Feedback</div>
+      <h2>Loved by drivers across Dubai</h2>
+      <p class="hs-sub-badge">★ 4.9/5 Average Rating based on 2,400+ verified UAE customer experiences</p>
+    </div>
+    <div class="pro-reviews">
+      <div class="pro-review-card reveal">
+        <div class="prc-top">
+          <div class="prc-stars">★★★★★</div>
+          <span class="prc-verified"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> Verified Rental</span>
+        </div>
+        <p class="prc-quote">"The Mercedes arrived right at my hotel entrance in Business Bay on time and in showroom condition. Completely transparent pricing and zero hassles with documents. Will definitely book again next month."</p>
+        <div class="prc-car-tag"><span>Rented:</span> Mercedes-Benz E-Class</div>
+        <div class="prc-author">
+          <div class="prc-avatar">A</div>
+          <div class="prc-info">
+            <b>Ahmed K.</b>
+            <small>Tourist · London, UK</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="pro-review-card reveal">
+        <div class="prc-top">
+          <div class="prc-stars">★★★★★</div>
+          <span class="prc-verified"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> Verified Rental</span>
+        </div>
+        <p class="prc-quote">"Best monthly car rental experience in Dubai. Fair rates, no deposit headaches, and instant WhatsApp support when I wanted to extend. They handled delivery and pickup smoothly."</p>
+        <div class="prc-car-tag"><span>Rented:</span> Nissan Patrol Titanium</div>
+        <div class="prc-author">
+          <div class="prc-avatar">S</div>
+          <div class="prc-info">
+            <b>Sara M.</b>
+            <small>Resident · Downtown Dubai</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="pro-review-card reveal">
+        <div class="prc-top">
+          <div class="prc-stars">★★★★★</div>
+          <span class="prc-verified"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> Verified Rental</span>
+        </div>
+        <p class="prc-quote">"Rented a Ferrari F8 for a client weekend. The car was spotless, exhaust sounded incredible, and handover took less than 5 minutes at DXB Terminal 3. True 5-star concierge service."</p>
+        <div class="prc-car-tag"><span>Rented:</span> Ferrari F8 Spider</div>
+        <div class="prc-author">
+          <div class="prc-avatar">R</div>
+          <div class="prc-info">
+            <b>Raj P.</b>
+            <small>Visitor · Mumbai, India</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ (PROFESSIONAL ACCORDION DESIGN) -->
+<section class="hs alt" id="faq">
+  <div class="container pro-faq-container">
+    <div class="hs-head center reveal">
+      <div class="eyebrow">Got Questions?</div>
+      <h2>Frequently asked questions</h2>
+      <p>Everything you need to know about renting, deposits, documents, and driving in Dubai.</p>
+    </div>
+    <div class="pro-faq reveal">
+      <details class="pro-faq-item" open>
+        <summary class="pro-faq-summary">
+          <span>What documents do I need to rent a car in Dubai?</span>
+          <span class="pro-faq-icon">+</span>
+        </summary>
+        <div class="pro-faq-body">
+          <p><strong>For Tourists:</strong> A valid passport, UAE entry/visit visa stamp, and a valid national driving licence. Visitors from countries requiring an International Driving Permit (IDP) must also present an IDP.</p>
+          <p><strong>For UAE Residents:</strong> Valid Emirates ID, UAE Driving Licence, and a residential visa.</p>
+        </div>
+      </details>
+
+      <details class="pro-faq-item">
+        <summary class="pro-faq-summary">
+          <span>Do you offer free delivery to hotels and Dubai Airport?</span>
+          <span class="pro-faq-icon">+</span>
+        </summary>
+        <div class="pro-faq-body">
+          <p>Yes! We offer free delivery and collection across Dubai (including DXB Airport, Dubai Marina, Downtown, Palm Jumeirah, and all hotels) for rentals of 3 days or more. Delivery is also available for shorter periods for a minimal fee.</p>
+        </div>
+      </details>
+
+      <details class="pro-faq-item">
+        <summary class="pro-faq-summary">
+          <span>Is a security deposit required and when is it refunded?</span>
+          <span class="pro-faq-icon">+</span>
+        </summary>
+        <div class="pro-faq-body">
+          <p>Most vehicles require a refundable security deposit to cover potential RTA traffic fines or Salik tolls. Many economy and monthly rentals come with zero-deposit options. All security deposits are processed and released within 21 to 30 days as per UAE regulations.</p>
+        </div>
+      </details>
+
+      <details class="pro-faq-item">
+        <summary class="pro-faq-summary">
+          <span>What is the included daily mileage allowance?</span>
+          <span class="pro-faq-icon">+</span>
+        </summary>
+        <div class="pro-faq-body">
+          <p>Each rental includes a generous standard allowance of 250 km to 300 km per day. Weekly and monthly packages include proportional bulk allowances. Additional kilometres are billed at transparent rates clearly stated on your contract.</p>
+        </div>
+      </details>
+
+      <details class="pro-faq-item">
+        <summary class="pro-faq-summary">
+          <span>Can I rent a car on a monthly basis?</span>
+          <span class="pro-faq-icon">+</span>
+        </summary>
+        <div class="pro-faq-body">
+          <p>Absolutely. Our monthly rentals feature discounts of up to 40% compared to daily rates, free routine maintenance, complimentary replacement vehicles, and zero long-term commitments.</p>
+        </div>
+      </details>
+    </div>
+    <div class="pro-faq-cta reveal">
+      <p>Have a different question or custom requirement?</p>
+      <a href="https://wa.me/971500000000" target="_blank" rel="noopener" class="btn-wa"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#whatsapp"/></svg> Chat with Concierge on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- BUY SECTION -->
+<section class="hs" id="buy">
+  <div class="container">
+    <div class="hs-row reveal">
+      <div class="hs-head left"><div class="eyebrow">Buy a car</div><h2>Certified used cars for sale in Dubai</h2><p>Inspected, GCC-spec luxury &amp; economy cars with full history reports and bank financing support.</p></div>
+      <a href="/buy-used-cars-dubai" class="btn-o">Browse all cars for sale →</a>
+    </div>
+    <div class="cars" id="homeBuy"></div>
+    <div class="center-cta"><a href="/buy-used-cars-dubai" class="btn-o">Browse All Cars for Sale →</a></div>
+  </div>
+</section>
+
+<!-- SELL SECTION (PROFESSIONAL STEP CARDS DESIGN) -->
+<section class="hs alt" id="sell">
+  <div class="container">
+    <div class="pro-sell-band reveal">
+      <div class="psb-content">
+        <div class="eyebrow">Sell your vehicle</div>
+        <h2>Sell your car free in 3 simple steps</h2>
+        <p class="psb-sub">Get an instant fair market valuation, avoid lowballers, and receive immediate cash or bank transfer.</p>
+
+        <div class="psb-steps">
+          <div class="psb-step">
+            <div class="psb-num">01</div>
+            <div class="psb-text">
+              <h4>Share Details in 30s</h4>
+              <p>Submit your car's brand, model, year, and mileage via our quick online valuation form.</p>
+            </div>
+          </div>
+
+          <div class="psb-step">
+            <div class="psb-num">02</div>
+            <div class="psb-text">
+              <h4>Get Free Market Valuation</h4>
+              <p>Our automotive valuation experts calculate top Dubai market value and send you an instant offer.</p>
+            </div>
+          </div>
+
+          <div class="psb-step">
+            <div class="psb-num">03</div>
+            <div class="psb-text">
+              <h4>Instant Payment &amp; RTA Transfer</h4>
+              <p>We inspect at your doorstep, handle all RTA paperwork, and transfer funds immediately.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="psb-perks">
+          <span><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> 100% Free Valuation</span>
+          <span><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> Zero Listing Fees</span>
+          <span><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> Same-Day Payout</span>
+        </div>
+
+        <div class="psb-actions">
+          <a href="/sell-my-car-dubai" class="btn-s big">Get Free Car Valuation &nbsp;›</a>
+        </div>
+      </div>
+
+      <div class="psb-media">
+        <img src="/assets/img/cars/luxury.jpg" alt="Sell your luxury car in Dubai" loading="lazy">
+        <div class="psb-badge">
+          <svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#award"/></svg>
+          <div>
+            <b>Best Market Price</b>
+            <small>Guaranteed Fair Valuation</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER (ULTRA-LUXURY EXECUTIVE DESIGN) -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="pro-cta-card reveal">
+      <div class="pro-cta-ambient"></div>
+      <div class="pro-cta-content">
+        <span class="pro-cta-tag"><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#bolt"/></svg> 24/7 VIP CONCIERGE &amp; EXPRESS DISPATCH</span>
+        <h2>Ready to hit the road in Dubai?</h2>
+        <p>Tell us what you're looking for on WhatsApp and our team will prepare your car and deliver it anywhere in Dubai within 60 minutes.</p>
+
+        <div class="pro-cta-perks">
+          <div><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#check"/></svg> 5-Minute Booking</div>
+          <div><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#truck"/></svg> Free Doorstep Delivery</div>
+          <div><svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#wallet"/></svg> Zero Hidden Fees</div>
+        </div>
+
+        <div class="pro-cta-actions">
+          <a href="https://wa.me/971500000000" class="btn btn-wa-vip" target="_blank" rel="noopener">
+            <svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#whatsapp"/></svg> WhatsApp Concierge
+          </a>
+          <a href="tel:+971500000000" class="btn btn-call-vip">
+            <svg class="ic" aria-hidden="true"><use href="/assets/img/icons.svg#phone"/></svg> Call +971 50 000 0000
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+{
+  "name": "Carlo Rent A Car",
+  "short": "Carlo",
+  "domain": "https://www.carlo-rent-a-car.ae",
+  "phone": "+971 50 676 7256",
+  "whatsapp": "971506767256",
+  "email": "booking@carlorentacar.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Carlo in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/CARLO+RENT+A+CAR/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

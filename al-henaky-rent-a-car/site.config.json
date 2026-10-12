@@ -1,0 +1,18 @@
+{
+  "name": "Al Henaky Rent A Car",
+  "short": "Al Henaky",
+  "domain": "https://www.al-henaky-rent-a-car.ae",
+  "phone": "+971 50 929 9046",
+  "whatsapp": "971509299046",
+  "email": "booking@alhenakyrentacar.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Henaky in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Henaky+Rent+a+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

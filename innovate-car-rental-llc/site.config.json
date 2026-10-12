@@ -1,0 +1,18 @@
+{
+  "name": "Innovate Car Rental LLC",
+  "short": "Innovate",
+  "domain": "https://www.innovate-car-rental-llc.ae",
+  "phone": "+971 54 492 6247",
+  "whatsapp": "971544926247",
+  "email": "booking@innovatecarrentalllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Innovate in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Innovate+Car+Rental+LLC/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Elite Drive Car Rental",
+  "short": "Elite Drive",
+  "domain": "https://www.elite-drive-car-rental.ae",
+  "phone": "+971 54 444 2114",
+  "whatsapp": "971544442114",
+  "email": "booking@elitedrivecarrental.ae",
+  "address": "Trade Centre 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Elite Drive in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Elite+Drive+Car+Rental/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Golden Fleet Car Rental Sharjah",
+  "short": "Golden Fleet",
+  "domain": "https://www.golden-fleet-car-rental-sharjah.ae",
+  "phone": "+971 56 673 3529",
+  "whatsapp": "971566733529",
+  "email": "booking@goldenfleetcarrentalsharjah.ae",
+  "address": "Al Majaz 3,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Golden Fleet in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Golden+Fleet+Car+Rental+Sharjah/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

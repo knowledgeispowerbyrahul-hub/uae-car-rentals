@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.aventador-car-rental.ae/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.miete-cars-rental.ae/sitemap.xml

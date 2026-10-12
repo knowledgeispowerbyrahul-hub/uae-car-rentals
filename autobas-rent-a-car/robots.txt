@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.autobas-rent-a-car.ae/sitemap.xml

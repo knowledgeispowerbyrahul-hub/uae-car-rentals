@@ -1,0 +1,18 @@
+{
+  "name": "Manar Alraees Car Rental",
+  "short": "Manar Alraees",
+  "domain": "https://www.manar-alraees-car-rental.ae",
+  "phone": "+971 56 111 1688",
+  "whatsapp": "971561111688",
+  "email": "booking@manaralraeescarrental.ae",
+  "address": "Al Nahda,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Manar Alraees in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Manar+Alraees+Car+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

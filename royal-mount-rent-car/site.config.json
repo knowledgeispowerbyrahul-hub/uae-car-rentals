@@ -1,0 +1,18 @@
+{
+  "name": "Royal Mount Rent Car",
+  "short": "Royal Mount",
+  "domain": "https://www.royal-mount-rent-car.ae",
+  "phone": "+971 50 993 1903",
+  "whatsapp": "971509931903",
+  "email": "booking@royalmountrentcar.ae",
+  "address": "Al Barsha South,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Royal Mount in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Royal+Mount+Rent+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

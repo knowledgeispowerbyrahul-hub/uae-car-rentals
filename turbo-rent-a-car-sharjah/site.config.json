@@ -1,0 +1,18 @@
+{
+  "name": "Turbo Rent A Car Sharjah",
+  "short": "Turbo Sharjah",
+  "domain": "https://turbo1998.ae",
+  "phone": "+971 55 558 5123",
+  "whatsapp": "971555585123",
+  "email": "booking@turborentacarsharjah.ae",
+  "address": "Al Qasimia,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Turbo Sharjah in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Turbo+Rent+a+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Bentley Rent A Car",
+  "short": "Bentley",
+  "domain": "https://www.bentley-rent-a-car.ae",
+  "phone": "+971 50 444 8996",
+  "whatsapp": "971504448996",
+  "email": "booking@bentleyrentacar.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Bentley in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Bentley+Rent+a+car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

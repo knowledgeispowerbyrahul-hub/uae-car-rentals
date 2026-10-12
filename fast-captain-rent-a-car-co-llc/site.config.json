@@ -1,0 +1,18 @@
+{
+  "name": "Fast Captain Rent A Car CO LLC",
+  "short": "Fast Captain",
+  "domain": "https://www.fast-captain-rent-a-car-co-llc.ae",
+  "phone": "+971 54 405 3309",
+  "whatsapp": "971544053309",
+  "email": "booking@fastcaptainrentacarcollc.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Fast Captain in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Fast+Captain+Rent+A+Car+CO+LLC/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.super-car-rent-a-car-al-jurf.ae/sitemap.xml

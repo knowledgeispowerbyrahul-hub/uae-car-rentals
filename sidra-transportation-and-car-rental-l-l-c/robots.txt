@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.sidra-transportation-and-car-rental-l-l-c.ae/sitemap.xml

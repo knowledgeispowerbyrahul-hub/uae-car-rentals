@@ -1,0 +1,18 @@
+{
+  "name": "Platinum Cars Rental",
+  "short": "Platinum Cars",
+  "domain": "https://www.platinumcarsrental.com",
+  "phone": "+971 50 141 4099",
+  "whatsapp": "971501414099",
+  "email": "booking@platinumcarsrental.ae",
+  "address": "Al Jurf Industrial 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Platinum Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Platinum+Cars+Rental/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Khan Al Khalili Rent A Car",
+  "short": "Khan Al",
+  "domain": "https://www.khan-al-khalili-rent-a-car.ae",
+  "phone": "+971 50 106 6595",
+  "whatsapp": "971501066595",
+  "email": "booking@khanalkhalilirentacar.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Khan Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Khan+Al+Khalili+Rent+A+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Best Deira Rent A Car",
+  "short": "Best Deira",
+  "domain": "https://www.best-deira-rent-a-car.ae",
+  "phone": "+971 55 546 6692",
+  "whatsapp": "971555466692",
+  "email": "booking@bestdeirarentacar.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Best Deira in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/BEST+DEIRA+RENT+A+CAR/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

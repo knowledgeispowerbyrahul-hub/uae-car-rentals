@@ -1,0 +1,18 @@
+{
+  "name": "Alandalous Rent A Car Branch 1",
+  "short": "Alandalous Branch",
+  "domain": "https://alandalouscarsandbusesrental.com",
+  "phone": "+971 56 215 5595",
+  "whatsapp": "971562155595",
+  "email": "booking@alandalousrentacarbranch1.ae",
+  "address": "Industrial Area 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Alandalous Branch in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Alandalous+rent+a+car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

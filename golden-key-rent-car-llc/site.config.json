@@ -1,0 +1,18 @@
+{
+  "name": "Golden Key Rent Car LLC",
+  "short": "Golden Key",
+  "domain": "https://www.golden-key-rent-car-llc.ae",
+  "phone": "+971 54 558 9956",
+  "whatsapp": "971545589956",
+  "email": "booking@goldenkeyrentcarllc.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Golden Key in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/GOLDEN+KEY+RENT+CAR+LLC/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

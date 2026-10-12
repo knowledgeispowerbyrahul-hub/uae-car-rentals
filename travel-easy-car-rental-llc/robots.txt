@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://linktr.ee/TravelEasyinUAE/sitemap.xml

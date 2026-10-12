@@ -1,0 +1,18 @@
+{
+  "name": "Dushu Buses Rental",
+  "short": "Dushu Buses",
+  "domain": "http://dushubusesrental.com",
+  "phone": "+971 52 527 5703",
+  "whatsapp": "971525275703",
+  "email": "booking@dushubusesrental.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Dushu Buses in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/DUSHU+BUSES+RENTAL/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

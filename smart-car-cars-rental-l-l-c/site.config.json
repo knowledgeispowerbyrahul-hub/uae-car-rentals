@@ -1,0 +1,18 @@
+{
+  "name": "Smart Car Cars Rental L.L.C",
+  "short": "Smart Car",
+  "domain": "https://www.smart-car-cars-rental-l-l-c.ae",
+  "phone": "+971 55 577 0091",
+  "whatsapp": "971555770091",
+  "email": "booking@smartcarcarsrentalllc.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Smart Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SMART+CAR+CARS+RENTAL+L.L.C/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

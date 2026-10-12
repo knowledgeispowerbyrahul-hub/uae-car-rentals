@@ -1,0 +1,18 @@
+{
+  "name": "Eagle Rent A Car",
+  "short": "Eagle",
+  "domain": "https://www.eagle-rent-a-car.ae",
+  "phone": "+971 55 702 1991",
+  "whatsapp": "971557021991",
+  "email": "booking@eaglerentacar.ae",
+  "address": "Al Rashidiya 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Eagle in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Eagle+Rent+A+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

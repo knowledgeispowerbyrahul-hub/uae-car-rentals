@@ -1,0 +1,18 @@
+{
+  "name": "FastCar Cars Rental",
+  "short": "FastCar Cars",
+  "domain": "https://www.fastcar.ae",
+  "phone": "+971 50 270 0138",
+  "whatsapp": "971502700138",
+  "email": "booking@fastcarcarsrental.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by FastCar Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/FastCar+Cars+Rental/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

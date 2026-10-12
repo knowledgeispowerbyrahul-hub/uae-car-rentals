@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.asrar-rent-a-car.ae/sitemap.xml

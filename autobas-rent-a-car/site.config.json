@@ -1,0 +1,18 @@
+{
+  "name": "Autobas Rent A Car",
+  "short": "Autobas",
+  "domain": "https://www.autobas-rent-a-car.ae",
+  "phone": "+971 54 420 2482",
+  "whatsapp": "971544202482",
+  "email": "booking@autobasrentacar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Autobas in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Autobas+Rent+A+Car/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

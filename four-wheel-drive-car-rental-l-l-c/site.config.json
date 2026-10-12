@@ -1,0 +1,18 @@
+{
+  "name": "Four Wheel Drive Car Rental L.L.C.",
+  "short": "Four Wheel",
+  "domain": "https://www.four-wheel-drive-car-rental-l-l-c.ae",
+  "phone": "+971 50 883 4342",
+  "whatsapp": "971508834342",
+  "email": "booking@fourwheeldrivecarrentalllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Four Wheel in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Four+Wheel+Drive+Car+Rental+L.L.C./",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

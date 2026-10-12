@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.special-car-rent-car.ae/sitemap.xml

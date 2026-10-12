@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.fast-captain-rent-a-car-co-llc.ae/sitemap.xml

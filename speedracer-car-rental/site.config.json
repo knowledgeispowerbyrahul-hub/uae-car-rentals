@@ -1,0 +1,18 @@
+{
+  "name": "Speedracer Car Rental",
+  "short": "Speedracer",
+  "domain": "https://www.speedracer-car-rental.ae",
+  "phone": "+971 58 257 2927",
+  "whatsapp": "971582572927",
+  "email": "booking@speedracercarrental.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Speedracer in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Speedracer+car+rental/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Sultan Brhan Rent A Car",
+  "short": "Sultan Brhan",
+  "domain": "https://www.sultan-brhan-rent-a-car.ae",
+  "phone": "+971 54 477 4618",
+  "whatsapp": "971544774618",
+  "email": "booking@sultanbrhanrentacar.ae",
+  "address": "Abu Hail,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Sultan Brhan in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SULTAN+BRHAN+RENT+A+CAR/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

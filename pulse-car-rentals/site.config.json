@@ -1,0 +1,18 @@
+{
+  "name": "Pulse Car Rentals",
+  "short": "Pulse s",
+  "domain": "https://pulsecarrental.com",
+  "phone": "+971 52 127 0002",
+  "whatsapp": "971521270002",
+  "email": "booking@pulsecarrentals.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Pulse s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Pulse+Car+Rentals/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

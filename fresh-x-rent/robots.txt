@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.fresh-x-rent.ae/sitemap.xml

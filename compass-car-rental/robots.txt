@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.compass-car-rental.ae/sitemap.xml

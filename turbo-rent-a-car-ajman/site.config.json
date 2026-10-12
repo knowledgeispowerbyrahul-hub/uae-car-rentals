@@ -1,0 +1,18 @@
+{
+  "name": "Turbo Rent A Car Ajman",
+  "short": "Turbo Ajman",
+  "domain": "https://www.turbo-rent-a-car-ajman.ae",
+  "phone": "+971 56 941 3525",
+  "whatsapp": "971569413525",
+  "email": "booking@turborentacarajman.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Turbo Ajman in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Turbo+Rent+a+Car+Ajman/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

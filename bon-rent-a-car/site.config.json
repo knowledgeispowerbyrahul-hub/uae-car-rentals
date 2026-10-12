@@ -1,0 +1,18 @@
+{
+  "name": "Bon Rent A Car",
+  "short": "Bon",
+  "domain": "http://www.bonrentacar.com",
+  "phone": "+971 55 499 7494",
+  "whatsapp": "971554997494",
+  "email": "booking@bonrentacar.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Bon in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Bon+Rent+a+car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Thunders Rent A Car",
+  "short": "Thunders",
+  "domain": "http://www.lookatme.ae",
+  "phone": "+971 50 166 2487",
+  "whatsapp": "971501662487",
+  "email": "booking@thundersrentacar.ae",
+  "address": "Bur Dubai,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Thunders in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Thunders+Rent+A+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

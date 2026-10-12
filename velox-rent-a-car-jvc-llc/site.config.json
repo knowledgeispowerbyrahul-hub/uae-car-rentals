@@ -1,0 +1,18 @@
+{
+  "name": "Velox Rent A Car JVC LLC",
+  "short": "Velox JVC",
+  "domain": "https://www.velox-rent-a-car-jvc-llc.ae",
+  "phone": "+971 56 935 8522",
+  "whatsapp": "971569358522",
+  "email": "booking@veloxrentacarjvcllc.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Velox JVC in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Velox+Rent+a+Car+JVC+LLC/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

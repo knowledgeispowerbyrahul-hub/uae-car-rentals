@@ -1,0 +1,18 @@
+{
+  "name": "Stars Rent A Car",
+  "short": "Stars",
+  "domain": "https://www.stars-rent-a-car.ae",
+  "phone": "+971 55 130 8855",
+  "whatsapp": "971551308855",
+  "email": "booking@starsrentacar.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Stars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Stars+Rent+A+Car/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

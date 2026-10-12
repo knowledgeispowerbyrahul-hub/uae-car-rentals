@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://tiktok.com/@mustaqbal123/sitemap.xml

@@ -1,0 +1,18 @@
+{
+  "name": "Al Jasfa Car Rental L.L.C",
+  "short": "Al Jasfa",
+  "domain": "https://www.al-jasfa-car-rental-l-l-c.ae",
+  "phone": "+971 52 197 4768",
+  "whatsapp": "971521974768",
+  "email": "booking@aljasfacarrentalllc.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Jasfa in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+jasfa+car+rental+L.L.C/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

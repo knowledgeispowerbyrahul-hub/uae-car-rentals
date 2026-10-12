@@ -1,0 +1,18 @@
+{
+  "name": "FireBird Rent A Car",
+  "short": "FireBird",
+  "domain": "https://www.firebird-rent-a-car.ae",
+  "phone": "+971 50 123 2044",
+  "whatsapp": "971501232044",
+  "email": "booking@firebirdrentacar.ae",
+  "address": "Al Nahda 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by FireBird in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/FireBird+Rent+A+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

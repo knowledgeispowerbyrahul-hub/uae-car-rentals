@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.link-motors-car-rental.ae/sitemap.xml

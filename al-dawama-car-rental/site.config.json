@@ -1,0 +1,18 @@
+{
+  "name": "Al Dawama Car Rental",
+  "short": "Al Dawama",
+  "domain": "https://www.al-dawama-car-rental.ae",
+  "phone": "+971 50 742 0155",
+  "whatsapp": "971507420155",
+  "email": "booking@aldawamacarrental.ae",
+  "address": "Ras Al Khor,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Dawama in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Dawama+Car+Rental/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Rent A Car Al Quoz",
+  "short": "Al Quoz",
+  "domain": "https://www.rent-a-car-al-quoz.ae",
+  "phone": "+971 56 379 2012",
+  "whatsapp": "971563792012",
+  "email": "booking@rentacaralquoz.ae",
+  "address": "Al Quoz 2,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Quoz in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/rent+a+car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

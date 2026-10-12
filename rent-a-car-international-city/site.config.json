@@ -1,0 +1,18 @@
+{
+  "name": "Rent A Car International City",
+  "short": "International City",
+  "domain": "https://www.rent-a-car-international-city.ae",
+  "phone": "+971 52 374 2232",
+  "whatsapp": "971523742232",
+  "email": "booking@rentacarinternationalcity.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by International City in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Rent+a+car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.secure-rent-a-car-branch.ae/sitemap.xml

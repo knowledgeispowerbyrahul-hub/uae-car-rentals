@@ -1,0 +1,18 @@
+{
+  "name": "Deals On Wheels Rent A Car L.L.C",
+  "short": "Deals On",
+  "domain": "https://www.dwrentacar.ae",
+  "phone": "+971 50 900 0238",
+  "whatsapp": "971509000238",
+  "email": "booking@dealsonwheelsrentacarllc.ae",
+  "address": "Al Quoz 3,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Deals On in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Deals+on+Wheels+Rent+a+Car+L.L.C/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

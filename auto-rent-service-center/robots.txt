@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.auto-rent-service-center.ae/sitemap.xml

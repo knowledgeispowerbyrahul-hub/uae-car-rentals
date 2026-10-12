@@ -1,0 +1,18 @@
+{
+  "name": "Drive Plus Rent A Car Dubai",
+  "short": "Drive Plus",
+  "domain": "https://www.drive-plus-rent-a-car-dubai.ae",
+  "phone": "+971 50 578 3676",
+  "whatsapp": "971505783676",
+  "email": "booking@driveplusrentacardubai.ae",
+  "address": "Al Quoz 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Drive Plus in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Drive+Plus+Rent+a+Car+Dubai/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

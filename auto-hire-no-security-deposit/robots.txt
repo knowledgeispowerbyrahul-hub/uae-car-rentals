@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.auto-hire-no-security-deposit.ae/sitemap.xml

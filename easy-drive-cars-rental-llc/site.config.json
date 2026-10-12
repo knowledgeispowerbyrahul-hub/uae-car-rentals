@@ -1,0 +1,18 @@
+{
+  "name": "Easy Drive Cars Rental LLC",
+  "short": "Easy Drive",
+  "domain": "https://www.easydrivecarsrental.com",
+  "phone": "+971 54 336 2233",
+  "whatsapp": "971543362233",
+  "email": "booking@easydrivecarsrentalllc.ae",
+  "address": "Al Nahda,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Easy Drive in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/EASY+DRIVE+CARS+RENTAL+LLC/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Al Qudrah Rent Car",
+  "short": "Al Qudrah",
+  "domain": "https://www.al-qudrah-rent-car.ae",
+  "phone": "+971 55 474 7418",
+  "whatsapp": "971554747418",
+  "email": "booking@alqudrahrentcar.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Qudrah in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+qudrah+rent+car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

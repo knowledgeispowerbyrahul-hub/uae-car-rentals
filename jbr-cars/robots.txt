@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.jbr-cars.ae/sitemap.xml

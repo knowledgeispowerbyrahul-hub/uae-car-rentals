@@ -1,0 +1,18 @@
+{
+  "name": "Hys Rent A Car",
+  "short": "Hys",
+  "domain": "https://www.hys-rent-a-car.ae",
+  "phone": "+971 52 911 1666",
+  "whatsapp": "971529111666",
+  "email": "booking@hysrentacar.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Hys in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Hys+Rent+A+Car/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

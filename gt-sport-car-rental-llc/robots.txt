@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.gtsportcarrental.com/sitemap.xml

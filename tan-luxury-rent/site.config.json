@@ -1,0 +1,18 @@
+{
+  "name": "Tan Luxury Rent",
+  "short": "Tan Luxury",
+  "domain": "https://www.tan-luxury-rent.ae",
+  "phone": "+971 56 912 4341",
+  "whatsapp": "971569124341",
+  "email": "booking@tanluxuryrent.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Tan Luxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/TAN+LUXURY+RENT/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

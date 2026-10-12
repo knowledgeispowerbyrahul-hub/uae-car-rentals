@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.jvc-car-rentals-circle.ae/sitemap.xml

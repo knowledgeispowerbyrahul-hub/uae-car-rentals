@@ -1,0 +1,18 @@
+{
+  "name": "VIP Star Car Rental LLC",
+  "short": "VIP Star",
+  "domain": "http://www.vipstardubai.com",
+  "phone": "+971 50 980 1258",
+  "whatsapp": "971509801258",
+  "email": "booking@vipstarcarrentalllc.ae",
+  "address": "Business Bay,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by VIP Star in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/VIP+STAR+CAR+RENTAL+LLC/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

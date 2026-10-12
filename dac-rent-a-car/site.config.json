@@ -1,0 +1,18 @@
+{
+  "name": "DAC Rent A Car",
+  "short": "DAC",
+  "domain": "https://www.dac-rent-a-car.ae",
+  "phone": "+971 58 248 5294",
+  "whatsapp": "971582485294",
+  "email": "booking@dacrentacar.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by DAC in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/DAC+Rent+A+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

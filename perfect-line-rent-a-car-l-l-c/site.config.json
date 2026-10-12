@@ -1,0 +1,18 @@
+{
+  "name": "Perfect Line Rent A Car L.L.C",
+  "short": "Perfect Line",
+  "domain": "https://www.perfect-line-rent-a-car-l-l-c.ae",
+  "phone": "+971 54 495 7070",
+  "whatsapp": "971544957070",
+  "email": "booking@perfectlinerentacarllc.ae",
+  "address": "Al Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Perfect Line in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/PERFECT+LINE+RENT+A+CAR+L.L.C/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

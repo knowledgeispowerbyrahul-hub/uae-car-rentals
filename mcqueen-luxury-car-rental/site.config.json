@@ -1,0 +1,18 @@
+{
+  "name": "McQueen Luxury Car Rental",
+  "short": "McQueen Luxury",
+  "domain": "https://carhiredubai.ae",
+  "phone": "+971 56 564 7029",
+  "whatsapp": "971565647029",
+  "email": "booking@mcqueenluxurycarrental.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by McQueen Luxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/McQueen+Luxury+Car+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

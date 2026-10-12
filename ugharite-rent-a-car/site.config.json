@@ -1,0 +1,18 @@
+{
+  "name": "Ugharite Rent A Car",
+  "short": "Ugharite",
+  "domain": "https://www.ugharite-rent-a-car.ae",
+  "phone": "+971 50 331 9620",
+  "whatsapp": "971503319620",
+  "email": "booking@ughariterentacar.ae",
+  "address": "Ras Al Khor,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Ugharite in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Ugharite+Rent+A+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

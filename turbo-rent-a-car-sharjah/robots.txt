@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://turbo1998.ae/sitemap.xml

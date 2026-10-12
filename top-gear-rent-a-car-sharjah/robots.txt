@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.top-gear-rent-a-car-sharjah.ae/sitemap.xml

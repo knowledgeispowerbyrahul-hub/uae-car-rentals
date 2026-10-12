@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.smile-rent-a-car-abu-dhabi-me-10.ae/sitemap.xml

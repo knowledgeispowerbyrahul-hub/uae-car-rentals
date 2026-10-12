@@ -1,0 +1,18 @@
+{
+  "name": "Auto Hire No Security Deposit",
+  "short": "Auto Hire",
+  "domain": "https://www.auto-hire-no-security-deposit.ae",
+  "phone": "+971 50 346 0368",
+  "whatsapp": "971503460368",
+  "email": "booking@autohirenosecuritydeposit.ae",
+  "address": "Dubai Silicon Oasis,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Auto Hire in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Auto+hire+car+rent+no+security+deposit/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

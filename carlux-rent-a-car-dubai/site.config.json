@@ -1,0 +1,18 @@
+{
+  "name": "Carlux Rent A Car Dubai",
+  "short": "Carlux Dubai",
+  "domain": "https://www.carlux-rent-a-car-dubai.ae",
+  "phone": "+971 50 430 5694",
+  "whatsapp": "971504305694",
+  "email": "booking@carluxrentacardubai.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Carlux Dubai in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Carlux+Rent+A+Car+Dubai/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

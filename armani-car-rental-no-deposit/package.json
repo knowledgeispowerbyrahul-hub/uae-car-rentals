@@ -1,0 +1,9 @@
+{
+  "name": "armani-car-rental-no-deposit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serve.js"
+  }
+}

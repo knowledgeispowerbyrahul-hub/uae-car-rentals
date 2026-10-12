@@ -1,0 +1,18 @@
+{
+  "name": "Brh No Deposit Car Rental",
+  "short": "Brh No",
+  "domain": "https://www.brh-no-deposit-car-rental.ae",
+  "phone": "+971 54 279 5645",
+  "whatsapp": "971542795645",
+  "email": "booking@brhnodepositcarrental.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Brh No in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Brh+-+No+Deposit+Car+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

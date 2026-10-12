@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.victoria-cars-rental-branch-1.ae/sitemap.xml

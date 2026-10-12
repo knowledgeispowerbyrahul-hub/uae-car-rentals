@@ -1,0 +1,18 @@
+{
+  "name": "Autohome Car Rental",
+  "short": "Autohome",
+  "domain": "https://wa.me/message/ME4CFEBCFLYJM1",
+  "phone": "+971 55 924 3319",
+  "whatsapp": "971559243319",
+  "email": "booking@autohomecarrental.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Autohome in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AUTOHOME+CAR+RENTAL/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Alasad Rent A Car Dubai",
+  "short": "Alasad Dubai",
+  "domain": "https://www.alasad-rent-a-car-dubai.ae",
+  "phone": "+971 55 454 5401",
+  "whatsapp": "971554545401",
+  "email": "booking@alasadrentacardubai.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Alasad Dubai in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Alasad+rent+A+car+Dubai/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

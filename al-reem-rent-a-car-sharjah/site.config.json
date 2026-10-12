@@ -1,0 +1,18 @@
+{
+  "name": "Al Reem Rent A Car Sharjah",
+  "short": "Al Reem",
+  "domain": "http://www.alreemrentacar.com",
+  "phone": "+971 58 679 0139",
+  "whatsapp": "971586790139",
+  "email": "booking@alreemrentacarsharjah.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Reem in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Reem+Rent+A+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

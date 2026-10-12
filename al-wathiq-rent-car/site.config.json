@@ -1,0 +1,18 @@
+{
+  "name": "Al Wathiq Rent Car",
+  "short": "Al Wathiq",
+  "domain": "https://www.al-wathiq-rent-car.ae",
+  "phone": "+971 50 101 1016",
+  "whatsapp": "971501011016",
+  "email": "booking@alwathiqrentcar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Wathiq in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+wathiq+rent+car/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

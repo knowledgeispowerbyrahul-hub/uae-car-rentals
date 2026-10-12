@@ -1,0 +1,18 @@
+{
+  "name": "Dar Al Afeef Rent A Car LLC",
+  "short": "Dar Al",
+  "domain": "https://www.dar-al-afeef-rent-a-car-llc.ae",
+  "phone": "+971 50 477 3134",
+  "whatsapp": "971504773134",
+  "email": "booking@daralafeefrentacarllc.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Dar Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Dar+al+afeef+rent+a+car+LLC/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

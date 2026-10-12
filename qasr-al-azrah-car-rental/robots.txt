@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.qasr-al-azrah-car-rental.ae/sitemap.xml

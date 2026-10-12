@@ -1,0 +1,18 @@
+{
+  "name": "Wheel And Deal Car Rental",
+  "short": "Wheel And",
+  "domain": "https://www.wheel-and-deal-car-rental.ae",
+  "phone": "+971 55 886 6365",
+  "whatsapp": "971558866365",
+  "email": "booking@wheelanddealcarrental.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Wheel And in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Wheel+And+Deal+Car+Rental/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

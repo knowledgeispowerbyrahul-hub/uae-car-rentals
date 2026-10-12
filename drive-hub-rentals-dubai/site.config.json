@@ -1,0 +1,18 @@
+{
+  "name": "Drive Hub Rentals Dubai",
+  "short": "Drive Hub",
+  "domain": "http://www.drivehub-dubai.com",
+  "phone": "+971 56 580 3790",
+  "whatsapp": "971565803790",
+  "email": "booking@drivehubrentalsdubai.ae",
+  "address": "Trade Centre,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Drive Hub in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Drive+Hub+rentals+and+activities+Dubai/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

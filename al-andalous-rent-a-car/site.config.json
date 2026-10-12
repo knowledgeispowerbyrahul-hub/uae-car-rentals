@@ -1,0 +1,18 @@
+{
+  "name": "Al Andalous Rent A Car",
+  "short": "Al Andalous",
+  "domain": "https://alandalouscarsandbusesrental.com",
+  "phone": "+971 55 481 9009",
+  "whatsapp": "971554819009",
+  "email": "booking@alandalousrentacar.ae",
+  "address": "Al Jerf 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Andalous in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Andalous+Rent+A+Car/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

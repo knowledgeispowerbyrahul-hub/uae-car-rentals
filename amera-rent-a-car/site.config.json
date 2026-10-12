@@ -1,0 +1,18 @@
+{
+  "name": "Amera Rent A Car",
+  "short": "Amera",
+  "domain": "https://www.amera-rent-a-car.ae",
+  "phone": "+971 52 750 6963",
+  "whatsapp": "971527506963",
+  "email": "booking@amerarentacar.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Amera in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/amera+rent+a+car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

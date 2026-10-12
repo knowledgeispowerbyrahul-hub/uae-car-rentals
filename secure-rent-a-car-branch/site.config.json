@@ -1,0 +1,18 @@
+{
+  "name": "Secure Rent A Car Branch",
+  "short": "Secure Branch",
+  "domain": "https://www.secure-rent-a-car-branch.ae",
+  "phone": "+971 50 720 8007",
+  "whatsapp": "971507208007",
+  "email": "booking@securerentacarbranch.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Secure Branch in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Secure+Rent+A+Car-branch./",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

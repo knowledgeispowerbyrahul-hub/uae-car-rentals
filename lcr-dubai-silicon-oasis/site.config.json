@@ -1,0 +1,18 @@
+{
+  "name": "LCR Dubai Silicon Oasis",
+  "short": "LCR Dubai",
+  "domain": "https://www.lcr-dubai-silicon-oasis.ae",
+  "phone": "+971 58 179 3731",
+  "whatsapp": "971581793731",
+  "email": "booking@lcrdubaisiliconoasis.ae",
+  "address": "Dubai Silicon Oasis,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by LCR Dubai in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/LCR-+Dubai+Silicon+Oasis/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

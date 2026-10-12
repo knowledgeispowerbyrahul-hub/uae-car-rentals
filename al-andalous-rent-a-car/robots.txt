@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alandalouscarsandbusesrental.com/sitemap.xml

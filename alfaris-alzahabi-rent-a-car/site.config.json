@@ -1,0 +1,18 @@
+{
+  "name": "Alfaris Alzahabi Rent A Car",
+  "short": "Alfaris Alzahabi",
+  "domain": "https://www.alfaris-alzahabi-rent-a-car.ae",
+  "phone": "+971 56 879 9924",
+  "whatsapp": "971568799924",
+  "email": "booking@alfarisalzahabirentacar.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Alfaris Alzahabi in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Alfaris+Alzahabi+Rent+a+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

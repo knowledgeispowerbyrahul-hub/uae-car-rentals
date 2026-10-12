@@ -1,0 +1,18 @@
+{
+  "name": "Caring Car Rentals",
+  "short": "Caring s",
+  "domain": "http://caringcarrentals.com",
+  "phone": "+971 58 572 6583",
+  "whatsapp": "971585726583",
+  "email": "booking@caringcarrentals.ae",
+  "address": "Dubai Hills,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Caring s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Caring+Car+Rentals/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

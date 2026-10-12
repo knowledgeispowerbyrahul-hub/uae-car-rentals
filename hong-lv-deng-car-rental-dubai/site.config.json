@@ -1,0 +1,18 @@
+{
+  "name": "Hong Lv Deng Car Rental Dubai",
+  "short": "Hong Lv",
+  "domain": "https://www.hong-lv-deng-car-rental-dubai.ae",
+  "phone": "+971 50 953 0086",
+  "whatsapp": "971509530086",
+  "email": "booking@honglvdengcarrentaldubai.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Hong Lv in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Hong+Lv+Deng+Car+Rental+Dubai/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

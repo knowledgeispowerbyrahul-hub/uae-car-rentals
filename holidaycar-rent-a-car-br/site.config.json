@@ -1,0 +1,18 @@
+{
+  "name": "Holidaycar Rent A Car Br",
+  "short": "Holidaycar Br",
+  "domain": "https://www.holidaycar-rent-a-car-br.ae",
+  "phone": "+971 50 991 5488",
+  "whatsapp": "971509915488",
+  "email": "booking@holidaycarrentacarbr.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Holidaycar Br in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Holidaycar+Rent+A+Car+Br/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Burkan Rent A Car",
+  "short": "Burkan",
+  "domain": "https://www.burkan-rent-a-car.ae",
+  "phone": "+971 50 444 3485",
+  "whatsapp": "971504443485",
+  "email": "booking@burkanrentacar.ae",
+  "address": "Mussafah ME-10,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Burkan in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Burkan+Rent+A+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

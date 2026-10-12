@@ -1,0 +1,18 @@
+{
+  "name": "MAHA RENT A CAR",
+  "short": "MAHA",
+  "domain": "https://www.maha-rent-a-car.ae",
+  "phone": "+971 50 944 9361",
+  "whatsapp": "971509449361",
+  "email": "booking@maharentacar.ae",
+  "address": "Al Jurf Industrial 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by MAHA in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/MAHA+RENT+A+CAR/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Ababeel Cars Rental SPS LLC",
+  "short": "Ababeel Cars",
+  "domain": "https://www.ababeelcar.com",
+  "phone": "+971 55 517 5210",
+  "whatsapp": "971555175210",
+  "email": "booking@ababeelcarsrentalspsllc.ae",
+  "address": "Al Jurf Industrial 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Ababeel Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/ABABEEL+CARS+RENTAL+SPS+LLC/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.rtc-rental-car.ae/sitemap.xml

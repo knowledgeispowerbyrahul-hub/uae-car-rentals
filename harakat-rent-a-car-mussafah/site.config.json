@@ -1,0 +1,18 @@
+{
+  "name": "Harakat Rent A Car Mussafah",
+  "short": "Harakat Mussafah",
+  "domain": "https://sites.google.com/view/harakatrentacar/home",
+  "phone": "+971 55 813 3813",
+  "whatsapp": "971558133813",
+  "email": "booking@harakatrentacarmussafah.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Harakat Mussafah in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Harakat+Rent+A+Car+-+Mussafah+Branch/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

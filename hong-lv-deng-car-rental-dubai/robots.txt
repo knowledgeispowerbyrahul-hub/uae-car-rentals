@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.hong-lv-deng-car-rental-dubai.ae/sitemap.xml

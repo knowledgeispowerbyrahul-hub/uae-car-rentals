@@ -1,17 +1,17 @@
 # UAE Car Rental Network - Live vs Pending Status Tracker
 
-**Last Updated:** 10/12/2026, 7:14:52 PM (Local Time)
+**Last Updated:** 10/12/2026, 7:17:22 PM (Local Time)
 
 ### Summary Overview:
 - **Total Tracked Sites:** 100
-- **🟢 Live on Vercel:** 30 / 100
-- **⏳ Pending Deployment:** 70 / 100
+- **🟢 Live on Vercel:** 31 / 100
+- **⏳ Pending Deployment:** 69 / 100
 
 ### Live Management Panels:
 - **Panel 1 (Sites #1 to #50):** [https://panel1-uae.vercel.app](https://panel1-uae.vercel.app)
 - **Panel 2 (Sites #51 to #100):** [https://panel2-uae.vercel.app](https://panel2-uae.vercel.app)
 
-## 🟢 Live Websites (30)
+## 🟢 Live Websites (31)
 
 | # | Company Name | Live Vercel Link | Phone | Folder |
 | :--- | :--- | :--- | :--- | :--- |
@@ -45,12 +45,12 @@
 | 28 | **SHIFT Car Rental | Shams Boutik Mall** | [https://shift-shams-xvonr6ipi-carrental3.vercel.app](https://shift-shams-xvonr6ipi-carrental3.vercel.app) | `+971 50 912 8370` | `/shift-car-rental-shams-boutik-mall` |
 | 29 | **AUTO PLUS RENT A CAR ABU DHABI** | [https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app](https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app) | `+971 50 977 2483` | `/auto-plus-rent-a-car-abu-dhabi` |
 | 30 | **Harakat Rent a Car** | [https://harakat-bpff3rk1v-carrental3.vercel.app](https://harakat-bpff3rk1v-carrental3.vercel.app) | `+971 50 810 5080` | `/harakat-rent-a-car` |
+| 31 | **Pro Car Rent - Al Salam Street** | [https://pro-car-rent-lz2js83zz-carrental3.vercel.app](https://pro-car-rent-lz2js83zz-carrental3.vercel.app) | `+971 56 216 8666` | `/pro-car-rent-al-salam-street` |
 
-## ⏳ Pending Websites (70)
+## ⏳ Pending Websites (69)
 
 | # | Company Name | Status | Phone | Folder |
 | :--- | :--- | :--- | :--- | :--- |
-| 31 | Pro Car Rent - Al Salam Street | ⏳ In Queue | `+971 56 216 8666` | `/pro-car-rent-al-salam-street` |
 | 32 | Shift Car Rental | Al Wahda Mall | ⏳ In Queue | `+971 50 476 3544` | `/shift-car-rental-al-wahda-mall` |
 | 33 | PLAZA CAR RENTAL | ⏳ In Queue | `+971 50 508 7729` | `/plaza-car-rental` |
 | 34 | APPLE RENT A CAR ME-10 | ⏳ In Queue | `+971 58 966 9192` | `/apple-rent-a-car-me-10` |

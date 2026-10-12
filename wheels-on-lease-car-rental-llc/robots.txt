@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.wheels-on-lease-car-rental-llc.ae/sitemap.xml

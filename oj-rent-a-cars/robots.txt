@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.oj-rent-a-cars.ae/sitemap.xml

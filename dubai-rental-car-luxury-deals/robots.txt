@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.dubai-rental-car-luxury-deals.ae/sitemap.xml

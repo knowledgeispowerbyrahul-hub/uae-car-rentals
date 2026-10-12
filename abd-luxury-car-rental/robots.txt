@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.abdluxurycars.ae/sitemap.xml

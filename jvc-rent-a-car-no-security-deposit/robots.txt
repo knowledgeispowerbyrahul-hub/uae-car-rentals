@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.jvc-rent-a-car-no-security-deposit.ae/sitemap.xml

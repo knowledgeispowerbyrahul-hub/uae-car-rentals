@@ -1,0 +1,18 @@
+{
+  "name": "Voyagerz Car Rentals",
+  "short": "Voyagerz s",
+  "domain": "https://www.voyagerz-car-rentals.ae",
+  "phone": "+971 52 337 0009",
+  "whatsapp": "971523370009",
+  "email": "booking@voyagerzcarrentals.ae",
+  "address": "Al Khan,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Voyagerz s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Voyagerz+Car+Rentals/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

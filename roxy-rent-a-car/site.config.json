@@ -1,0 +1,18 @@
+{
+  "name": "Roxy Rent A Car",
+  "short": "Roxy",
+  "domain": "https://www.roxy-rent-a-car.ae",
+  "phone": "+971 55 190 9533",
+  "whatsapp": "971551909533",
+  "email": "booking@roxyrentacar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Roxy in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Roxy+Rent+A+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

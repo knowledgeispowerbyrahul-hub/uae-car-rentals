@@ -1,0 +1,18 @@
+{
+  "name": "Jawhrat Alsharq Rent A Car",
+  "short": "Jawhrat Alsharq",
+  "domain": "https://www.jawhrat-alsharq-rent-a-car.ae",
+  "phone": "+971 50 457 8969",
+  "whatsapp": "971504578969",
+  "email": "booking@jawhratalsharqrentacar.ae",
+  "address": "Al Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Jawhrat Alsharq in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Jawhrat+Alsharq+Rent+A+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

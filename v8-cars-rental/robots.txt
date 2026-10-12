@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.v8-cars-rental.ae/sitemap.xml

@@ -234,5 +234,13 @@
     "shortName": "harakat",
     "phone": "+971 50 810 5080",
     "liveUrl": "https://harakat-bpff3rk1v-carrental3.vercel.app"
+  },
+  "31": {
+    "id": 31,
+    "folder": "pro-car-rent-al-salam-street",
+    "name": "Pro Car Rent - Al Salam Street",
+    "shortName": "pro-car-rent-al",
+    "phone": "+971 56 216 8666",
+    "liveUrl": "https://pro-car-rent-lz2js83zz-carrental3.vercel.app"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "Julia Rent A Car LLC",
+  "short": "Julia",
+  "domain": "https://www.julia-rent-a-car-llc.ae",
+  "phone": "+971 55 226 2472",
+  "whatsapp": "971552262472",
+  "email": "booking@juliarentacarllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Julia in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Julia+Rent+a+Car+LLC/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

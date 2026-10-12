@@ -1,0 +1,18 @@
+{
+  "name": "Royal Breeze Supercar Rental",
+  "short": "Royal Breeze",
+  "domain": "https://www.royal-breeze-supercar-rental.ae",
+  "phone": "+971 58 641 2034",
+  "whatsapp": "971586412034",
+  "email": "booking@royalbreezesupercarrental.ae",
+  "address": "World Trade Centre,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Royal Breeze in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Royal+Breeze+Supercar+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

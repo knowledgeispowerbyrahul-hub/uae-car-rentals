@@ -1,0 +1,18 @@
+{
+  "name": "Zero Deposit Rent A Car JVC",
+  "short": "Zero Deposit",
+  "domain": "https://zeromaxrentacar.com",
+  "phone": "+971 55 968 9213",
+  "whatsapp": "971559689213",
+  "email": "booking@zerodepositrentacarjvc.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Zero Deposit in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Zero+Deposit+Rent+A+Car/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

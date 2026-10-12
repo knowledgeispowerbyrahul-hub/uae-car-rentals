@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.rent-a-car-al-quoz.ae/sitemap.xml

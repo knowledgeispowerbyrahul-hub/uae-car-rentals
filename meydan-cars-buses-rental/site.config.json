@@ -1,0 +1,18 @@
+{
+  "name": "Meydan Cars & Buses Rental",
+  "short": "Meydan Cars",
+  "domain": "https://www.meydan-cars-buses-rental.ae",
+  "phone": "+971 52 689 9944",
+  "whatsapp": "971526899944",
+  "email": "booking@meydancarsbusesrental.ae",
+  "address": "Al Rashidiya 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Meydan Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Meydan+Cars+%26+Buses+Rental/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

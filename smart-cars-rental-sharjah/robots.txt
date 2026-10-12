@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.smart-cars-rental-sharjah.ae/sitemap.xml

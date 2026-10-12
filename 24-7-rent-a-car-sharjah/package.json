@@ -1,0 +1,9 @@
+{
+  "name": "24-7-rent-a-car-sharjah",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serve.js"
+  }
+}

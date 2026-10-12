@@ -31,6 +31,12 @@ const rawCsv = fs.readFileSync(path.join(WORKSPACE, 'companies.csv'), 'utf8').tr
 const usedSlugs = new Set();
 const allClients = [];
 
+let deployedDb = {};
+const dbFile = path.join(WORKSPACE, 'deployed-sites.json');
+if (fs.existsSync(dbFile)) {
+  try { deployedDb = JSON.parse(fs.readFileSync(dbFile, 'utf8')); } catch(e) {}
+}
+
 for (let i = 1; i <= 100; i++) {
   const row = parseCSVLine(rawCsv[i]);
   const name = row[0].trim();
@@ -74,6 +80,8 @@ for (let i = 1; i <= 100; i++) {
     .replace(/^-|-$/g, '');
   if (!shortSlug || shortSlug.length < 3) shortSlug = 'car-' + i;
 
+  const liveUrl = (deployedDb[i] && deployedDb[i].liveUrl) ? deployedDb[i].liveUrl : `/${uniqueSlug}/index.html`;
+
   allClients.push({
     id: i,
     name,
@@ -86,6 +94,7 @@ for (let i = 1; i <= 100; i++) {
     webStatus,
     location: locationRaw,
     port,
+    liveUrl,
     websiteChanges: i <= 5 ? 'Demo server active on port ' + port : '',
     notes: issueDetails ? 'Issue: ' + issueDetails : '',
     archived: false
@@ -901,8 +910,8 @@ function render() {
     const waLabel = c.waStatus === 'yes' ? '● Has WA' : (c.waStatus === 'no' ? '● No WA' : '● Pending');
     const waUrl = \`https://wa.me/\${c.whatsapp}?text=\${encodeURIComponent("Hello " + c.name + ", here is your live website.")}\`;
     
-    // Live link (local hub port 3333 or relative)
-    const siteUrl = \`/\${c.folder}/index.html\`;
+    // Live production link (Vercel URL or fallback)
+    const siteUrl = c.liveUrl || \`/\${c.folder}/index.html\`;
 
     return \`
       <tr class="\${c.archived ? 'archived' : ''}">

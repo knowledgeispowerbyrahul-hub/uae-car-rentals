@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-nesr-al-abyad-car-rental.ae/sitemap.xml

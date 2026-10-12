@@ -1,0 +1,18 @@
+{
+  "name": "City Adventures Rent A Car LLC",
+  "short": "City Adventures",
+  "domain": "https://www.city-adventures-rent-a-car-llc.ae",
+  "phone": "+971 50 578 9891",
+  "whatsapp": "971505789891",
+  "email": "booking@cityadventuresrentacarllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by City Adventures in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/City+Adventures+Rent+A+Car+LLC/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

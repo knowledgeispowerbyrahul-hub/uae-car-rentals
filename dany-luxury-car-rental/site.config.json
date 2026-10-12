@@ -1,0 +1,18 @@
+{
+  "name": "Dany Luxury Car Rental",
+  "short": "Dany Luxury",
+  "domain": "https://danyluxury.com",
+  "phone": "+971 52 642 2261",
+  "whatsapp": "971526422261",
+  "email": "booking@danyluxurycarrental.ae",
+  "address": "Business Bay,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Dany Luxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Dany+Luxury+car+rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

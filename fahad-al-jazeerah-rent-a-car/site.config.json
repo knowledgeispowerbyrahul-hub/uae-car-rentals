@@ -1,0 +1,18 @@
+{
+  "name": "Fahad Al Jazeerah Rent A Car",
+  "short": "Fahad Al",
+  "domain": "https://sites.google.com/view/fahadaljazirhrentalcar",
+  "phone": "+971 58 559 9010",
+  "whatsapp": "971585599010",
+  "email": "booking@fahadaljazeerahrentacar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Fahad Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/FAHAD+AL+JAZEERAH+RENT+A+CAR/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "LuLu Rent A Car Warsan",
+  "short": "LuLu Warsan",
+  "domain": "https://www.lulu-rent-a-car-warsan.ae",
+  "phone": "+971 55 605 6263",
+  "whatsapp": "971556056263",
+  "email": "booking@lulurentacarwarsan.ae",
+  "address": "Warsan / International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by LuLu Warsan in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/LuLu+Rent+A+Car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

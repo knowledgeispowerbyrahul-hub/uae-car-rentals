@@ -1,0 +1,18 @@
+{
+  "name": "Lahn Al Sabah Cars Rental L.L.C",
+  "short": "Lahn Al",
+  "domain": "https://www.lahn-al-sabah-cars-rental-l-l-c.ae",
+  "phone": "+971 55 622 7720",
+  "whatsapp": "971556227720",
+  "email": "booking@lahnalsabahcarsrentalllc.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Lahn Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Lahn+Al+Sabah+cars+rental+L.L.C/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Silver Car For Rent Cars",
+  "short": "Silver Car",
+  "domain": "https://www.silver-car-for-rent-cars.ae",
+  "phone": "+971 55 894 3522",
+  "whatsapp": "971558943522",
+  "email": "booking@silvercarforrentcars.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Silver Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SILVER+CAR+FOR+RENT+CARS/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

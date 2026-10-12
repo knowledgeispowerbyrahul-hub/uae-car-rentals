@@ -1,0 +1,18 @@
+{
+  "name": "OJ Rent A Cars",
+  "short": "OJ s",
+  "domain": "https://www.oj-rent-a-cars.ae",
+  "phone": "+971 50 630 5023",
+  "whatsapp": "971506305023",
+  "email": "booking@ojrentacars.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by OJ s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/OJ+Rent+a+cars/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

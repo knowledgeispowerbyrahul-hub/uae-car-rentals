@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.next-drive-luxury-car-rental.ae/sitemap.xml

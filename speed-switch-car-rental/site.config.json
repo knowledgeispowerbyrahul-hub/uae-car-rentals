@@ -1,0 +1,18 @@
+{
+  "name": "Speed Switch Car Rental",
+  "short": "Speed Switch",
+  "domain": "https://www.speedswitchcarrental.ae",
+  "phone": "+971 54 799 4711",
+  "whatsapp": "971547994711",
+  "email": "booking@speedswitchcarrental.ae",
+  "address": "Business Bay,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Speed Switch in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Speed+Switch+Car+Rental/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

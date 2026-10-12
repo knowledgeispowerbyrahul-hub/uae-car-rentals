@@ -1,0 +1,18 @@
+{
+  "name": "Speedway Car Rental LLC",
+  "short": "Speedway",
+  "domain": "https://speedwaycarrentals.com",
+  "phone": "+971 50 414 1794",
+  "whatsapp": "971504141794",
+  "email": "booking@speedwaycarrentalllc.ae",
+  "address": "Al Mankhool,  Bur Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Speedway in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Speedway+Car+Rental/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

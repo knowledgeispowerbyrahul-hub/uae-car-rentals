@@ -1,0 +1,18 @@
+{
+  "name": "Black Badge Rent A Car",
+  "short": "Black Badge",
+  "domain": "https://www.black-badge-rent-a-car.ae",
+  "phone": "+971 50 958 7253",
+  "whatsapp": "971509587253",
+  "email": "booking@blackbadgerentacar.ae",
+  "address": "Downtown Dubai,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Black Badge in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Black+Badge+Rent+A+Car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

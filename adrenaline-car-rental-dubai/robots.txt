@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.adrenaline-car-rental-dubai.ae/sitemap.xml

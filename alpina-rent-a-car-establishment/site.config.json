@@ -1,0 +1,18 @@
+{
+  "name": "Alpina Rent A Car Establishment",
+  "short": "Alpina Establishment",
+  "domain": "https://www.facebook.com/alpinacarrental",
+  "phone": "+971 56 337 8866",
+  "whatsapp": "971563378866",
+  "email": "booking@alpinarentacarestablishment.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Alpina Establishment in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Alpina+Rent+A+car+Establishment+BR1/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

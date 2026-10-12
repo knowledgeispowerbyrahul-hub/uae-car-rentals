@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.top-gear-cars-rental-llc-ajman.ae/sitemap.xml

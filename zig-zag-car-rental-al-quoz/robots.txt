@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.zig-zag-car-rental-al-quoz.ae/sitemap.xml

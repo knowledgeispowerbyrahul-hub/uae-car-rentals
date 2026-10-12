@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.carlux-rent-a-car-dubai.ae/sitemap.xml

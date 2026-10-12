@@ -1,0 +1,18 @@
+{
+  "name": "Royal Road Cars Rental",
+  "short": "Royal Road",
+  "domain": "https://www.royal-road-cars-rental.ae",
+  "phone": "+971 54 297 6629",
+  "whatsapp": "971542976629",
+  "email": "booking@royalroadcarsrental.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Royal Road in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Royal+Road+Cars+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

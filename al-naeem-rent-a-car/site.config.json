@@ -1,0 +1,18 @@
+{
+  "name": "Al Naeem Rent A Car",
+  "short": "Al Naeem",
+  "domain": "https://www.al-naeem-rent-a-car.ae",
+  "phone": "+971 50 906 1864",
+  "whatsapp": "971509061864",
+  "email": "booking@alnaeemrentacar.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Naeem in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Naeem+Rent+a+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

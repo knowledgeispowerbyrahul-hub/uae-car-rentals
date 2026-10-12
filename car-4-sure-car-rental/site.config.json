@@ -1,0 +1,18 @@
+{
+  "name": "Car 4 Sure Car Rental",
+  "short": "Car 4",
+  "domain": "https://www.car-4-sure-car-rental.ae",
+  "phone": "+971 56 360 6786",
+  "whatsapp": "971563606786",
+  "email": "booking@car4surecarrental.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Car 4 in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/CAR+4+SURE+CAR+RENTAL/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

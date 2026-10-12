@@ -1,0 +1,18 @@
+{
+  "name": "Alharis Cars Rental LLC",
+  "short": "Alharis Cars",
+  "domain": "https://www.alharis-cars-rental-llc.ae",
+  "phone": "+971 52 770 8299",
+  "whatsapp": "971527708299",
+  "email": "booking@alhariscarsrentalllc.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Alharis Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/ALHARIS+CARS+RENTAL+LLC/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

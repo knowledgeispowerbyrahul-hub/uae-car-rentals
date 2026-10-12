@@ -1,0 +1,18 @@
+{
+  "name": "One Way Car Rental Dubai",
+  "short": "One Way",
+  "domain": "https://www.one-way-car-rental-dubai.ae",
+  "phone": "+971 50 188 8516",
+  "whatsapp": "971501888516",
+  "email": "booking@onewaycarrentaldubai.ae",
+  "address": "Al Qusais 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by One Way in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/One+way+car+rental/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

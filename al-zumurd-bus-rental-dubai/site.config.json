@@ -1,0 +1,18 @@
+{
+  "name": "Al Zumurd Bus Rental Dubai",
+  "short": "Al Zumurd",
+  "domain": "https://www.al-zumurd-bus-rental-dubai.ae",
+  "phone": "+971 55 110 7817",
+  "whatsapp": "971551107817",
+  "email": "booking@alzumurdbusrentaldubai.ae",
+  "address": "Downtown Dubai,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Zumurd in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Zumurd+Bus+Rental+Dubai/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

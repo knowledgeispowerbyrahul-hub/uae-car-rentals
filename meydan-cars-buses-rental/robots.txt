@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.meydan-cars-buses-rental.ae/sitemap.xml

@@ -1,0 +1,18 @@
+{
+  "name": "RB Prestige Car Rental",
+  "short": "RB Prestige",
+  "domain": "https://rb-prestige.com",
+  "phone": "+971 52 727 1127",
+  "whatsapp": "971527271127",
+  "email": "booking@rbprestigecarrental.ae",
+  "address": "Al Quoz 3,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by RB Prestige in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/RB+Prestige+Car+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "RTC Rental Car",
+  "short": "RTC Car",
+  "domain": "https://www.rtc-rental-car.ae",
+  "phone": "+971 56 488 4415",
+  "whatsapp": "971564884415",
+  "email": "booking@rtcrentalcar.ae",
+  "address": "Dubai Silicon Oasis,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by RTC Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/RTC+Rental+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

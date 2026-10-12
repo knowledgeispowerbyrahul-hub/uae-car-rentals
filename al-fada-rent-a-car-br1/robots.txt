@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-fada-rent-a-car-br1.ae/sitemap.xml

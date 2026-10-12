@@ -1,0 +1,18 @@
+{
+  "name": "Orient Lease Cars",
+  "short": "Orient Lease",
+  "domain": "https://www.orient-lease-cars.ae",
+  "phone": "+971 56 283 3543",
+  "whatsapp": "971562833543",
+  "email": "booking@orientleasecars.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Orient Lease in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Orient+Lease+Cars/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

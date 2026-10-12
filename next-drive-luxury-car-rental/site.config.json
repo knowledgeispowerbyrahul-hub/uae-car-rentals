@@ -1,0 +1,18 @@
+{
+  "name": "Next Drive Luxury Car Rental",
+  "short": "Next Drive",
+  "domain": "https://www.next-drive-luxury-car-rental.ae",
+  "phone": "+971 52 857 6327",
+  "whatsapp": "971528576327",
+  "email": "booking@nextdriveluxurycarrental.ae",
+  "address": "Business Bay,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Next Drive in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Next+Drive+Luxury+Car+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

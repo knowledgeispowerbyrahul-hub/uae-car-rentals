@@ -1,0 +1,18 @@
+{
+  "name": "Al Wissam Car Rental",
+  "short": "Al Wissam",
+  "domain": "https://www.al-wissam-car-rental.ae",
+  "phone": "+971 50 822 0570",
+  "whatsapp": "971508220570",
+  "email": "booking@alwissamcarrental.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Wissam in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AL+Wissam+car+rental/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

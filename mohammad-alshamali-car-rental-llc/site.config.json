@@ -1,0 +1,18 @@
+{
+  "name": "Mohammad Alshamali Car Rental LLC",
+  "short": "Mohammad Alshamali",
+  "domain": "https://www.mohammad-alshamali-car-rental-llc.ae",
+  "phone": "+971 58 997 7631",
+  "whatsapp": "971589977631",
+  "email": "booking@mohammadalshamalicarrentalllc.ae",
+  "address": "Ras Al Khor,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Mohammad Alshamali in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Mohammad+Alshamali+Car+Rental+LLC/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Tornado Car Rental JVC",
+  "short": "Tornado JVC",
+  "domain": "https://www.tornado-car-rental-jvc.ae",
+  "phone": "+971 54 266 1150",
+  "whatsapp": "971542661150",
+  "email": "booking@tornadocarrentaljvc.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Tornado JVC in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/JVC+Car+Rental/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

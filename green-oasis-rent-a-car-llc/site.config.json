@@ -1,0 +1,18 @@
+{
+  "name": "Green Oasis Rent A Car LLC",
+  "short": "Green Oasis",
+  "domain": "https://www.green-oasis-rent-a-car-llc.ae",
+  "phone": "+971 50 459 8142",
+  "whatsapp": "971504598142",
+  "email": "booking@greenoasisrentacarllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Green Oasis in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/GREEN+OASIS+RENT+A+CAR/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

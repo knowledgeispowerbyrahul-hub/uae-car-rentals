@@ -1,0 +1,18 @@
+{
+  "name": "Supernova Luxury Car Rental",
+  "short": "Supernova Luxury",
+  "domain": "https://www.supernova-luxury-car-rental.ae",
+  "phone": "+971 52 374 0244",
+  "whatsapp": "971523740244",
+  "email": "booking@supernovaluxurycarrental.ae",
+  "address": "Sheikh Zayed Road,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Supernova Luxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Supernova+Luxury+Car+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

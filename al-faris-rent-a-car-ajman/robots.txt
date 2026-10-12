@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-faris-rent-a-car-ajman.ae/sitemap.xml

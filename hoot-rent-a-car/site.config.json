@@ -1,0 +1,18 @@
+{
+  "name": "Hoot Rent A Car",
+  "short": "Hoot",
+  "domain": "https://www.hoot-rent-a-car.ae",
+  "phone": "+971 52 776 9906",
+  "whatsapp": "971527769906",
+  "email": "booking@hootrentacar.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Hoot in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Hoot+Rent+a+car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

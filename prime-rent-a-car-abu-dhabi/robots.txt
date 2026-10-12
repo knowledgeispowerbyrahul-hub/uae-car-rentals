@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.prime-rent-a-car-abu-dhabi.ae/sitemap.xml

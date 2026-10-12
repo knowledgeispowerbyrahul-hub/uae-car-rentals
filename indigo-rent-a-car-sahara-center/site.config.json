@@ -1,0 +1,18 @@
+{
+  "name": "Indigo Rent A Car Sahara Center",
+  "short": "Indigo Sahara",
+  "domain": "http://www.indigorentacar.com",
+  "phone": "+971 55 401 3534",
+  "whatsapp": "971554013534",
+  "email": "booking@indigorentacarsaharacenter.ae",
+  "address": "Sahara Center,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Indigo Sahara in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Indigo+Rent+A+Car+-+Sahara+Center/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

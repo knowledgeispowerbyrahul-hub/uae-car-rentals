@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.titans-car-rental-llc.ae/sitemap.xml

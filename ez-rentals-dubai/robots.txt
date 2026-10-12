@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.ez-rentals-dubai.ae/sitemap.xml

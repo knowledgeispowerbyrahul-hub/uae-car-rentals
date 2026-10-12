@@ -1,0 +1,18 @@
+{
+  "name": "JVC Car Rentals Circle",
+  "short": "JVC s",
+  "domain": "https://www.jvc-car-rentals-circle.ae",
+  "phone": "+971 58 263 1621",
+  "whatsapp": "971582631621",
+  "email": "booking@jvccarrentalscircle.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by JVC s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/JVC+Car+Rentals+Circle/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

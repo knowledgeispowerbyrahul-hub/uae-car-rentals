@@ -1,0 +1,18 @@
+{
+  "name": "RZR Rent A Car",
+  "short": "RZR",
+  "domain": "http://www.rzr.ae",
+  "phone": "+971 56 501 4929",
+  "whatsapp": "971565014929",
+  "email": "booking@rzrrentacar.ae",
+  "address": "Al Quoz 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by RZR in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/RZR+Rent+a+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

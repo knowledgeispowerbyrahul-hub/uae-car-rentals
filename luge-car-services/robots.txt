@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.luge-car-services.ae/sitemap.xml

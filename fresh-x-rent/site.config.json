@@ -1,0 +1,18 @@
+{
+  "name": "Fresh X Rent",
+  "short": "Fresh X",
+  "domain": "https://www.fresh-x-rent.ae",
+  "phone": "+971 55 563 5183",
+  "whatsapp": "971555635183",
+  "email": "booking@freshxrent.ae",
+  "address": "JVC,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Fresh X in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/FRESH+X+RENT/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

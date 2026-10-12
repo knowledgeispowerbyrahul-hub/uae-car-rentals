@@ -1,0 +1,18 @@
+{
+  "name": "IDS Rent A Car",
+  "short": "IDS",
+  "domain": "https://www.ids-rent-a-car.ae",
+  "phone": "+971 56 270 1816",
+  "whatsapp": "971562701816",
+  "email": "booking@idsrentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by IDS in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/IDS+RENT+A+CAR/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

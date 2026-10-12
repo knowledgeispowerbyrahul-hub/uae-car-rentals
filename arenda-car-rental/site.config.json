@@ -1,0 +1,18 @@
+{
+  "name": "Arenda Car Rental",
+  "short": "Arenda",
+  "domain": "https://www.arenda-car-rental.ae",
+  "phone": "+971 55 952 7953",
+  "whatsapp": "971559527953",
+  "email": "booking@arendacarrental.ae",
+  "address": "Dubai Marina / JBR,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Arenda in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Arenda+Car+Rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

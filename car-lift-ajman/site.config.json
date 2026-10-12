@@ -1,0 +1,18 @@
+{
+  "name": "Car Lift Ajman",
+  "short": "Car Lift",
+  "domain": "https://www.car-lift-ajman.ae",
+  "phone": "+971 52 577 3136",
+  "whatsapp": "971525773136",
+  "email": "booking@carliftajman.ae",
+  "address": "Al Jurf Industrial 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Car Lift in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Car+Lift/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

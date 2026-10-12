@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.nitaq-rent-a-car-llc.ae/sitemap.xml

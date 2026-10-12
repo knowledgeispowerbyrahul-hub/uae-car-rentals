@@ -1,0 +1,18 @@
+{
+  "name": "Wheels On Lease Silicon Oasis",
+  "short": "Wheels On",
+  "domain": "https://www.wheels-on-lease-silicon-oasis.ae",
+  "phone": "+971 50 706 1253",
+  "whatsapp": "971507061253",
+  "email": "booking@wheelsonleasesiliconoasis.ae",
+  "address": "Dubai Silicon Oasis,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Wheels On in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Wheels+On+Lease+Car+Rental+Silicon+Oasis/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

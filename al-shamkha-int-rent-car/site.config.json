@@ -1,0 +1,18 @@
+{
+  "name": "Al Shamkha Int Rent Car",
+  "short": "Al Shamkha",
+  "domain": "https://www.al-shamkha-int-rent-car.ae",
+  "phone": "+971 50 886 8511",
+  "whatsapp": "971508868511",
+  "email": "booking@alshamkhaintrentcar.ae",
+  "address": "Mussafah ME-10,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Shamkha in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AL+SHAMKHA+INT+RENT+CAR/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Online Car Rental Ajman",
+  "short": "Online Ajman",
+  "domain": "https://www.instagram.com/online.car.rent",
+  "phone": "+971 52 997 2019",
+  "whatsapp": "971529972019",
+  "email": "booking@onlinecarrentalajman.ae",
+  "address": "Al Jurf 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Online Ajman in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Online+Car+Rental+-+Ajman/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

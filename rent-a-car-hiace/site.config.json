@@ -1,0 +1,18 @@
+{
+  "name": "Rent A Car & Hiace",
+  "short": "& Hiace",
+  "domain": "https://www.rent-a-car-hiace.ae",
+  "phone": "+971 56 312 5710",
+  "whatsapp": "971563125710",
+  "email": "booking@rentacarhiace.ae",
+  "address": "Al Rawda 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by & Hiace in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Rent+a+car+%26+Haice/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

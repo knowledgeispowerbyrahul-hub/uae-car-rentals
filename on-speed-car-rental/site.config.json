@@ -1,0 +1,18 @@
+{
+  "name": "On Speed Car Rental",
+  "short": "On Speed",
+  "domain": "https://www.on-speed-car-rental.ae",
+  "phone": "+971 56 438 2500",
+  "whatsapp": "971564382500",
+  "email": "booking@onspeedcarrental.ae",
+  "address": "Downtown Dubai,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by On Speed in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/ON+SPEED+CAR+RENTAL/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

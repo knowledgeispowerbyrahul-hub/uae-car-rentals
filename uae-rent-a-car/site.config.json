@@ -1,0 +1,18 @@
+{
+  "name": "UAE Rent A Car",
+  "short": "UAE",
+  "domain": "https://www.uae-rent-a-car.ae",
+  "phone": "+971 56 468 5717",
+  "whatsapp": "971564685717",
+  "email": "booking@uaerentacar.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by UAE in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/UAE+Rent+A+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

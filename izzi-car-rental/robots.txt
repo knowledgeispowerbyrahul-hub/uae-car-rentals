@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.izzi-car-rental.ae/sitemap.xml

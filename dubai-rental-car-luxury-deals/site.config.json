@@ -1,0 +1,18 @@
+{
+  "name": "Dubai Rental Car Luxury Deals",
+  "short": "Dubai Car",
+  "domain": "https://www.dubai-rental-car-luxury-deals.ae",
+  "phone": "+971 54 422 2274",
+  "whatsapp": "971544222274",
+  "email": "booking@dubairentalcarluxurydeals.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Dubai Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Dubai+Rental+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

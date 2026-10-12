@@ -1,0 +1,18 @@
+{
+  "name": "Network Rent A Car",
+  "short": "Network",
+  "domain": "https://networkrentacar.ae",
+  "phone": "+971 58 680 1515",
+  "whatsapp": "971586801515",
+  "email": "booking@networkrentacar.ae",
+  "address": "Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Network in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Network+Rent+A+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Autohire Rent A Car LLC",
+  "short": "Autohire",
+  "domain": "https://www.autohire-rent-a-car-llc.ae",
+  "phone": "+971 50 471 0368",
+  "whatsapp": "971504710368",
+  "email": "booking@autohirerentacarllc.ae",
+  "address": "DIFC / Trade Centre,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Autohire in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Autohire+Rent+a+Car+LLC/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

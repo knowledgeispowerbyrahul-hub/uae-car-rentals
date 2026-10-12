@@ -1,0 +1,18 @@
+{
+  "name": "Super Car Rent A Car Al Jurf",
+  "short": "Super Car",
+  "domain": "https://www.super-car-rent-a-car-al-jurf.ae",
+  "phone": "+971 55 150 0555",
+  "whatsapp": "971551500555",
+  "email": "booking@supercarrentacaraljurf.ae",
+  "address": "Al Jurf 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Super Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Super+Car+Rent+a+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

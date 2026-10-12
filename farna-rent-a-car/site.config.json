@@ -1,0 +1,18 @@
+{
+  "name": "Farna Rent A Car",
+  "short": "Farna",
+  "domain": "https://www.farna-rent-a-car.ae",
+  "phone": "+971 50 870 7217",
+  "whatsapp": "971508707217",
+  "email": "booking@farnarentacar.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Farna in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Farna+Rent+A+Car./",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

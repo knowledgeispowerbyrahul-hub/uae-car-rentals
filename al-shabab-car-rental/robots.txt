@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-shabab-car-rental.ae/sitemap.xml

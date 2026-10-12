@@ -1,0 +1,18 @@
+{
+  "name": "Territory Rent A Car",
+  "short": "Territory",
+  "domain": "https://www.territory-rent-a-car.ae",
+  "phone": "+971 55 109 1883",
+  "whatsapp": "971551091883",
+  "email": "booking@territoryrentacar.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Territory in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Territory+Rent+a+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

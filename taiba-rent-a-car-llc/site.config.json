@@ -1,0 +1,18 @@
+{
+  "name": "Taiba Rent A Car LLC",
+  "short": "Taiba",
+  "domain": "https://www.taiba-rent-a-car-llc.ae",
+  "phone": "+971 50 200 6629",
+  "whatsapp": "971502006629",
+  "email": "booking@taibarentacarllc.ae",
+  "address": "Al Rawda 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Taiba in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Taiba+Rent+a+Car+LLC/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

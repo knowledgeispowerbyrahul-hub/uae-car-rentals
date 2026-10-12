@@ -1,0 +1,18 @@
+{
+  "name": "Stallion Rent A Car LLC",
+  "short": "Stallion",
+  "domain": "https://www.stallion-rent-a-car-llc.ae",
+  "phone": "+971 52 350 4227",
+  "whatsapp": "971523504227",
+  "email": "booking@stallionrentacarllc.ae",
+  "address": "Al Jurf Industrial 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Stallion in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Stallion+Rent+A+Car+LLC/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

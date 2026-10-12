@@ -1,0 +1,18 @@
+{
+  "name": "Dualuxury Rent A Car",
+  "short": "Dualuxury",
+  "domain": "https://www.dualuxury-rent-a-car.ae",
+  "phone": "+971 56 255 8441",
+  "whatsapp": "971562558441",
+  "email": "booking@dualuxuryrentacar.ae",
+  "address": "Al Mankhool,  Bur Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Dualuxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Dualuxury+Renta+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Al Seyada Rent A Car",
+  "short": "Al Seyada",
+  "domain": "https://www.al-seyada-rent-a-car.ae",
+  "phone": "+971 56 677 5506",
+  "whatsapp": "971566775506",
+  "email": "booking@alseyadarentacar.ae",
+  "address": "Al Rawda 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Seyada in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Seyada+rent+a+car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

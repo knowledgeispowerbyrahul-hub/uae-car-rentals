@@ -1,0 +1,18 @@
+{
+  "name": "Sidra Transportation And Car Rental L.L.C",
+  "short": "Sidra Transportation",
+  "domain": "https://www.sidra-transportation-and-car-rental-l-l-c.ae",
+  "phone": "+971 52 933 5533",
+  "whatsapp": "971529335533",
+  "email": "booking@sidratransportationandcarrentalllc.ae",
+  "address": "International City,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Sidra Transportation in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SIDRA+TRANSPORTATION+AND+CAR+RENTAL+L.L.C/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

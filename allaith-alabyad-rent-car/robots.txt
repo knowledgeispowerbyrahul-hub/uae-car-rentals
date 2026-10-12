@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.instagram.com/al.laith.alabyad/sitemap.xml

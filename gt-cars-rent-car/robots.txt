@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.gt-cars-rent-car.ae/sitemap.xml

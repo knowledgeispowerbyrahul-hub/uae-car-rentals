@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.diamond-royals-car-rental.ae/sitemap.xml

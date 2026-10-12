@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wa.me/message/ME4CFEBCFLYJM1/sitemap.xml

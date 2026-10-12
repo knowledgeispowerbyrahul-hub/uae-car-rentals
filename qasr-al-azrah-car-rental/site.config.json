@@ -1,0 +1,18 @@
+{
+  "name": "Qasr Al Azrah Car Rental",
+  "short": "Qasr Al",
+  "domain": "https://www.qasr-al-azrah-car-rental.ae",
+  "phone": "+971 50 796 0537",
+  "whatsapp": "971507960537",
+  "email": "booking@qasralazrahcarrental.ae",
+  "address": "Al Majaz,  Sharjah, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Qasr Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Qasr+Al+Azrah+Car+Rental/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

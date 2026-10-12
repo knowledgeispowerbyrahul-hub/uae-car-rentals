@@ -1,0 +1,18 @@
+{
+  "name": "SS Luxury Car Rental",
+  "short": "SS Luxury",
+  "domain": "https://sscarrental.ae",
+  "phone": "+971 54 991 8816",
+  "whatsapp": "971549918816",
+  "email": "booking@ssluxurycarrental.ae",
+  "address": "Dubai Marina,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by SS Luxury in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SS+luxury+car+rental/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

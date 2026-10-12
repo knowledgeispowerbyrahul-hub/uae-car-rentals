@@ -1,0 +1,18 @@
+{
+  "name": "Chartered Rent A Car",
+  "short": "Chartered",
+  "domain": "https://www.chartered-rent-a-car.ae",
+  "phone": "+971 52 421 8021",
+  "whatsapp": "971524218021",
+  "email": "booking@charteredrentacar.ae",
+  "address": "Mussafah ME-10,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Chartered in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Chartered+Rent+A+Car/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

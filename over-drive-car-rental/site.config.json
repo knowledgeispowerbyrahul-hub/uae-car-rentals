@@ -1,0 +1,18 @@
+{
+  "name": "Over Drive Car Rental",
+  "short": "Over Drive",
+  "domain": "https://www.over-drive-car-rental.ae",
+  "phone": "+971 55 495 5781",
+  "whatsapp": "971554955781",
+  "email": "booking@overdrivecarrental.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Over Drive in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Over+Drive+Car+Rental/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

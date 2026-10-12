@@ -1,0 +1,18 @@
+{
+  "name": "Muftah Rent A Car",
+  "short": "Muftah",
+  "domain": "https://www.muftah-rent-a-car.ae",
+  "phone": "+971 50 464 1006",
+  "whatsapp": "971504641006",
+  "email": "booking@muftahrentacar.ae",
+  "address": "Al Nuaimia 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Muftah in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Muftah+Rent+A+Car/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Signature Rent A Car Al Seef",
+  "short": "Signature Al",
+  "domain": "https://www.signature-rent-a-car-al-seef.ae",
+  "phone": "+971 50 370 0135",
+  "whatsapp": "971503700135",
+  "email": "booking@signaturerentacaralseef.ae",
+  "address": "Al Seef,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Signature Al in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Signature+Rent+A+Car-+Al+Seef+Branch/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

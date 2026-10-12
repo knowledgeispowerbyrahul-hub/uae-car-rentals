@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://linktr.ee/aljawdah.rent.a.car/sitemap.xml

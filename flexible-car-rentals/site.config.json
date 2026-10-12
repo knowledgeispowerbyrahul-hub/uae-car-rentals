@@ -1,0 +1,18 @@
+{
+  "name": "Flexible Car Rentals",
+  "short": "Flexible s",
+  "domain": "https://www.flexible-car-rentals.ae",
+  "phone": "+971 58 940 7003",
+  "whatsapp": "971589407003",
+  "email": "booking@flexiblecarrentals.ae",
+  "address": "Al Quoz 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Flexible s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Flexible+Car+Rentals/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

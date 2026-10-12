@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.deira-dubai-car-rental.ae/sitemap.xml

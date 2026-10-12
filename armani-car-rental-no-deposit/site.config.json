@@ -1,0 +1,18 @@
+{
+  "name": "Armani Car Rental No Deposit",
+  "short": "Armani No",
+  "domain": "https://www.armanirentals.com",
+  "phone": "+971 54 230 1234",
+  "whatsapp": "971542301234",
+  "email": "booking@armanicarrentalnodeposit.ae",
+  "address": "Al Nuaimia 3,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Armani No in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Armani+Car+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

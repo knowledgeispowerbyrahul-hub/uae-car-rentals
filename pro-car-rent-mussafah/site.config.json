@@ -1,0 +1,18 @@
+{
+  "name": "Pro Car Rent Mussafah",
+  "short": "Pro Car",
+  "domain": "https://www.pro-car-rent-mussafah.ae",
+  "phone": "+971 50 543 6639",
+  "whatsapp": "971505436639",
+  "email": "booking@procarrentmussafah.ae",
+  "address": "Mussafah ME-10,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Pro Car in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/PRO+CAR+RENT/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

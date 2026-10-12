@@ -1,0 +1,18 @@
+{
+  "name": "Grandior Rent Car Co. L.L.C.",
+  "short": "Grandior Rent",
+  "domain": "https://www.grandior-rent-car-co-l-l-c.ae",
+  "phone": "+971 55 868 4350",
+  "whatsapp": "971558684350",
+  "email": "booking@grandiorrentcarcollc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Grandior Rent in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/GRANDIOR+RENT+CAR+CO.+L.L.C./",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

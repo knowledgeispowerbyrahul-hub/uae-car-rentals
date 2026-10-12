@@ -1,0 +1,18 @@
+{
+  "name": "Prime Rent A Car Abu Dhabi",
+  "short": "Prime Abu",
+  "domain": "https://www.prime-rent-a-car-abu-dhabi.ae",
+  "phone": "+971 55 440 5574",
+  "whatsapp": "971554405574",
+  "email": "booking@primerentacarabudhabi.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Prime Abu in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Prime+Rent+A+Car/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

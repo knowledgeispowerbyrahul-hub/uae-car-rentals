@@ -1,0 +1,18 @@
+{
+  "name": "Al Nesr Al Abyad Car Rental",
+  "short": "Al Nesr",
+  "domain": "https://www.al-nesr-al-abyad-car-rental.ae",
+  "phone": "+971 50 806 4996",
+  "whatsapp": "971508064996",
+  "email": "booking@alnesralabyadcarrental.ae",
+  "address": "Trade Centre,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Nesr in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Nesr+Al+Abyad+Car+Rental/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

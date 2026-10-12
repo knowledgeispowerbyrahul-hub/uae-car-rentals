@@ -1,0 +1,18 @@
+{
+  "name": "AL FADA RENT A CAR BR1",
+  "short": "AL FADA",
+  "domain": "https://www.al-fada-rent-a-car-br1.ae",
+  "phone": "+971 52 980 0750",
+  "whatsapp": "971529800750",
+  "email": "booking@alfadarentacarbr1.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by AL FADA in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AL+FADA+RENT+A+CAR+BR1/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

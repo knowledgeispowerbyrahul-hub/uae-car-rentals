@@ -1,0 +1,18 @@
+{
+  "name": "Bravo Star Rent A Car L.L.C",
+  "short": "Bravo Star",
+  "domain": "http://www.bravostaruae.com",
+  "phone": "+971 54 357 5750",
+  "whatsapp": "971543575750",
+  "email": "booking@bravostarrentacarllc.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Bravo Star in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/BRAVO+STAR+RENT+A+CAR+L.L.C/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

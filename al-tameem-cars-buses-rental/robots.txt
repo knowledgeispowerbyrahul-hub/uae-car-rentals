@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-tameem-cars-buses-rental.ae/sitemap.xml

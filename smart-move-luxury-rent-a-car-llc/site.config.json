@@ -1,0 +1,18 @@
+{
+  "name": "Smart Move Luxury Rent A Car LLC",
+  "short": "Smart Move",
+  "domain": "https://www.smart-move-luxury-rent-a-car-llc.ae",
+  "phone": "+971 56 413 7242",
+  "whatsapp": "971564137242",
+  "email": "booking@smartmoveluxuryrentacarllc.ae",
+  "address": "Karama,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Smart Move in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SMART+MOVE+LUXURY+RENT+A+CAR+LLC/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Eco Cars Rental",
+  "short": "Eco Cars",
+  "domain": "https://www.eco-cars-rental.ae",
+  "phone": "+971 50 669 8700",
+  "whatsapp": "971506698700",
+  "email": "booking@ecocarsrental.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Eco Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Eco+Cars+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

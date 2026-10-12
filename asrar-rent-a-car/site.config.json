@@ -1,0 +1,18 @@
+{
+  "name": "Asrar Rent A Car",
+  "short": "Asrar",
+  "domain": "https://www.asrar-rent-a-car.ae",
+  "phone": "+971 56 720 0046",
+  "whatsapp": "971567200046",
+  "email": "booking@asrarrentacar.ae",
+  "address": "Al Nuaimia 1,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Asrar in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Asrar+Rent+A+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

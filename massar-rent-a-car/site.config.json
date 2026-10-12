@@ -1,0 +1,18 @@
+{
+  "name": "Massar Rent A Car",
+  "short": "Massar",
+  "domain": "https://www.massar-rent-a-car.ae",
+  "phone": "+971 50 738 0814",
+  "whatsapp": "971507380814",
+  "email": "booking@massarrentacar.ae",
+  "address": "Mussafah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Massar in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Massar+Rent+A+Car/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

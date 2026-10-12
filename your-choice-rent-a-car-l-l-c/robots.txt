@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.your-choice-rent-a-car-l-l-c.ae/sitemap.xml

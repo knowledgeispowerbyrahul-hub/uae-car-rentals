@@ -1,0 +1,9 @@
+{
+  "name": "four-wheel-drive-car-rental-l-l-c",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serve.js"
+  }
+}

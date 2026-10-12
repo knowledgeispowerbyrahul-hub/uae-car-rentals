@@ -1,0 +1,120 @@
+const slug = s => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+// brand, model, category, daily AED, seats, year, options
+const rentRaw = [
+  // SUV
+  ['Mercedes-Benz', 'GLS 450', 'suv', 650, 7, 2024, { hp: 375 }],
+  ['Mercedes-Benz', 'G 63 AMG', 'suv', 1800, 5, 2023, { hp: 577 }],
+  ['Range Rover', 'Vogue', 'suv', 1100, 5, 2023, { hp: 395 }],
+  ['Range Rover', 'Sport', 'suv', 850, 5, 2023, { hp: 355 }],
+  ['BMW', 'X5 xDrive40i', 'suv', 450, 5, 2024, { hp: 340 }],
+  ['BMW', 'X7', 'suv', 750, 7, 2023, { hp: 375 }],
+  ['Audi', 'Q8', 'suv', 600, 5, 2023, { hp: 335 }],
+  ['Porsche', 'Cayenne', 'suv', 800, 5, 2023, { hp: 348 }],
+  ['Lamborghini', 'Urus', 'suv', 2600, 5, 2023, { hp: 650 }],
+  ['Cadillac', 'Escalade', 'suv', 700, 7, 2023, { hp: 420 }],
+  ['Toyota', 'Land Cruiser', 'suv', 420, 7, 2024, { hp: 409 }],
+  ['Nissan', 'Patrol', 'suv', 380, 7, 2023, { hp: 400 }],
+  ['Kia', 'Sportage', 'suv', 160, 5, 2024, { hp: 187 }],
+  ['Hyundai', 'Tucson', 'suv', 150, 5, 2024, { hp: 187 }],
+  ['BYD', 'Atto 3', 'suv', 170, 5, 2024, { fuel: 'Electric', hp: 201, dep: 0 }],
+  ['Jeep', 'Wrangler Rubicon', 'suv', 520, 5, 2023, { hp: 285 }],
+  // Luxury
+  ['Mercedes-Benz', 'S 500', 'luxury', 750, 5, 2024, { hp: 435 }],
+  ['Mercedes-Benz', 'E 300', 'luxury', 380, 5, 2024, { hp: 255 }],
+  ['BMW', '740Li', 'luxury', 650, 5, 2023, { hp: 375 }],
+  ['Rolls-Royce', 'Ghost', 'luxury', 3200, 5, 2022, { hp: 563 }],
+  ['Bentley', 'Continental GT', 'luxury', 2200, 4, 2023, { hp: 542 }],
+  ['Bentley', 'Flying Spur', 'luxury', 2400, 5, 2023, { hp: 542 }],
+  ['Audi', 'A8 L', 'luxury', 520, 5, 2023, { hp: 335 }],
+  ['Lexus', 'ES 350', 'luxury', 260, 5, 2024, { hp: 302 }],
+  ['Maserati', 'Ghibli', 'luxury', 780, 5, 2022, { hp: 424 }],
+  ['Genesis', 'G80', 'luxury', 340, 5, 2023, { hp: 300 }],
+  // Sports
+  ['Ferrari', 'F8 Tributo', 'sports', 2800, 2, 2023, { hp: 710 }],
+  ['Lamborghini', 'Huracán EVO', 'sports', 2400, 2, 2023, { hp: 631 }],
+  ['McLaren', '720S', 'sports', 2900, 2, 2022, { hp: 710 }],
+  ['Porsche', '911 Carrera S', 'sports', 1500, 4, 2023, { hp: 443 }],
+  ['Chevrolet', 'Corvette C8', 'sports', 1300, 2, 2023, { hp: 495 }],
+  ['Nissan', 'GT-R', 'sports', 1250, 4, 2022, { hp: 565 }],
+  ['Audi', 'R8 V10', 'sports', 1700, 2, 2022, { hp: 602 }],
+  ['Mercedes-Benz', 'AMG GT', 'sports', 1900, 2, 2022, { hp: 523 }],
+  ['Ford', 'Mustang GT', 'sports', 450, 4, 2024, { hp: 450 }],
+  ['Dodge', 'Challenger', 'sports', 420, 5, 2023, { hp: 485 }],
+  // Convertible
+  ['BMW', 'Z4 M40i', 'convertible', 520, 2, 2023, { hp: 382 }],
+  ['Mercedes-Benz', 'C 200 Cabrio', 'convertible', 480, 4, 2023, { hp: 204 }],
+  ['Ford', 'Mustang Convertible', 'convertible', 480, 4, 2023, { hp: 310 }],
+  ['Porsche', '718 Boxster', 'convertible', 900, 2, 2023, { hp: 300 }],
+  ['Chevrolet', 'Camaro Convertible', 'convertible', 460, 4, 2023, { hp: 335 }],
+  ['Audi', 'A5 Cabriolet', 'convertible', 520, 4, 2023, { hp: 261 }],
+  ['Ferrari', 'Portofino', 'convertible', 2600, 2, 2022, { hp: 592 }],
+  // Economy
+  ['Volkswagen', 'Polo', 'economy', 99, 5, 2024, { hp: 110, dep: 0 }],
+  ['Toyota', 'Yaris', 'economy', 90, 5, 2024, { hp: 106, dep: 0 }],
+  ['Nissan', 'Sunny', 'economy', 85, 5, 2024, { hp: 118, dep: 0 }],
+  ['Kia', 'Picanto', 'economy', 79, 4, 2024, { hp: 98, dep: 0 }],
+  ['Hyundai', 'Accent', 'economy', 89, 5, 2024, { hp: 120, dep: 0 }],
+  ['Toyota', 'Corolla', 'economy', 120, 5, 2024, { hp: 169, dep: 500 }],
+  ['Honda', 'Civic', 'economy', 130, 5, 2024, { hp: 158, dep: 500 }],
+  ['Mitsubishi', 'Attrage', 'economy', 75, 5, 2024, { hp: 78, dep: 0 }],
+  ['Kia', 'Cerato', 'economy', 110, 5, 2024, { hp: 147, dep: 500 }],
+  ['Nissan', 'Altima', 'economy', 140, 5, 2024, { hp: 188, dep: 500 }],
+  // Vans
+  ['Toyota', 'Hiace 12-Seater', 'van', 380, 12, 2023, { fuel: 'Diesel', hp: 177 }],
+  ['Toyota', 'Hiace 14-Seater', 'van', 420, 14, 2023, { fuel: 'Diesel', hp: 177 }],
+  ['Hyundai', 'H1 9-Seater', 'van', 300, 9, 2023, { fuel: 'Diesel', hp: 170 }],
+  ['Mercedes-Benz', 'V-Class', 'van', 650, 7, 2023, { fuel: 'Diesel', hp: 237 }],
+  ['Kia', 'Carnival', 'van', 280, 8, 2023, { hp: 290 }],
+  ['Toyota', 'Coaster 30-Seater Bus', 'van', 900, 30, 2022, { fuel: 'Diesel', hp: 150 }],
+];
+
+const RENT = rentRaw.map(([brand, model, cat, day, seats, year, o], i) => ({
+  id: i + 1, slug: slug(brand + ' ' + model) + '-rental-dubai', brand, model, cat, day, seats, year,
+  week: Math.round(day * 7 * 0.88 / 10) * 10, month: Math.round(day * 30 * 0.7 / 100) * 100,
+  trans: 'Auto', fuel: o.fuel || 'Petrol', hp: o.hp || null,
+  doors: seats > 7 ? 5 : (cat === 'sports' || cat === 'convertible') ? 2 : 4,
+  bags: Math.max(1, Math.round(seats / 2)),
+  deposit: o.dep !== undefined ? o.dep : day >= 1500 ? 10000 : day >= 700 ? 5000 : day >= 400 ? 2500 : 1500,
+  km: day >= 1500 ? 150 : day >= 600 ? 200 : 250,
+  img: `/assets/img/cars/${cat}.jpg`,
+  pop: 100 - i, // popularity order
+}));
+
+const buyRaw = [
+  ['Mercedes-Benz', 'GLE 450', 'suv', 289000, 2021, 41000],
+  ['Range Rover', 'Sport HSE', 'suv', 335000, 2021, 38000],
+  ['BMW', 'X5 xDrive40i', 'suv', 245000, 2022, 29000],
+  ['Toyota', 'Land Cruiser GXR', 'suv', 265000, 2022, 33000],
+  ['Nissan', 'Patrol Titanium', 'suv', 198000, 2021, 52000],
+  ['Porsche', 'Cayenne', 'suv', 310000, 2021, 36000],
+  ['Audi', 'Q7', 'suv', 215000, 2020, 61000],
+  ['Kia', 'Sportage', 'suv', 78000, 2022, 44000],
+  ['Mercedes-Benz', 'S 500', 'luxury', 395000, 2021, 35000],
+  ['BMW', '730Li', 'luxury', 215000, 2020, 58000],
+  ['Audi', 'A8 L', 'luxury', 235000, 2021, 40000],
+  ['Lexus', 'ES 350', 'luxury', 128000, 2022, 31000],
+  ['Bentley', 'Continental GT', 'luxury', 585000, 2020, 24000],
+  ['Ferrari', '488 GTB', 'sports', 695000, 2019, 18000],
+  ['Porsche', '911 Carrera', 'sports', 495000, 2021, 15000],
+  ['Chevrolet', 'Corvette C8', 'sports', 365000, 2022, 9000],
+  ['Ford', 'Mustang GT', 'sports', 125000, 2021, 36000],
+  ['Nissan', 'GT-R', 'sports', 325000, 2019, 28000],
+  ['BMW', 'Z4 sDrive30i', 'convertible', 178000, 2021, 22000],
+  ['Mercedes-Benz', 'C 300 Cabriolet', 'convertible', 189000, 2021, 27000],
+  ['Toyota', 'Corolla', 'economy', 58000, 2022, 48000],
+  ['Honda', 'Civic', 'economy', 62000, 2022, 42000],
+  ['Nissan', 'Altima', 'economy', 54000, 2021, 55000],
+  ['Hyundai', 'Accent', 'economy', 39000, 2022, 51000],
+  ['Kia', 'Cerato', 'economy', 52000, 2022, 39000],
+  ['Toyota', 'Hiace 15-Seater', 'van', 112000, 2021, 60000],
+];
+
+const BUY = buyRaw.map(([brand, model, cat, price, year, km], i) => ({
+  id: i + 1, slug: slug(brand + ' ' + model + ' ' + year) + '-for-sale-dubai', brand, model, cat, price, year, km,
+  seats: cat === 'sports' || cat === 'convertible' ? 2 : cat === 'van' ? 15 : cat === 'suv' ? 7 : 5,
+  trans: 'Auto', fuel: cat === 'van' ? 'Diesel' : 'Petrol', spec: 'GCC Spec',
+  img: `/assets/img/cars/${cat}.jpg`, pop: 100 - i,
+}));
+
+module.exports = { RENT, BUY, slug };

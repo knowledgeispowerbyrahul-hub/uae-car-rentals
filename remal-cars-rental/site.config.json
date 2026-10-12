@@ -1,0 +1,18 @@
+{
+  "name": "Remal Cars Rental",
+  "short": "Remal Cars",
+  "domain": "https://www.remal-cars-rental.ae",
+  "phone": "+971 52 929 1229",
+  "whatsapp": "971529291229",
+  "email": "booking@remalcarsrental.ae",
+  "address": "Al Jurf Industrial 2,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Remal Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Remal+cars+rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

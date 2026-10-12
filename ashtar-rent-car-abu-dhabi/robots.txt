@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.ashtar-rent-car-abu-dhabi.ae/sitemap.xml

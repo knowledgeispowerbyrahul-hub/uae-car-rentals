@@ -1,0 +1,18 @@
+{
+  "name": "Top Gear Cars Rental LLC - Ajman",
+  "short": "Top Gear",
+  "domain": "https://www.top-gear-cars-rental-llc-ajman.ae",
+  "phone": "+971 54 447 4321",
+  "whatsapp": "971544474321",
+  "email": "booking@topgearcarsrentalllcajman.ae",
+  "address": "Industrial Area,  Ajman, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Top Gear in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Top+Gear+Rent+A+Car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

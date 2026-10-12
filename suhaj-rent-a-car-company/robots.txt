@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.suhaj-rent-a-car-company.ae/sitemap.xml

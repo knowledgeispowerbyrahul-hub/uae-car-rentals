@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.manar-alraees-car-rental.ae/sitemap.xml

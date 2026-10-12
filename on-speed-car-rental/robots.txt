@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.on-speed-car-rental.ae/sitemap.xml

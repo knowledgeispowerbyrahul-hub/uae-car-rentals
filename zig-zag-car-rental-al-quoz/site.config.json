@@ -1,0 +1,18 @@
+{
+  "name": "Zig Zag Car Rental Al Quoz",
+  "short": "Zig Zag",
+  "domain": "https://www.zig-zag-car-rental-al-quoz.ae",
+  "phone": "+971 58 566 7177",
+  "whatsapp": "971585667177",
+  "email": "booking@zigzagcarrentalalquoz.ae",
+  "address": "Al Quoz 3,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Zig Zag in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Zig+Zag+Car+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}
