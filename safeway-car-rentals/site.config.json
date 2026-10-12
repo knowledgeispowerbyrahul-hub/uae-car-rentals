@@ -1,0 +1,18 @@
+{
+  "name": "Safeway Car Rentals",
+  "short": "Safeway s",
+  "domain": "https://www.instagram.com/safeway.uae",
+  "phone": "+971 50 446 5020",
+  "whatsapp": "971504465020",
+  "email": "booking@safewaycarrentals.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Safeway s in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Safeway+Car+Rentals/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

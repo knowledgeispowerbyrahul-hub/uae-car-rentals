@@ -1,0 +1,18 @@
+{
+  "name": "Luxxio Car Rental",
+  "short": "Luxxio",
+  "domain": "https://www.luxxio-car-rental.ae",
+  "phone": "+971 55 136 5705",
+  "whatsapp": "971551365705",
+  "email": "booking@luxxiocarrental.ae",
+  "address": "Al Barsha,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Luxxio in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Luxxio+Car+Rental/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

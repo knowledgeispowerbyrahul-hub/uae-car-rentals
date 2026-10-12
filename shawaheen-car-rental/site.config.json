@@ -1,0 +1,18 @@
+{
+  "name": "Shawaheen Car Rental",
+  "short": "Shawaheen",
+  "domain": "https://www.shawaheen.ae",
+  "phone": "+971 50 692 2619",
+  "whatsapp": "971506922619",
+  "email": "booking@shawaheencarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Shawaheen in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Shawaheen+Car+Rental/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

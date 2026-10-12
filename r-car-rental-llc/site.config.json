@@ -1,0 +1,18 @@
+{
+  "name": "R Car Rental LLC",
+  "short": "R",
+  "domain": "https://rcarrental.ae",
+  "phone": "+971 52 652 5890",
+  "whatsapp": "971526525890",
+  "email": "booking@rcarrentalllc.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by R in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/R+Car+Rental+LLC/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Al Mahra Rent Car",
+  "short": "Al Mahra",
+  "domain": "https://www.al-mahra-rent-car.ae",
+  "phone": "+971 54 777 8358",
+  "whatsapp": "971547778358",
+  "email": "booking@almahrarentcar.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Mahra in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Mahra+Rent+Car/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

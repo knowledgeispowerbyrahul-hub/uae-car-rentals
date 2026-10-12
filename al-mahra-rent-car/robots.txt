@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-mahra-rent-car.ae/sitemap.xml

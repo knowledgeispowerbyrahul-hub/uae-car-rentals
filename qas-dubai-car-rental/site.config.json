@@ -1,0 +1,18 @@
+{
+  "name": "QAS Dubai Car Rental",
+  "short": "QAS",
+  "domain": "https://www.qasdubaicarrental.com",
+  "phone": "+971 58 521 1777",
+  "whatsapp": "971585211777",
+  "email": "booking@qasdubaicarrental.com",
+  "address": "Al Barsha 1, Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Luxury, sports & executive car rental in Dubai. Delivered to your doorstep.",
+  "googleMaps": "https://www.google.com/maps/place/QAS+Dubai+Car+Rental/data=!4m7!3m6!1s0x3e5f5dae52fa969d:0x7b69c1eed2db3!8m2!3d25.1134916!4d55.1939812",
+  "theme": {
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7",
+    "text": "#0f172a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Adres Car Rental",
+  "short": "Adres",
+  "domain": "https://www.adrescarrental.ae",
+  "phone": "+971 56 811 9209",
+  "whatsapp": "971568119209",
+  "email": "reservations@adrescarrental.ae",
+  "address": "Al Barsha 1, Near Mall of the Emirates, Dubai, UAE",
+  "hours": "Open 24/7",
+  "tagline": "Your premier address for luxury & economy car rental in Dubai. 24/7 VIP concierge.",
+  "googleMaps": "https://www.google.com/maps/place/ADRES+CAR+RENTAL/data=!4m7!3m6!1s0x3e5f6b6a0ceee47d:0x1ac264d468c0d94d!8m2!3d25.1163109!4d55.204131",
+  "theme": {
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe",
+    "text": "#0f172a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "R Dynamic Car Rental",
+  "short": "R Dynamic",
+  "domain": "https://www.r-dynamic-car-rental.ae",
+  "phone": "+971 52 414 5956",
+  "whatsapp": "971524145956",
+  "email": "booking@rdynamiccarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by R Dynamic in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/R+DYNAMIC+%2B+CAR+RENTAL/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

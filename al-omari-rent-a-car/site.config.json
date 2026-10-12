@@ -1,0 +1,18 @@
+{
+  "name": "Al Omari Rent A Car",
+  "short": "Al Omari",
+  "domain": "https://www.al-omari-rent-a-car.ae",
+  "phone": "+971 56 397 0709",
+  "whatsapp": "971563970709",
+  "email": "booking@alomarirentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Omari in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Al+Omari+Rent+A+Car/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

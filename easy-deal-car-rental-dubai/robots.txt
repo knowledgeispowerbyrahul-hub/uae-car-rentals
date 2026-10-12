@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.instagram.com/edc_dubai/sitemap.xml

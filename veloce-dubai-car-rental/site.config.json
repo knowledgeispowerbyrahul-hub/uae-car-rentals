@@ -1,0 +1,18 @@
+{
+  "name": "Veloce Dubai Car Rental",
+  "short": "Veloce Dubai",
+  "domain": "https://www.velocerental.ae",
+  "phone": "+971 55 658 9839",
+  "whatsapp": "971556589839",
+  "email": "booking@velocedubaicarrental.ae",
+  "address": "Al Quoz 3,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Veloce Dubai in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Veloce+Dubai+Car+Rental/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

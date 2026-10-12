@@ -1,0 +1,18 @@
+{
+  "name": "Venusyum Car Rental",
+  "short": "Venusyum",
+  "domain": "http://www.venusyum.com",
+  "phone": "+971 50 511 5839",
+  "whatsapp": "971505115839",
+  "email": "booking@venusyumcarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Venusyum in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/VENUSYUM+CAR+RENTAL/",
+  "theme": {
+    "name": "orange",
+    "primary": "#ea580c",
+    "secondary": "#f97316",
+    "lightGold": "#ffedd5"
+  }
+}

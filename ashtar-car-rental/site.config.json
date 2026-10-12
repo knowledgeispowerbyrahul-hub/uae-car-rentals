@@ -1,0 +1,18 @@
+{
+  "name": "Ashtar Car Rental",
+  "short": "Ashtar",
+  "domain": "https://ashtarcars.com",
+  "phone": "+971 54 220 8946",
+  "whatsapp": "971542208946",
+  "email": "booking@ashtarcarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Ashtar in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Ashtar+Car+Rental/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.shift-car-rental-shams-boutik-mall.ae/sitemap.xml

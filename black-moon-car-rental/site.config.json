@@ -1,0 +1,18 @@
+{
+  "name": "Black Moon Car Rental",
+  "short": "Black Moon",
+  "domain": "https://www.black-moon-car-rental.ae",
+  "phone": "+971 58 832 0814",
+  "whatsapp": "971588320814",
+  "email": "booking@blackmooncarrental.ae",
+  "address": "Al Quoz Industrial Area,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Black Moon in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Black+Moon+Car+Rental/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

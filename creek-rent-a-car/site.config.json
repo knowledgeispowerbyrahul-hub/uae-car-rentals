@@ -1,0 +1,18 @@
+{
+  "name": "Creek Rent A Car",
+  "short": "Creek",
+  "domain": "https://www.creek-rent-a-car.ae",
+  "phone": "+971 54 411 0100",
+  "whatsapp": "971544110100",
+  "email": "booking@creekrentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Creek in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Creek+Rent+A+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

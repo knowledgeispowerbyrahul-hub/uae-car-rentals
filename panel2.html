@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UAE Car Rental – Panel 2 (Sites 51–100)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #090a0f;
+    --surface: #11131a;
+    --surface-hover: #161922;
+    --border: #1e222d;
+    --border-light: #2a3040;
+    --text: #e2e8f0;
+    --muted: #717d96;
+    --subtle: #4a5568;
+    --accent: #a855f7;
+    --accent-glow: rgba(168, 85, 247, 0.15);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    font-size: 13px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Header */
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    background: rgba(9, 10, 15, 0.94);
+    backdrop-filter: blur(12px);
+    z-index: 100;
+  }
+  .h-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .h-logo {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .h-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px #10b981;
+  }
+  .panel-badge {
+    background: var(--accent-glow);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  .h-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  button, .btn {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    transition: all 0.12s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  button:hover, .btn:hover {
+    background: var(--surface-hover);
+    border-color: var(--border-light);
+    color: #fff;
+  }
+  .btn-accent {
+    background: var(--accent);
+    color: #04101e;
+    font-weight: 600;
+    border: none;
+  }
+  .btn-accent:hover {
+    filter: brightness(1.15);
+    color: #000;
+  }
+  .btn-call {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid #10b981;
+    color: #34d399;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px 7px;
+    font-size: 11px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.12s ease;
+  }
+  .btn-call:hover {
+    background: #10b981;
+    color: #04101e;
+    border-color: #10b981;
+  }
+  .btn-wa {
+    background: rgba(37, 211, 102, 0.12);
+    border: 1px solid rgba(37, 211, 102, 0.4);
+    color: #25d366;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px 6px;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+  .btn-wa:hover {
+    background: #25d366;
+    color: #000;
+  }
+
+  .wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 14px 24px;
+  }
+
+  /* Pipeline Bar */
+  .pipe-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+  .pipe-pill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 5px 11px;
+    border-radius: 6px;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+    transition: all 0.12s ease;
+  }
+  .pipe-pill:hover {
+    border-color: var(--border-light);
+    color: var(--text);
+  }
+  .pipe-pill.active {
+    background: var(--surface-hover);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .pipe-count {
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 4px;
+    color: #cbd5e1;
+  }
+  .pipe-pill.active .pipe-count {
+    background: var(--accent-glow);
+    color: var(--accent);
+  }
+
+  /* Controls */
+  .controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 260px;
+    max-width: 460px;
+  }
+  .search-wrap input {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 7px 12px 7px 32px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 12px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.12s;
+  }
+  .search-wrap input:focus {
+    border-color: var(--accent);
+  }
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .filters {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  select.select-min {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  /* Table */
+  .table-box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .table-scroll {
+    overflow-x: auto;
+    max-height: calc(100vh - 230px);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: left;
+  }
+  thead {
+    position: sticky;
+    top: 0;
+    background: #0d0f15;
+    z-index: 10;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    padding: 9px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+  }
+  tbody tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    transition: background 0.1s;
+  }
+  tbody tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+  }
+  tbody tr.archived {
+    opacity: 0.5;
+  }
+  td {
+    padding: 8px 12px;
+    vertical-align: middle;
+  }
+
+  .co-title {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .co-title:hover {
+    color: var(--accent);
+  }
+  .co-sub {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 1px;
+  }
+  .co-path {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--subtle);
+  }
+
+  .tag {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 7px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+  }
+  .tag-yes { background: rgba(16, 185, 129, 0.1); color: #34d399; border-color: rgba(16, 185, 129, 0.2); cursor: pointer; }
+  .tag-no { background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.2); cursor: pointer; }
+  .tag-pending { background: rgba(245, 158, 11, 0.1); color: #fbbf24; border-color: rgba(245, 158, 11, 0.2); cursor: pointer; }
+
+  .select-status {
+    background: #0d0f15;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 4px 7px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+  }
+  .select-status:focus {
+    border-color: var(--accent);
+  }
+
+  .note-line {
+    max-width: 250px;
+    color: var(--muted);
+    font-size: 11px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .note-line:hover { color: #fff; }
+  .has-chg {
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 1px;
+  }
+
+  /* Modals */
+  .modal-bg {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s ease;
+  }
+  .modal-bg.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-card {
+    background: #11131a;
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 520px;
+    padding: 20px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+  }
+  .modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .modal-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .modal-x {
+    background: transparent;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .modal-body {
+    margin-bottom: 16px;
+    color: var(--text);
+    font-size: 12px;
+  }
+  .modal-foot {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .fg { margin-bottom: 10px; }
+  .fl { display: block; font-size: 11px; font-weight: 600; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; }
+  .fi, .ft, .fs {
+    width: 100%;
+    background: #090a0f;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 7px 10px;
+    color: #fff;
+    font-size: 12px;
+    font-family: inherit;
+    outline: none;
+  }
+  .ft { min-height: 55px; resize: vertical; }
+
+  .notepad-textarea {
+    width: 100%;
+    height: 380px;
+    background: #090a0f;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 12px;
+    outline: none;
+    resize: none;
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e2433;
+    border: 1px solid var(--border-light);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    z-index: 2000;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.2s ease;
+  }
+  .toast.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="h-left">
+    <div class="h-logo">
+      <span class="h-dot"></span>
+      <span>UAE Car Rentals</span>
+    </div>
+    <span class="panel-badge">Panel 2 (Sites 51–100)</span>
+  </div>
+  <div class="h-actions">
+    <a class="btn" href="https://panel1-uae.vercel.app" style="border-color:var(--accent); color:var(--accent);">
+      ← Switch to Panel 1 (Sites 1–50)
+    </a>
+    <button onclick="openNotepad()">📝 Notepad</button>
+    <button onclick="exportCSV()">Export CSV</button>
+    <button class="btn-accent" onclick="directAll()">Show All 50</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- Pipeline Status Bar -->
+  <div class="pipe-bar">
+    <div class="pipe-pill active" id="pill-all" onclick="setStage('all')">
+      <span>Panel 2 Sites</span>
+      <span class="pipe-count" id="c-all">50</span>
+    </div>
+    <div class="pipe-pill" id="pill-interested" onclick="setStage('interested')">
+      <span>🔥 Interested</span>
+      <span class="pipe-count" id="c-interested">0</span>
+    </div>
+    <div class="pipe-pill" id="pill-in_process" onclick="setStage('in_process')">
+      <span>⚙️ In Process</span>
+      <span class="pipe-count" id="c-in_process">0</span>
+    </div>
+    <div class="pipe-pill" id="pill-paid" onclick="setStage('paid')">
+      <span>💰 Paid</span>
+      <span class="pipe-count" id="c-paid">0</span>
+    </div>
+    <div class="pipe-pill" id="pill-not_decided" onclick="setStage('not_decided')">
+      <span>❓ Not Decided</span>
+      <span class="pipe-count" id="c-not_decided">0</span>
+    </div>
+    <div class="pipe-pill" id="pill-rejected" onclick="setStage('rejected')">
+      <span>❌ Rejected</span>
+      <span class="pipe-count" id="c-rejected">0</span>
+    </div>
+    <div class="pipe-pill" id="pill-archived" onclick="setStage('archived')">
+      <span>📦 Archived</span>
+      <span class="pipe-count" id="c-archived">0</span>
+    </div>
+  </div>
+
+  <!-- Search & Filters -->
+  <div class="controls">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search company, phone, location..." oninput="handleSearch()">
+    </div>
+
+    <div class="filters">
+      <select class="select-min" id="waFilter" onchange="handleFilter()">
+        <option value="all">WhatsApp: All</option>
+        <option value="yes">Has WhatsApp</option>
+        <option value="no">No WhatsApp</option>
+        <option value="pending">Pending</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Table Box -->
+  <div class="table-box">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 36px;">#</th>
+            <th>Company</th>
+            <th>WhatsApp</th>
+            <th>Funnel Status</th>
+            <th>Changes & Notes</th>
+            <th>Live Preview</th>
+            <th style="text-align: right;">Action</th>
+          </tr>
+        </thead>
+        <tbody id="tb">
+          <!-- Rendered via JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- Notepad Modal -->
+<div class="modal-bg" id="notepadModal">
+  <div class="modal-card" style="max-width: 680px;">
+    <div class="modal-head">
+      <div class="modal-title">📝 Panel 2 Deployment Notepad</div>
+      <button class="modal-x" onclick="closeNotepad()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div style="font-size:11px; color:var(--muted); margin-bottom:8px;">Auto-saves to browser storage.</div>
+      <textarea class="notepad-textarea" id="notepadText" oninput="saveNotepad()"></textarea>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-sm" onclick="downloadNotepad()">📥 Save as .txt</button>
+      <button class="btn-accent btn-sm" onclick="closeNotepad()">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- Archive Modal -->
+<div class="modal-bg" id="archiveModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div class="modal-title">Archive Company</div>
+      <button class="modal-x" onclick="closeArchiveModal()">✕</button>
+    </div>
+    <div class="modal-body" id="archiveModalText"></div>
+    <div class="modal-foot">
+      <button onclick="closeArchiveModal()">Cancel</button>
+      <button class="btn-danger" onclick="confirmArchive()">Move to Archive</button>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal-bg" id="editModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div class="modal-title">Edit Details</div>
+      <button class="modal-x" onclick="closeEditModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <input type="hidden" id="eId">
+      <div class="fg">
+        <label class="fl">Company Name</label>
+        <input type="text" class="fi" id="eName">
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        <div class="fg">
+          <label class="fl">Phone</label>
+          <input type="text" class="fi" id="ePhone">
+        </div>
+        <div class="fg">
+          <label class="fl">WhatsApp</label>
+          <input type="text" class="fi" id="eWa">
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        <div class="fg">
+          <label class="fl">WhatsApp Status</label>
+          <select class="fs" id="eWaStatus">
+            <option value="yes">Has WhatsApp</option>
+            <option value="no">No WhatsApp</option>
+            <option value="pending">Pending</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label class="fl">Funnel Stage</label>
+          <select class="fs" id="eFunnel">
+            <option value="new">New Lead</option>
+            <option value="contacted">Contacted</option>
+            <option value="interested">Interested</option>
+            <option value="in_process">In Process</option>
+            <option value="paid">Paid</option>
+            <option value="not_decided">Not Decided</option>
+            <option value="rejected">Rejected</option>
+          </select>
+        </div>
+      </div>
+      <div class="fg">
+        <label class="fl">Website Changes</label>
+        <textarea class="ft" id="eChanges"></textarea>
+      </div>
+      <div class="fg">
+        <label class="fl">Internal Notes</label>
+        <textarea class="ft" id="eNotes"></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button onclick="closeEditModal()">Cancel</button>
+      <button class="btn-accent" onclick="saveEdit()">Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast">Saved</div>
+
+<script>
+const INITIAL_DATA = [
+  {
+    "id": 51,
+    "name": "AL FADA RENT A CAR",
+    "folder": "al-fada-rent-a-car",
+    "shortSlug": "al-fada",
+    "phone": "+971 52 929 0500",
+    "whatsapp": "971529290500",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Markaziyah,  Abu Dhabi",
+    "port": 4372,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 52,
+    "name": "Tiger Cars Rental",
+    "folder": "tiger-cars-rental",
+    "shortSlug": "tiger",
+    "phone": "+971 52 697 2432",
+    "whatsapp": "971526972432",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4373,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 53,
+    "name": "Al Sharjah Rent A Car",
+    "folder": "al-sharjah-rent-a-car",
+    "shortSlug": "al-sharjah",
+    "phone": "+971 50 699 9877",
+    "whatsapp": "971506999877",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4374,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 54,
+    "name": "Sunasco Car Rental",
+    "folder": "sunasco-car-rental",
+    "shortSlug": "sunasco",
+    "phone": "+971 54 460 5609",
+    "whatsapp": "971544605609",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Markaziyah,  Abu Dhabi",
+    "port": 4375,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 55,
+    "name": "Aldalil Cars Rental",
+    "folder": "aldalil-cars-rental",
+    "shortSlug": "aldalil",
+    "phone": "+971 50 777 5334",
+    "whatsapp": "971507775334",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4376,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 56,
+    "name": "Atlantic Rent A Car Establishment",
+    "folder": "atlantic-rent-a-car-establishment",
+    "shortSlug": "atlantic-establishment",
+    "phone": "+971 50 580 6622",
+    "whatsapp": "971505806622",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Zahiyah,  Abu Dhabi",
+    "port": 4377,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 57,
+    "name": "Al Fareed Rent A Car",
+    "folder": "al-fareed-rent-a-car",
+    "shortSlug": "al-fareed",
+    "phone": "+971 50 522 7400",
+    "whatsapp": "971505227400",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4378,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 58,
+    "name": "Perfect Rent A Car",
+    "folder": "perfect-rent-a-car",
+    "shortSlug": "perfect",
+    "phone": "+971 50 616 4858",
+    "whatsapp": "971506164858",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4379,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 59,
+    "name": "Al Mahra Rent Car",
+    "folder": "al-mahra-rent-car",
+    "shortSlug": "al-mahra",
+    "phone": "+971 54 777 8358",
+    "whatsapp": "971547778358",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4380,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 60,
+    "name": "Golden Cup Rent A Car",
+    "folder": "golden-cup-rent-a-car",
+    "shortSlug": "golden-cup",
+    "phone": "+971 58 517 1916",
+    "whatsapp": "971585171916",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4381,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 61,
+    "name": "Monte Carlo Rent a Car",
+    "folder": "monte-carlo-rent-a-car",
+    "shortSlug": "monte-carlo",
+    "phone": "+971 56 300 4141",
+    "whatsapp": "971563004141",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Danah,  Abu Dhabi",
+    "port": 4382,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 62,
+    "name": "Seven Seas Rent A Car",
+    "folder": "seven-seas-rent-a-car",
+    "shortSlug": "seven-seas",
+    "phone": "+971 50 811 9306",
+    "whatsapp": "971508119306",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Markaziyah,  Abu Dhabi",
+    "port": 4383,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 63,
+    "name": "Eurocar",
+    "folder": "eurocar",
+    "shortSlug": "eurocar",
+    "phone": "+971 50 445 0072",
+    "whatsapp": "971504450072",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Zahiyah,  Abu Dhabi",
+    "port": 4384,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 64,
+    "name": "ALNASEH Car Rental",
+    "folder": "alnaseh-car-rental",
+    "shortSlug": "alnaseh",
+    "phone": "+971 50 660 7966",
+    "whatsapp": "971506607966",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4385,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 65,
+    "name": "Best Choice Car Rental LLC",
+    "folder": "best-choice-car-rental-llc",
+    "shortSlug": "best-choice",
+    "phone": "+971 50 998 7959",
+    "whatsapp": "971509987959",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4386,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 66,
+    "name": "Creek Rent A Car",
+    "folder": "creek-rent-a-car",
+    "shortSlug": "creek",
+    "phone": "+971 54 411 0100",
+    "whatsapp": "971544110100",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4387,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 67,
+    "name": "Selective Car Rental",
+    "folder": "selective-car-rental",
+    "shortSlug": "selective",
+    "phone": "+971 56 243 0109",
+    "whatsapp": "971562430109",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Social Media / Non-Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4388,
+    "websiteChanges": "",
+    "notes": "Issue: Linktree Profile",
+    "archived": false
+  },
+  {
+    "id": 68,
+    "name": "Aldy Rent A Car",
+    "folder": "aldy-rent-a-car",
+    "shortSlug": "aldy",
+    "phone": "+971 50 677 1216",
+    "whatsapp": "971506771216",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (Server Error)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4389,
+    "websiteChanges": "",
+    "notes": "Issue: HTTP 500",
+    "archived": false
+  },
+  {
+    "id": 69,
+    "name": "Ahlan Rent A Car",
+    "folder": "ahlan-rent-a-car",
+    "shortSlug": "ahlan",
+    "phone": "+971 55 774 9977",
+    "whatsapp": "971557749977",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4390,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 70,
+    "name": "Al Attar Car Rental",
+    "folder": "al-attar-car-rental",
+    "shortSlug": "al-attar",
+    "phone": "+971 50 883 0335",
+    "whatsapp": "971508830335",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4391,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 71,
+    "name": "Makkiayh Car Rental LLC.",
+    "folder": "makkiayh-car-rental-llc",
+    "shortSlug": "makkiayh",
+    "phone": "+971 50 855 1334",
+    "whatsapp": "971508551334",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4392,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 72,
+    "name": "ATU Luxury Cars Dubai",
+    "folder": "atu-luxury-cars-dubai",
+    "shortSlug": "atu-luxury-dubai",
+    "phone": "+971 50 580 7596",
+    "whatsapp": "971505807596",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Social Media / Non-Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4393,
+    "websiteChanges": "",
+    "notes": "Issue: Instagram Profile",
+    "archived": false
+  },
+  {
+    "id": 73,
+    "name": "Armeny Rent A Car Dubai",
+    "folder": "armeny-rent-a-car-dubai",
+    "shortSlug": "armeny-dubai",
+    "phone": "+971 50 955 8865",
+    "whatsapp": "971509558865",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4394,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 74,
+    "name": "ACC Car Rental LLC",
+    "folder": "acc-car-rental-llc",
+    "shortSlug": "acc",
+    "phone": "+971 55 641 9333",
+    "whatsapp": "971556419333",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4395,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 75,
+    "name": "Ashtar Car Rental",
+    "folder": "ashtar-car-rental",
+    "shortSlug": "ashtar",
+    "phone": "+971 54 220 8946",
+    "whatsapp": "971542208946",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4396,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 76,
+    "name": "R Car Rental LLC",
+    "folder": "r-car-rental-llc",
+    "shortSlug": "car-76",
+    "phone": "+971 52 652 5890",
+    "whatsapp": "971526525890",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (404 Not Found)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4397,
+    "websiteChanges": "",
+    "notes": "Issue: HTTP 404",
+    "archived": false
+  },
+  {
+    "id": 77,
+    "name": "Golden Drive Car Rental LLC",
+    "folder": "golden-drive-car-rental-llc",
+    "shortSlug": "golden-drive",
+    "phone": "+971 54 245 7038",
+    "whatsapp": "971542457038",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (SSL Expired/Invalid)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4398,
+    "websiteChanges": "",
+    "notes": "Issue: Site works but SSL certificate is invalid/expired",
+    "archived": false
+  },
+  {
+    "id": 78,
+    "name": "Al Fadhel Car Rental",
+    "folder": "al-fadhel-car-rental",
+    "shortSlug": "al-fadhel",
+    "phone": "+971 52 734 6056",
+    "whatsapp": "971527346056",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4399,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 79,
+    "name": "Easy Deal Car Rental Dubai",
+    "folder": "easy-deal-car-rental-dubai",
+    "shortSlug": "easy-deal-dubai",
+    "phone": "+971 52 869 1930",
+    "whatsapp": "971528691930",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Social Media / Non-Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4400,
+    "websiteChanges": "",
+    "notes": "Issue: Instagram Profile",
+    "archived": false
+  },
+  {
+    "id": 80,
+    "name": "SAS Luxury Car Rentals Dubai",
+    "folder": "sas-luxury-car-rentals-dubai",
+    "shortSlug": "sas-luxurys-dubai",
+    "phone": "+971 54 707 2111",
+    "whatsapp": "971547072111",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (Server Error)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4401,
+    "websiteChanges": "",
+    "notes": "Issue: HTTP 500",
+    "archived": false
+  },
+  {
+    "id": 81,
+    "name": "Rent A Car In Dubai",
+    "folder": "rent-a-car-in-dubai",
+    "shortSlug": "rent-a-car-in-dubai",
+    "phone": "+971 56 981 9772",
+    "whatsapp": "971569819772",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4402,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 82,
+    "name": "R Dynamic Car Rental",
+    "folder": "r-dynamic-car-rental",
+    "shortSlug": "r-dynamic",
+    "phone": "+971 52 414 5956",
+    "whatsapp": "971524145956",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4403,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 83,
+    "name": "SS1 Rent A Car",
+    "folder": "ss1-rent-a-car",
+    "shortSlug": "ss1",
+    "phone": "+971 55 693 7007",
+    "whatsapp": "971556937007",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4404,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 84,
+    "name": "Oro Car Rental",
+    "folder": "oro-car-rental",
+    "shortSlug": "oro",
+    "phone": "+971 56 544 1457",
+    "whatsapp": "971565441457",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4405,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 85,
+    "name": "4AZ Super Car Rentals Dubai",
+    "folder": "4az-super-car-rentals-dubai",
+    "shortSlug": "4az-supers-dubai",
+    "phone": "+971 50 594 6222",
+    "whatsapp": "971505946222",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4406,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 86,
+    "name": "Sast Urus Car Rental",
+    "folder": "sast-urus-car-rental",
+    "shortSlug": "sast-urus",
+    "phone": "+971 58 802 9434",
+    "whatsapp": "971588029434",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4407,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 87,
+    "name": "Venusyum Car Rental",
+    "folder": "venusyum-car-rental",
+    "shortSlug": "venusyum",
+    "phone": "+971 50 511 5839",
+    "whatsapp": "971505115839",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (404 Not Found)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4408,
+    "websiteChanges": "",
+    "notes": "Issue: HTTP 404",
+    "archived": false
+  },
+  {
+    "id": 88,
+    "name": "Driftty Speed Car Rental LLC",
+    "folder": "driftty-speed-car-rental-llc",
+    "shortSlug": "driftty-speed",
+    "phone": "+971 50 464 4555",
+    "whatsapp": "971504644555",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4409,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 89,
+    "name": "Shawaheen Car Rental",
+    "folder": "shawaheen-car-rental",
+    "shortSlug": "shawaheen",
+    "phone": "+971 50 692 2619",
+    "whatsapp": "971506922619",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (DNS / Server Down)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4410,
+    "websiteChanges": "",
+    "notes": "Issue: Domain Name Not Found or Host Unreachable",
+    "archived": false
+  },
+  {
+    "id": 90,
+    "name": "Haiwan Car Rental Dubai",
+    "folder": "haiwan-car-rental-dubai",
+    "shortSlug": "haiwan-dubai",
+    "phone": "+971 52 171 8977",
+    "whatsapp": "971521718977",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4411,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 91,
+    "name": "Al Ramool Rent A Car",
+    "folder": "al-ramool-rent-a-car",
+    "shortSlug": "al-ramool",
+    "phone": "+971 56 511 4114",
+    "whatsapp": "971565114114",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4412,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 92,
+    "name": "Ready To Ride Car Rental",
+    "folder": "ready-to-ride-car-rental",
+    "shortSlug": "ready-to-ride",
+    "phone": "+971 54 555 4644",
+    "whatsapp": "971545554644",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (SSL Expired/Invalid)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4413,
+    "websiteChanges": "",
+    "notes": "Issue: Site works but SSL certificate is invalid/expired",
+    "archived": false
+  },
+  {
+    "id": 93,
+    "name": "Miete Car Rental Company",
+    "folder": "miete-car-rental-company",
+    "shortSlug": "miete-company",
+    "phone": "+971 50 470 8004",
+    "whatsapp": "971504708004",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Social Media / Non-Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4414,
+    "websiteChanges": "",
+    "notes": "Issue: Instagram Profile",
+    "archived": false
+  },
+  {
+    "id": 94,
+    "name": "Prime Keys Car Rental LLC",
+    "folder": "prime-keys-car-rental-llc",
+    "shortSlug": "prime-keys",
+    "phone": "+971 56 155 5590",
+    "whatsapp": "971561555590",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4415,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 95,
+    "name": "Come And Rent Car Rental",
+    "folder": "come-and-rent-car-rental",
+    "shortSlug": "come-and",
+    "phone": "+971 56 424 4309",
+    "whatsapp": "971564244309",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4416,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 96,
+    "name": "Al-Emad Cars & Bus Rental",
+    "folder": "al-emad-cars-bus-rental",
+    "shortSlug": "al-emad-bus",
+    "phone": "+971 55 558 5239",
+    "whatsapp": "971555585239",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Al Garhoud,  Deira,  Dubai",
+    "port": 4417,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 97,
+    "name": "Al Omari Rent A Car",
+    "folder": "al-omari-rent-a-car",
+    "shortSlug": "al-omari",
+    "phone": "+971 56 397 0709",
+    "whatsapp": "971563970709",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4418,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 98,
+    "name": "Atlantic Rent A Car LLC",
+    "folder": "atlantic-rent-a-car-llc",
+    "shortSlug": "atlantic",
+    "phone": "+971 52 777 7835",
+    "whatsapp": "971527777835",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4419,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  },
+  {
+    "id": 99,
+    "name": "Silver Drive Rent A Car",
+    "folder": "silver-drive-rent-a-car",
+    "shortSlug": "silver-drive",
+    "phone": "+971 54 469 0606",
+    "whatsapp": "971544690606",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "Broken Website (SSL Expired/Invalid)",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4420,
+    "websiteChanges": "",
+    "notes": "Issue: Site works but SSL certificate is invalid/expired",
+    "archived": false
+  },
+  {
+    "id": 100,
+    "name": "Harrods Rent A Car LLC",
+    "folder": "harrods-rent-a-car-llc",
+    "shortSlug": "harrods",
+    "phone": "+971 50 723 5243",
+    "whatsapp": "971507235243",
+    "waStatus": "pending",
+    "funnel": "new",
+    "webStatus": "No Website",
+    "location": "Port Saeed,  Deira,  Dubai",
+    "port": 4421,
+    "websiteChanges": "",
+    "notes": "Issue: No website link provided",
+    "archived": false
+  }
+];
+const STORAGE_KEY = 'uae_panel_2_data_v1';
+const NOTEPAD_KEY = 'uae_panel_2_notepad_v1';
+
+let list = [];
+let stage = 'all';
+let q = '';
+let wa = 'all';
+let pendingArchiveId = null;
+
+function init() {
+  const s = localStorage.getItem(STORAGE_KEY);
+  if (s) {
+    try { list = JSON.parse(s); } catch(e) { list = JSON.parse(JSON.stringify(INITIAL_DATA)); }
+  } else {
+    list = JSON.parse(JSON.stringify(INITIAL_DATA));
+    save();
+  }
+
+  const note = localStorage.getItem(NOTEPAD_KEY);
+  document.getElementById('notepadText').value = note || '=== Panel 2 (Sites 51–100) Notes ===\n';
+
+  updateCounts();
+  render();
+}
+
+function save() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+  updateCounts();
+}
+
+function saveNotepad() {
+  localStorage.setItem(NOTEPAD_KEY, document.getElementById('notepadText').value);
+}
+
+function openNotepad() { document.getElementById('notepadModal').classList.add('open'); }
+function closeNotepad() { document.getElementById('notepadModal').classList.remove('open'); }
+function downloadNotepad() {
+  const val = document.getElementById('notepadText').value;
+  const a = document.createElement('a');
+  a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(val);
+  a.download = 'panel2-tracker.txt';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.innerText = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+function updateCounts() {
+  const act = list.filter(c => !c.archived);
+  document.getElementById('c-all').innerText = act.length;
+  document.getElementById('c-interested').innerText = act.filter(c => c.funnel === 'interested').length;
+  document.getElementById('c-in_process').innerText = act.filter(c => c.funnel === 'in_process').length;
+  document.getElementById('c-paid').innerText = act.filter(c => c.funnel === 'paid').length;
+  document.getElementById('c-not_decided').innerText = act.filter(c => c.funnel === 'not_decided').length;
+  document.getElementById('c-rejected').innerText = act.filter(c => c.funnel === 'rejected').length;
+  document.getElementById('c-archived').innerText = list.filter(c => c.archived).length;
+}
+
+function getFiltered() {
+  return list.filter(c => {
+    if (stage === 'archived') {
+      if (!c.archived) return false;
+    } else {
+      if (c.archived) return false;
+      if (stage !== 'all' && c.funnel !== stage) return false;
+    }
+    if (wa !== 'all' && c.waStatus !== wa) return false;
+    if (q) {
+      const match = (c.name + ' ' + c.phone + ' ' + c.location + ' ' + c.folder + ' ' + (c.websiteChanges || '')).toLowerCase();
+      if (!match.includes(q.toLowerCase())) return false;
+    }
+    return true;
+  });
+}
+
+function directAll() {
+  stage = 'all';
+  q = '';
+  wa = 'all';
+  document.getElementById('searchInput').value = '';
+  document.getElementById('waFilter').value = 'all';
+  document.querySelectorAll('.pipe-pill').forEach(p => p.classList.remove('active'));
+  document.getElementById('pill-all')?.classList.add('active');
+  render();
+  toast('Showing all ' + list.length + ' sites');
+}
+
+function setStage(st) {
+  stage = st;
+  document.querySelectorAll('.pipe-pill').forEach(p => p.classList.remove('active'));
+  document.getElementById('pill-' + st)?.classList.add('active');
+  render();
+}
+
+function handleSearch() {
+  q = document.getElementById('searchInput').value.trim();
+  render();
+}
+
+function handleFilter() {
+  wa = document.getElementById('waFilter').value;
+  render();
+}
+
+function render() {
+  const items = getFiltered();
+  const tb = document.getElementById('tb');
+  if (items.length === 0) {
+    tb.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:30px; color:var(--muted);">No matching companies.</td></tr>';
+    return;
+  }
+
+  tb.innerHTML = items.map(c => {
+    const waClass = c.waStatus === 'yes' ? 'tag-yes' : (c.waStatus === 'no' ? 'tag-no' : 'tag-pending');
+    const waLabel = c.waStatus === 'yes' ? '● Has WA' : (c.waStatus === 'no' ? '● No WA' : '● Pending');
+    const waUrl = `https://wa.me/${c.whatsapp}?text=${encodeURIComponent("Hello " + c.name + ", here is your live website.")}`;
+    
+    // Live link (local hub port 3333 or relative)
+    const siteUrl = `/${c.folder}/index.html`;
+
+    return `
+      <tr class="${c.archived ? 'archived' : ''}">
+        <td style="color:var(--subtle); font-family:'JetBrains Mono'; font-size:11px;">${c.id}</td>
+        
+        <td>
+          <a class="co-title" href="${siteUrl}" target="_blank">${c.name} ↗</a>
+          <div class="co-sub">📍 ${c.location}</div>
+          <div class="co-path">/${c.folder}</div>
+        </td>
+
+        <td>
+          <div style="display:flex; align-items:center; gap:6px;">
+            <a class="btn-call" href="tel:${(c.phone||'').replace(/[^0-9+]/g, '')}">📞 Call</a>
+            <span class="tag ${waClass}" onclick="cycleWA(${c.id})" title="Click to cycle status">${waLabel}</span>
+            ${c.waStatus === 'yes' ? `<a class="btn-wa" href="${waUrl}" target="_blank">💬 WA</a>` : ''}
+          </div>
+          <div style="font-size:10px; color:var(--muted); font-family:'JetBrains Mono'; margin-top:2px;">${c.phone}</div>
+        </td>
+
+        <td>
+          <select class="select-status" onchange="changeStatus(${c.id}, this.value)">
+            <option value="new" ${c.funnel === 'new' ? 'selected' : ''}>New Lead</option>
+            <option value="contacted" ${c.funnel === 'contacted' ? 'selected' : ''}>Contacted</option>
+            <option value="interested" ${c.funnel === 'interested' ? 'selected' : ''}>🔥 Interested</option>
+            <option value="in_process" ${c.funnel === 'in_process' ? 'selected' : ''}>⚙️ In Process</option>
+            <option value="paid" ${c.funnel === 'paid' ? 'selected' : ''}>💰 Paid</option>
+            <option value="not_decided" ${c.funnel === 'not_decided' ? 'selected' : ''}>❓ Not Decided</option>
+            <option value="rejected" ${c.funnel === 'rejected' ? 'selected' : ''}>❌ Rejected</option>
+          </select>
+        </td>
+
+        <td>
+          <div class="note-line" onclick="openEdit(${c.id})">
+            ${c.websiteChanges ? `<div class="has-chg">⚙️ ${c.websiteChanges}</div>` : ''}
+            <div>${c.notes || '<span style="color:var(--subtle);">+ Add note / changes</span>'}</div>
+          </div>
+        </td>
+
+        <td>
+          <a class="btn-sm" href="${siteUrl}" target="_blank">🌐 Live Site</a>
+        </td>
+
+        <td style="text-align: right; white-space:nowrap;">
+          <button class="btn-sm" onclick="openEdit(${c.id})">Edit</button>
+          ${c.archived ? `
+            <button class="btn-sm" onclick="restore(${c.id})">Restore</button>
+          ` : `
+            <button class="btn-sm btn-danger" onclick="reqArchive(${c.id})">Archive</button>
+          `}
+        </td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function cycleWA(id) {
+  const c = list.find(x => x.id === id);
+  if (!c) return;
+  c.waStatus = c.waStatus === 'pending' ? 'yes' : (c.waStatus === 'yes' ? 'no' : 'pending');
+  save();
+  render();
+  toast(c.name + ': ' + c.waStatus.toUpperCase());
+}
+
+function changeStatus(id, val) {
+  const c = list.find(x => x.id === id);
+  if (!c) return;
+  c.funnel = val;
+  save();
+  render();
+  toast(c.name + ': ' + val);
+}
+
+function reqArchive(id) {
+  const c = list.find(x => x.id === id);
+  if (!c) return;
+  pendingArchiveId = id;
+  document.getElementById('archiveModalText').innerHTML = 'Move <strong>' + c.name + '</strong> to archive?';
+  document.getElementById('archiveModal').classList.add('open');
+}
+
+function closeArchiveModal() {
+  document.getElementById('archiveModal').classList.remove('open');
+  pendingArchiveId = null;
+}
+
+function confirmArchive() {
+  if (!pendingArchiveId) return;
+  const c = list.find(x => x.id === pendingArchiveId);
+  if (c) {
+    c.archived = true;
+    save();
+    render();
+    toast('Moved to Archive');
+  }
+  closeArchiveModal();
+}
+
+function restore(id) {
+  const c = list.find(x => x.id === id);
+  if (c) {
+    c.archived = false;
+    save();
+    render();
+    toast('Restored');
+  }
+}
+
+function openEdit(id) {
+  const c = list.find(x => x.id === id);
+  if (!c) return;
+  document.getElementById('eId').value = c.id;
+  document.getElementById('eName').value = c.name;
+  document.getElementById('ePhone').value = c.phone;
+  document.getElementById('eWa').value = c.whatsapp;
+  document.getElementById('eWaStatus').value = c.waStatus;
+  document.getElementById('eFunnel').value = c.funnel;
+  document.getElementById('eChanges').value = c.websiteChanges || '';
+  document.getElementById('eNotes').value = c.notes || '';
+  document.getElementById('editModal').classList.add('open');
+}
+
+function closeEditModal() { document.getElementById('editModal').classList.remove('open'); }
+
+function saveEdit() {
+  const id = parseInt(document.getElementById('eId').value, 10);
+  const c = list.find(x => x.id === id);
+  if (!c) return;
+  c.name = document.getElementById('eName').value.trim();
+  c.phone = document.getElementById('ePhone').value.trim();
+  c.whatsapp = document.getElementById('eWa').value.replace(/[^0-9]/g, '');
+  c.waStatus = document.getElementById('eWaStatus').value;
+  c.funnel = document.getElementById('eFunnel').value;
+  c.websiteChanges = document.getElementById('eChanges').value.trim();
+  c.notes = document.getElementById('eNotes').value.trim();
+  save();
+  closeEditModal();
+  render();
+  toast('Saved');
+}
+
+function exportCSV() {
+  const headers = ['ID', 'Company', 'Folder', 'Phone', 'WhatsApp', 'WA Status', 'Funnel', 'Changes', 'Notes', 'Archived'];
+  const rows = list.map(c => [
+    c.id, '"' + c.name.replace(/"/g, '""') + '"', c.folder, '"' + c.phone + '"', c.whatsapp, c.waStatus, c.funnel,
+    '"' + (c.websiteChanges||'').replace(/"/g, '""') + '"', '"' + (c.notes||'').replace(/"/g, '""') + '"', c.archived ? 'YES' : 'NO'
+  ]);
+  const csv = 'data:text/csv;charset=utf-8,' + [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+  const a = document.createElement('a');
+  a.href = encodeURI(csv);
+  a.download = 'panel2_leads.csv';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeArchiveModal();
+    closeEditModal();
+    closeNotepad();
+  }
+});
+
+window.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

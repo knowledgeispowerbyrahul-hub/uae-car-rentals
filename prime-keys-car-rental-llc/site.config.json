@@ -1,0 +1,18 @@
+{
+  "name": "Prime Keys Car Rental LLC",
+  "short": "Prime Keys",
+  "domain": "https://www.prime-keys-car-rental-llc.ae",
+  "phone": "+971 56 155 5590",
+  "whatsapp": "971561555590",
+  "email": "booking@primekeyscarrentalllc.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Prime Keys in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Prime+Keys+Car+Rental+LLC/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

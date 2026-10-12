@@ -1,0 +1,18 @@
+{
+  "name": "Al Barsha Rent A Car",
+  "short": "AlBarshaRAC",
+  "domain": "https://www.albarsharentacar.ae",
+  "phone": "+971 55 541 1362",
+  "whatsapp": "971555411362",
+  "email": "contact@albarsharentacar.ae",
+  "address": "Al Barsha, Opp. Mall of the Emirates, Dubai, UAE",
+  "hours": "Open 24/7",
+  "tagline": "Top-rated car rentals in Al Barsha & all Dubai communities. Transparent pricing & free delivery.",
+  "googleMaps": "https://www.google.com/maps/place/Rent+a+car+Al+barsha/data=!4m7!3m6!1s0x3e5f6b4061ab3c1f:0xbadf40c1b921b4a5!8m2!3d25.1165714!4d55.1957994",
+  "theme": {
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7",
+    "text": "#0f172a"
+  }
+}

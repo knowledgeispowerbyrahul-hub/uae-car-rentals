@@ -1,0 +1,18 @@
+{
+  "name": "SS1 Rent A Car",
+  "short": "SS1",
+  "domain": "https://www.ss1-rent-a-car.ae",
+  "phone": "+971 55 693 7007",
+  "whatsapp": "971556937007",
+  "email": "booking@ss1rentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by SS1 in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SS1+Rent+a+Car/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

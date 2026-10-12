@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://instagram.com/mt.car.rent/sitemap.xml

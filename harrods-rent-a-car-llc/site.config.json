@@ -1,0 +1,18 @@
+{
+  "name": "Harrods Rent A Car LLC",
+  "short": "Harrods",
+  "domain": "https://www.harrods-rent-a-car-llc.ae",
+  "phone": "+971 50 723 5243",
+  "whatsapp": "971507235243",
+  "email": "booking@harrodsrentacarllc.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Harrods in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Harrods+Rent+a+Car+LLC/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

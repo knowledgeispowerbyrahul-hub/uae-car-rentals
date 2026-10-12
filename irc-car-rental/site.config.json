@@ -1,0 +1,18 @@
+{
+  "name": "IRC CAR RENTAL",
+  "short": "IRC",
+  "domain": "https://www.luxirc.com",
+  "phone": "+971 58 294 1116",
+  "whatsapp": "971582941116",
+  "email": "booking@irccarrental.ae",
+  "address": "Al Quoz 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by IRC in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/IRC+CAR+RENTAL/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Fast Motors Car Rental LLC",
+  "short": "FastMotors",
+  "domain": "https://www.fastmotorscarrental.ae",
+  "phone": "+971 50 754 4408",
+  "whatsapp": "971507544408",
+  "email": "info@fastmotorscarrental.ae",
+  "address": "Al Barsha / Al Quoz, Sheikh Zayed Road, Dubai, UAE",
+  "hours": "Open 24/7",
+  "tagline": "High-speed supercar & prestige car rental in Dubai. Direct booking & instant delivery.",
+  "googleMaps": "https://www.google.com/maps/place/FAST+MOTORS+CAR+RENTAL+LLC/data=!4m7!3m6!1s0x3e5f6bd9ba14fe33:0x87b718c1555c7fe8!8m2!3d25.1164353!4d55.2045117",
+  "theme": {
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6",
+    "text": "#0f172a"
+  }
+}

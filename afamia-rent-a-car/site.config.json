@@ -1,0 +1,18 @@
+{
+  "name": "Afamia Rent a Car",
+  "short": "Afamia",
+  "domain": "https://www.afamia-rent-a-car.ae",
+  "phone": "+971 50 791 1711",
+  "whatsapp": "971507911711",
+  "email": "booking@afamiarentacar.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Afamia in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Afamia+Rent+a+Car/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

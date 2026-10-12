@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.apple-rent-a-car-me-10.ae/sitemap.xml

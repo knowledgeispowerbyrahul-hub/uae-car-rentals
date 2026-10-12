@@ -1,0 +1,18 @@
+{
+  "name": "ALNASEH Car Rental",
+  "short": "ALNASEH",
+  "domain": "https://www.alnaseh-car-rental.ae",
+  "phone": "+971 50 660 7966",
+  "whatsapp": "971506607966",
+  "email": "booking@alnasehcarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by ALNASEH in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/ALNASEH+Car+Rental/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

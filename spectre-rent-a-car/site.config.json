@@ -1,0 +1,18 @@
+{
+  "name": "Spectre Rent A Car",
+  "short": "Spectre",
+  "domain": "https://instagram.com/spectre_rent",
+  "phone": "+971 56 773 3374",
+  "whatsapp": "971567733374",
+  "email": "booking@spectrerentacar.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Spectre in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Spectre+Rent+A+Car/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

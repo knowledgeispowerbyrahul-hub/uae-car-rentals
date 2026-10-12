@@ -1,0 +1,18 @@
+{
+  "name": "PLAZA CAR RENTAL",
+  "short": "PLAZA",
+  "domain": "https://www.instagram.com/plazacarsrental",
+  "phone": "+971 50 508 7729",
+  "whatsapp": "971505087729",
+  "email": "booking@plazacarrental.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by PLAZA in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/PLAZA+CAR+RENTAL/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

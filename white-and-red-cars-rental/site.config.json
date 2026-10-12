@@ -1,0 +1,18 @@
+{
+  "name": "White and red cars rental",
+  "short": "White and",
+  "domain": "https://www.white-and-red-cars-rental.ae",
+  "phone": "+971 52 580 2027",
+  "whatsapp": "971525802027",
+  "email": "booking@whiteandredcarsrental.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by White and in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/White+and+red+cars+rental/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

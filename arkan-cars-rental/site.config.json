@@ -1,0 +1,18 @@
+{
+  "name": "Arkan Cars Rental",
+  "short": "Arkan Cars",
+  "domain": "https://www.arkan-cars-rental.ae",
+  "phone": "+971 50 775 7876",
+  "whatsapp": "971507757876",
+  "email": "booking@arkancarsrental.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Arkan Cars in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Arkan+Cars+Rental/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

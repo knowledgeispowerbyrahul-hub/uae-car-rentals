@@ -1,0 +1,18 @@
+{
+  "name": "On Track Car Rentals",
+  "short": "On Track",
+  "domain": "https://ontrackcarrentals.com",
+  "phone": "+971 50 236 6699",
+  "whatsapp": "971502366699",
+  "email": "booking@ontrackcarrentals.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by On Track in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/On+Track+Car+Rentals/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

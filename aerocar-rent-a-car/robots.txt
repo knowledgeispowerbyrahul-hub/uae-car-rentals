@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://aerocar-rent.com/sitemap.xml

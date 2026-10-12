@@ -1,0 +1,9 @@
+{
+  "name": "pro-car-rent-al-salam-street",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node serve.js"
+  }
+}

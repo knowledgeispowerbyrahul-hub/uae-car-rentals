@@ -1,0 +1,18 @@
+{
+  "name": "Swift Car Rental | No Security Deposit",
+  "short": "Swift",
+  "domain": "https://www.swiftcarrental.ae",
+  "phone": "+971 54 266 1154",
+  "whatsapp": "971542661154",
+  "email": "hello@swiftcarrental.ae",
+  "address": "Al Barsha South, Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Zero deposit car rental in Dubai. Instant verification, no credit card block, 100% stress-free.",
+  "googleMaps": "https://www.google.com/maps/place/Swift+Car+Rental+%7C+No+Security+Deposit/data=!4m7!3m6!1s0x3e5f6bf39645b3d3:0xc2f305f05205969d!8m2!3d25.1072614!4d55.1984091",
+  "theme": {
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5",
+    "text": "#0f172a"
+  }
+}

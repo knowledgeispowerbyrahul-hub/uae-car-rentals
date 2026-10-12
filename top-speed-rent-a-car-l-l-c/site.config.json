@@ -1,0 +1,18 @@
+{
+  "name": "Top Speed Rent A Car L.L.C.",
+  "short": "Top Speed",
+  "domain": "https://www.top-speed-rent-a-car-l-l-c.ae",
+  "phone": "+971 55 860 0067",
+  "whatsapp": "971558600067",
+  "email": "booking@topspeedrentacarllc.ae",
+  "address": "Al Danah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Top Speed in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Top+Speed+Rent+A+Car+L.L.C./",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

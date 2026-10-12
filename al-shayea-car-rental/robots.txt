@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.al-shayea-car-rental.ae/sitemap.xml

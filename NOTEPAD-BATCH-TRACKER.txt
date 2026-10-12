@@ -1,0 +1,37 @@
+=====================================================
+UAE CAR RENTAL NETWORK - DEPLOYMENT & NOTEPAD TRACKER
+=====================================================
+
+Active Account: knowledgeispowerbyrahul-hub (GitHub)
+Target: 10 Independent Repositories Created & Live
+
+[BATCH 1: SITES 1 to 10 - STATUS: 10/10 REPOS LIVE ON GITHUB ✅]
+ 1. qas-dubai-car-rental           -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/qas-dubai-car-rental
+                                      [x] Vercel: https://qas-rent.vercel.app
+ 2. fast-motors-car-rental        -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/fast-motors-car-rental
+ 3. adres-car-rental              -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/adres-car-rental
+ 4. al-barsha-rent-a-car          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-barsha-rent-a-car
+ 5. swift-car-rental              -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/swift-car-rental
+ 6. al-wissam-car-rental          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-wissam-car-rental
+ 7. al-fadhel-car-rental          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-fadhel-car-rental
+ 8. armani-car-rental-no-deposit  -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/armani-car-rental-no-deposit
+ 9. al-andalous-rent-a-car        -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-andalous-rent-a-car
+10. al-tameem-cars-buses-rental  -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-tameem-cars-buses-rental
+
+[BATCH 2: SITES 11 to 20 - STATUS: QUEUED]
+Target Account: [Login to next email / account]
+11. al-dawama-car-rental
+12. al-sharjah-rent-a-car
+13. al-mustaqbal-car-rental
+14. al-ghalya-rent-a-car-llc
+15. al-jasfa-car-rental-l-l-c
+16. al-fada-rent-a-car
+17. al-fada-rent-a-car-br1
+18. al-fareed-rent-a-car
+19. al-kafi-rent-a-car
+20. al-mahra-rent-car
+
+[NOTES & LOGS]:
+- Short Vercel URL rule: Keep names short (e.g. qas-rent, fast-motors, barsha-rent).
+- All 10 independent GitHub repos for Batch 1 are live under @knowledgeispowerbyrahul-hub.
+- 100 websites complete list is in: BATCH-1-100-WEBSITES.md and BATCH-1-100-WEBSITES.txt.

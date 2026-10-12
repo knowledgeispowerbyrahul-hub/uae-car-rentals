@@ -1,0 +1,18 @@
+{
+  "name": "AUTO PLUS RENT A CAR ABU DHABI",
+  "short": "AUTO PLUS",
+  "domain": "https://wa.me/qr/OD54N764FRFQO1",
+  "phone": "+971 50 977 2483",
+  "whatsapp": "971509772483",
+  "email": "booking@autoplusrentacarabudhabi.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by AUTO PLUS in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AUTO+PLUS+RENT+A+CAR/",
+  "theme": {
+    "name": "obsidian",
+    "primary": "#334155",
+    "secondary": "#64748b",
+    "lightGold": "#f1f5f9"
+  }
+}

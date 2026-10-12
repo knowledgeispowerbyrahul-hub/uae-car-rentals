@@ -1,0 +1,18 @@
+{
+  "name": "Sast Urus Car Rental",
+  "short": "Sast Urus",
+  "domain": "https://www.sast-urus-car-rental.ae",
+  "phone": "+971 58 802 9434",
+  "whatsapp": "971588029434",
+  "email": "booking@sasturuscarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Sast Urus in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Sast+Urus+Car+Rental/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "4AZ Super Car Rentals Dubai",
+  "short": "4AZ Super",
+  "domain": "http://www.4az.ae",
+  "phone": "+971 50 594 6222",
+  "whatsapp": "971505946222",
+  "email": "booking@4azsupercarrentalsdubai.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by 4AZ Super in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/4AZ+Super+Car+Rentals+Dubai/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

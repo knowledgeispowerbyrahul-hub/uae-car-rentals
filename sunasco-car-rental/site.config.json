@@ -1,0 +1,18 @@
+{
+  "name": "Sunasco Car Rental",
+  "short": "Sunasco",
+  "domain": "https://www.sunasco-car-rental.ae",
+  "phone": "+971 54 460 5609",
+  "whatsapp": "971544605609",
+  "email": "booking@sunascocarrental.ae",
+  "address": "Al Markaziyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Sunasco in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/SUNASCO+CAR+RENTAL/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

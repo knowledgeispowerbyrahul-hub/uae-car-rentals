@@ -1,0 +1,18 @@
+{
+  "name": "Al Ramool Rent A Car",
+  "short": "Al Ramool",
+  "domain": "https://www.al-ramool-rent-a-car.ae",
+  "phone": "+971 56 511 4114",
+  "whatsapp": "971565114114",
+  "email": "booking@alramoolrentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Al Ramool in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AL+RAMOOL+RENT+A+CAR/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

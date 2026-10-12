@@ -1,0 +1,18 @@
+{
+  "name": "DUBAI.RENT",
+  "short": "DUBAI.RENT",
+  "domain": "https://www.dubai-rent.ae",
+  "phone": "+971 52 266 5566",
+  "whatsapp": "971522665566",
+  "email": "booking@dubairent.ae",
+  "address": "Al Barsha 1,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by DUBAI.RENT in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/DUBAI.RENT/",
+  "theme": {
+    "name": "amber",
+    "primary": "#d97706",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

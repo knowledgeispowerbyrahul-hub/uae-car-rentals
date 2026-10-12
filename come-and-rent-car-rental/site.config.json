@@ -1,0 +1,18 @@
+{
+  "name": "Come And Rent Car Rental",
+  "short": "Come And",
+  "domain": "https://www.come-and-rent-car-rental.ae",
+  "phone": "+971 56 424 4309",
+  "whatsapp": "971564244309",
+  "email": "booking@comeandrentcarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Come And in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/car+rental+Come+And+Rent/",
+  "theme": {
+    "name": "indigo",
+    "primary": "#6366f1",
+    "secondary": "#818cf8",
+    "lightGold": "#e0e7ff"
+  }
+}

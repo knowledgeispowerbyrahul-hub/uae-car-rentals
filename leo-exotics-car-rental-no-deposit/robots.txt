@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.leo-exotics-car-rental-no-deposit.ae/sitemap.xml

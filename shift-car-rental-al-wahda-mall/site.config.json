@@ -1,0 +1,18 @@
+{
+  "name": "Shift Car Rental | Al Wahda Mall",
+  "short": "Shift",
+  "domain": "https://www.shift-car-rental-al-wahda-mall.ae",
+  "phone": "+971 50 476 3544",
+  "whatsapp": "971504763544",
+  "email": "booking@shiftcarrentalalwahdamall.ae",
+  "address": "Al Wahda Mall,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Shift in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Shift+Car+Rental+%7C+Al+Wahda+Mall/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

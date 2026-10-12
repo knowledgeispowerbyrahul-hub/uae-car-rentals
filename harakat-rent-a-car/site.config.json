@@ -1,0 +1,18 @@
+{
+  "name": "Harakat Rent a Car",
+  "short": "Harakat",
+  "domain": "https://www.harakat-rent-a-car.ae",
+  "phone": "+971 50 810 5080",
+  "whatsapp": "971508105080",
+  "email": "booking@harakatrentacar.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Harakat in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Harakat+Rent+a+Car/",
+  "theme": {
+    "name": "gold",
+    "primary": "#d4af37",
+    "secondary": "#f59e0b",
+    "lightGold": "#fef3c7"
+  }
+}

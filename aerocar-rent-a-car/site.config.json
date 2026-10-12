@@ -1,0 +1,18 @@
+{
+  "name": "AeroCar Rent A Car",
+  "short": "AeroCar",
+  "domain": "http://aerocar-rent.com",
+  "phone": "+971 55 145 5788",
+  "whatsapp": "971551455788",
+  "email": "booking@aerocarrentacar.ae",
+  "address": "Airport Road,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by AeroCar in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/AeroCar+Rent+A+Car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

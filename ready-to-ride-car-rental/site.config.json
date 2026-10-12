@@ -1,0 +1,18 @@
+{
+  "name": "Ready To Ride Car Rental",
+  "short": "Ready To",
+  "domain": "http://www.rtr.ae",
+  "phone": "+971 54 555 4644",
+  "whatsapp": "971545554644",
+  "email": "booking@readytoridecarrental.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Ready To in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Ready+To+Ride/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

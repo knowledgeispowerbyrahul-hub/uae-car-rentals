@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.r-dynamic-car-rental.ae/sitemap.xml

@@ -1,0 +1,18 @@
+{
+  "name": "Aldy Rent A Car",
+  "short": "Aldy",
+  "domain": "http://aldy.ae",
+  "phone": "+971 50 677 1216",
+  "whatsapp": "971506771216",
+  "email": "booking@aldyrentacar.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Aldy in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Aldy+Rent+A+Car/",
+  "theme": {
+    "name": "teal",
+    "primary": "#0891b2",
+    "secondary": "#06b6d4",
+    "lightGold": "#cffafe"
+  }
+}

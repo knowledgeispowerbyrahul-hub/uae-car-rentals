@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.4az.ae/sitemap.xml

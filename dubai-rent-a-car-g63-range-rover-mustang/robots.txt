@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.dubai-rent-a-car-g63-range-rover-mustang.ae/sitemap.xml

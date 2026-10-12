@@ -1,0 +1,18 @@
+{
+  "name": "Armeny Rent A Car Dubai",
+  "short": "Armeny Dubai",
+  "domain": "https://www.armeny-rent-a-car-dubai.ae",
+  "phone": "+971 50 955 8865",
+  "whatsapp": "971509558865",
+  "email": "booking@armenyrentacardubai.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Armeny Dubai in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Armeny+Rent+A+Car+Dubai/",
+  "theme": {
+    "name": "emerald",
+    "primary": "#059669",
+    "secondary": "#10b981",
+    "lightGold": "#d1fae5"
+  }
+}

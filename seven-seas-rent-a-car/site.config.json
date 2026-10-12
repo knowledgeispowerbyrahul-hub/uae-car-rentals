@@ -1,0 +1,18 @@
+{
+  "name": "Seven Seas Rent A Car",
+  "short": "Seven Seas",
+  "domain": "https://www.seven-seas-rent-a-car.ae",
+  "phone": "+971 50 811 9306",
+  "whatsapp": "971508119306",
+  "email": "booking@sevenseasrentacar.ae",
+  "address": "Al Markaziyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Seven Seas in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Seven+Seas+Rent+A+Car/",
+  "theme": {
+    "name": "sapphire",
+    "primary": "#0284c7",
+    "secondary": "#0ea5e9",
+    "lightGold": "#e0f2fe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Driftty Speed Car Rental LLC",
+  "short": "Driftty Speed",
+  "domain": "https://www.driftty-speed-car-rental-llc.ae",
+  "phone": "+971 50 464 4555",
+  "whatsapp": "971504644555",
+  "email": "booking@drifttyspeedcarrentalllc.ae",
+  "address": "Port Saeed,  Deira,  Dubai, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Driftty Speed in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Driftty+Speed+Car+Rental+LLC/",
+  "theme": {
+    "name": "crimson",
+    "primary": "#e11d48",
+    "secondary": "#f43f5e",
+    "lightGold": "#ffe4e6"
+  }
+}

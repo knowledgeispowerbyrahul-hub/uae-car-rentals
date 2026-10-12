@@ -1,0 +1,18 @@
+{
+  "name": "Atlantic Rent A Car Establishment",
+  "short": "Atlantic Establishment",
+  "domain": "https://www.atlantic-rent-a-car-establishment.ae",
+  "phone": "+971 50 580 6622",
+  "whatsapp": "971505806622",
+  "email": "booking@atlanticrentacarestablishment.ae",
+  "address": "Al Zahiyah,  Abu Dhabi, United Arab Emirates",
+  "hours": "Open 24/7",
+  "tagline": "Premium car rental services by Atlantic Establishment in Dubai. Instant delivery & transparent booking.",
+  "googleMaps": "https://www.google.com/maps/place/Atlantic+Rent+A+Car+Establishment/",
+  "theme": {
+    "name": "violet",
+    "primary": "#7c3aed",
+    "secondary": "#a855f7",
+    "lightGold": "#f3e8ff"
+  }
+}
