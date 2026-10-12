@@ -2,36 +2,32 @@
 UAE CAR RENTAL NETWORK - DEPLOYMENT & NOTEPAD TRACKER
 =====================================================
 
-Active Account: knowledgeispowerbyrahul-hub (GitHub)
-Target: 10 Independent Repositories Created & Live
+Active GitHub: knowledgeispowerbyrahul-hub
+Active Vercel: knowledgeispowerbyrahul-8560 (carrental3)
 
-[BATCH 1: SITES 1 to 10 - STATUS: 10/10 REPOS LIVE ON GITHUB ✅]
- 1. qas-dubai-car-rental           -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/qas-dubai-car-rental
-                                      [x] Vercel: https://qas-rent.vercel.app
- 2. fast-motors-car-rental        -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/fast-motors-car-rental
- 3. adres-car-rental              -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/adres-car-rental
- 4. al-barsha-rent-a-car          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-barsha-rent-a-car
- 5. swift-car-rental              -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/swift-car-rental
- 6. al-wissam-car-rental          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-wissam-car-rental
- 7. al-fadhel-car-rental          -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-fadhel-car-rental
- 8. armani-car-rental-no-deposit  -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/armani-car-rental-no-deposit
- 9. al-andalous-rent-a-car        -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-andalous-rent-a-car
-10. al-tameem-cars-buses-rental  -> [x] GitHub: https://github.com/knowledgeispowerbyrahul-hub/al-tameem-cars-buses-rental
+=====================================================
+[1] LIVE CENTRAL REPOSITORY (ALL 100 WEBSITES):
+GitHub: https://github.com/knowledgeispowerbyrahul-hub/uae-car-rentals
+Contains: All 100 standalone websites, Panel 1, Panel 2, CRM Viewer
 
-[BATCH 2: SITES 11 to 20 - STATUS: QUEUED]
-Target Account: [Login to next email / account]
-11. al-dawama-car-rental
-12. al-sharjah-rent-a-car
-13. al-mustaqbal-car-rental
-14. al-ghalya-rent-a-car-llc
-15. al-jasfa-car-rental-l-l-c
-16. al-fada-rent-a-car
-17. al-fada-rent-a-car-br1
-18. al-fareed-rent-a-car
-19. al-kafi-rent-a-car
-20. al-mahra-rent-car
+=====================================================
+[2] LIVE MANAGEMENT PANELS (50-50 SPLIT WITH CALL BUTTONS):
+Panel 1 (Sites 1 to 50):   https://panel1-uae.vercel.app
+Panel 2 (Sites 51 to 100):  https://panel2-uae.vercel.app
+Features:
+- 📞 Direct Call Button (tel:...) in every row
+- 💬 WhatsApp Direct Chat
+- Pipeline Status Dropdown
+- Real-time Search & WA Filters
+- Built-in Persistent Notepad
+- 1-Click Toggle between Panel 1 & Panel 2
 
-[NOTES & LOGS]:
-- Short Vercel URL rule: Keep names short (e.g. qas-rent, fast-motors, barsha-rent).
-- All 10 independent GitHub repos for Batch 1 are live under @knowledgeispowerbyrahul-hub.
-- 100 websites complete list is in: BATCH-1-100-WEBSITES.md and BATCH-1-100-WEBSITES.txt.
+=====================================================
+[3] INDEPENDENT STANDALONE SITES LIVE ON VERCEL:
+- Site 1:  https://qas-rent-tan.vercel.app (Short name: qas-rent)
+- Site 2:  https://fast-motors-rent-resxspf35-carrental3.vercel.app (Short name: fast-motors-rent)
+- Site 3:  https://adres-rent-3418o6o97-carrental3.vercel.app (Short name: adres-rent)
+
+=====================================================
+[4] LOCAL DEV SERVER (ALL 427 SITES):
+http://localhost:3333
