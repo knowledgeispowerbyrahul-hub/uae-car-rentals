@@ -37,7 +37,7 @@ if (fs.existsSync(dbFile)) {
   try { deployedDb = JSON.parse(fs.readFileSync(dbFile, 'utf8')); } catch(e) {}
 }
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 60; i++) {
   const row = parseCSVLine(rawCsv[i]);
   const name = row[0].trim();
   if (!name) continue;
@@ -73,50 +73,67 @@ for (let i = 1; i <= 100; i++) {
   const locationRaw = row.slice(8).join(', ').trim() || 'Dubai, United Arab Emirates';
   const port = 4321 + i;
 
-  // Derive short name for Vercel
-  let shortSlug = uniqueSlug
-    .replace(/-car-rental|-rent-a-car|-cars-rental|-rent-car|-cars|-rental|-llc|-branch/gi, '')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-  if (!shortSlug || shortSlug.length < 3) shortSlug = 'car-' + i;
+  // City detection (Dubai, Abu Dhabi, Sharjah, Ajman)
+  let city = 'Dubai';
+  const locLower = locationRaw.toLowerCase();
+  if (locLower.includes('abu dhabi') || locLower.includes('al reem') || locLower.includes('al zahiyah') || locLower.includes('al danah') || locLower.includes('khalidiya') || locLower.includes('mussafah')) {
+    city = 'Abu Dhabi';
+  } else if (locLower.includes('sharjah') || locLower.includes('al majaz') || locLower.includes('al nahda')) {
+    city = 'Sharjah';
+  } else if (locLower.includes('ajman')) {
+    city = 'Ajman';
+  }
 
+  const cityClass = city === 'Dubai' ? 'city-dubai' : (city === 'Abu Dhabi' ? 'city-abudhabi' : (city === 'Sharjah' ? 'city-sharjah' : 'city-ajman'));
   const liveUrl = (deployedDb[i] && deployedDb[i].liveUrl) ? deployedDb[i].liveUrl : `/${uniqueSlug}/index.html`;
 
   allClients.push({
     id: i,
     name,
     folder: uniqueSlug,
-    shortSlug,
     phone,
     whatsapp: waDigits,
     waStatus,
     funnel: i <= 5 ? 'in_process' : 'new',
     webStatus,
+    city,
+    cityClass,
     location: locationRaw,
     port,
     liveUrl,
-    websiteChanges: i <= 5 ? 'Demo server active on port ' + port : '',
+    assignedTo: i <= 30 ? 'Rahul' : 'Het',
+    websiteChanges: '',
     notes: issueDetails ? 'Issue: ' + issueDetails : '',
     archived: false
   });
 }
 
-const panel1Clients = allClients.slice(0, 50);
-const panel2Clients = allClients.slice(50, 100);
+// Exactly 30 websites for Rahul (#1 to #30) and 30 websites for Het (#31 to #60)
+const rahulClients = allClients.slice(0, 30);
+const hetClients = allClients.slice(30, 60);
 
-console.log(`Panel 1 has ${panel1Clients.length} clients (#1 to #50)`);
-console.log(`Panel 2 has ${panel2Clients.length} clients (#51 to #100)`);
+console.log(`Rahul's Panel has ${rahulClients.length} clients (#1 to #30)`);
+console.log(`Het's Panel has ${hetClients.length} clients (#31 to #60)`);
 
-function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
+// Read full 400+ notepad tracker text to embed inside the modal
+let trackerTxt = '';
+const trackerFile = path.join(WORKSPACE, 'LIVE-AND-PENDING-WEBSITES.txt');
+if (fs.existsSync(trackerFile)) {
+  trackerTxt = fs.readFileSync(trackerFile, 'utf8');
+}
+
+function generatePanelHtml(panelNum, ownerName, clients, otherPanelUrl, otherPanelLabel) {
   const startId = clients[0].id;
   const endId = clients[clients.length - 1].id;
+  const accentColor = panelNum === 1 ? '#38bdf8' : '#a855f7';
+  const accentGlow = panelNum === 1 ? 'rgba(56, 189, 248, 0.15)' : 'rgba(168, 85, 247, 0.15)';
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UAE Car Rental – Panel ${panelNum} (Sites ${startId}–${endId})</title>
+<title>UAE Car Rental – ${ownerName}'s Sales Panel (Sites ${startId}–${endId})</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -130,8 +147,10 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     --text: #e2e8f0;
     --muted: #717d96;
     --subtle: #4a5568;
-    --accent: ${panelNum === 1 ? '#38bdf8' : '#a855f7'};
-    --accent-glow: ${panelNum === 1 ? 'rgba(56, 189, 248, 0.15)' : 'rgba(168, 85, 247, 0.15)'};
+    --accent: ${accentColor};
+    --accent-glow: ${accentGlow};
+    --green: #10b981;
+    --green-glow: rgba(16, 185, 129, 0.18);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -155,7 +174,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     gap: 16px;
     position: sticky;
     top: 0;
-    background: rgba(9, 10, 15, 0.94);
+    background: rgba(9, 10, 15, 0.96);
     backdrop-filter: blur(12px);
     z-index: 100;
   }
@@ -165,7 +184,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     gap: 12px;
   }
   .h-logo {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     color: #fff;
     display: flex;
@@ -173,127 +192,136 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     gap: 8px;
   }
   .h-dot {
-    width: 8px;
-    height: 8px;
+    width: 9px;
+    height: 9px;
     border-radius: 50%;
     background: #10b981;
-    box-shadow: 0 0 8px #10b981;
+    box-shadow: 0 0 10px #10b981;
   }
   .panel-badge {
     background: var(--accent-glow);
-    border: 1px solid var(--accent);
     color: var(--accent);
+    border: 1px solid var(--accent);
     font-size: 11px;
     font-weight: 700;
-    padding: 2px 8px;
-    border-radius: 4px;
-    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.3px;
   }
   .h-actions {
     display: flex;
     align-items: center;
     gap: 8px;
   }
-
   button, .btn {
-    font-family: inherit;
-    font-size: 12px;
-    font-weight: 500;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
     padding: 6px 12px;
     border-radius: 6px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text);
+    font-size: 12px;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.12s ease;
+    font-family: inherit;
+    transition: all 0.12s;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    white-space: nowrap;
   }
   button:hover, .btn:hover {
-    background: var(--surface-hover);
     border-color: var(--border-light);
     color: #fff;
+    background: var(--surface-hover);
   }
   .btn-accent {
     background: var(--accent);
-    color: #04101e;
+    border-color: var(--accent);
+    color: #000;
     font-weight: 600;
-    border: none;
   }
   .btn-accent:hover {
-    filter: brightness(1.15);
+    filter: brightness(1.1);
     color: #000;
+    background: var(--accent);
   }
   .btn-call {
-    background: rgba(16, 185, 129, 0.15);
-    border: 1px solid #10b981;
-    color: #34d399;
+    background: #10b981 !important;
+    border-color: #10b981 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 5px 10px !important;
+    border-radius: 5px !important;
+    box-shadow: 0 2px 8px var(--green-glow);
+    font-size: 11px !important;
+  }
+  .btn-call:hover {
+    background: #059669 !important;
+    transform: translateY(-1px);
+  }
+  .btn-wa {
+    background: #25d366 !important;
+    border-color: #25d366 !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 5px 9px !important;
+    border-radius: 5px !important;
+    font-size: 11px !important;
+  }
+  .btn-wa:hover {
+    background: #128c7e !important;
+    transform: translateY(-1px);
+  }
+  .btn-visit {
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: #38bdf8;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 11px;
     font-weight: 600;
     text-decoration: none;
-    padding: 2px 7px;
-    font-size: 11px;
-    border-radius: 4px;
     display: inline-flex;
     align-items: center;
     gap: 4px;
-    transition: all 0.12s ease;
+    transition: all 0.15s;
+    white-space: nowrap;
   }
-  .btn-call:hover {
-    background: #10b981;
-    color: #04101e;
-    border-color: #10b981;
-  }
-  .btn-wa {
-    background: rgba(37, 211, 102, 0.12);
-    border: 1px solid rgba(37, 211, 102, 0.4);
-    color: #25d366;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 2px 6px;
-    font-size: 10px;
-    border-radius: 4px;
-  }
-  .btn-wa:hover {
-    background: #25d366;
+  .btn-visit:hover {
+    background: #38bdf8;
     color: #000;
   }
 
   .wrap {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 14px 24px;
+    padding: 18px 24px 60px;
   }
 
-  /* Pipeline Bar */
+  /* Sales Pipeline Funnel */
   .pipe-bar {
     display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 16px;
     overflow-x: auto;
     padding-bottom: 4px;
   }
   .pipe-pill {
     background: var(--surface);
     border: 1px solid var(--border);
-    padding: 5px 11px;
-    border-radius: 6px;
-    color: var(--muted);
-    font-size: 12px;
-    font-weight: 500;
-    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.12s;
     white-space: nowrap;
-    transition: all 0.12s ease;
+    font-size: 12px;
   }
   .pipe-pill:hover {
     border-color: var(--border-light);
-    color: var(--text);
   }
   .pipe-pill.active {
     background: var(--surface-hover);
@@ -332,7 +360,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     width: 100%;
     background: var(--surface);
     border: 1px solid var(--border);
-    padding: 7px 12px 7px 32px;
+    padding: 8px 12px 8px 32px;
     border-radius: 6px;
     color: #fff;
     font-size: 12px;
@@ -361,12 +389,46 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     background: var(--surface);
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 6px 10px;
+    padding: 7px 10px;
     border-radius: 6px;
     font-size: 12px;
     outline: none;
     cursor: pointer;
     font-family: inherit;
+  }
+
+  /* City Location Badges */
+  .city-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    white-space: nowrap;
+  }
+  .city-dubai {
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+  }
+  .city-abudhabi {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+  }
+  .city-sharjah {
+    background: rgba(168, 85, 247, 0.15);
+    color: #c084fc;
+    border: 1px solid rgba(168, 85, 247, 0.3);
+  }
+  .city-ajman {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
   }
 
   /* Table */
@@ -394,7 +456,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     border-bottom: 1px solid var(--border);
   }
   th {
-    padding: 9px 12px;
+    padding: 10px 12px;
     font-size: 11px;
     font-weight: 600;
     color: var(--muted);
@@ -403,14 +465,11 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     white-space: nowrap;
   }
   tbody tr {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     transition: background 0.1s;
   }
   tbody tr:hover {
-    background: rgba(255, 255, 255, 0.02);
-  }
-  tbody tr.archived {
-    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.025);
   }
   td {
     padding: 8px 12px;
@@ -424,6 +483,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     display: inline-flex;
     align-items: center;
     gap: 4px;
+    font-size: 13px;
   }
   .co-title:hover {
     color: var(--accent);
@@ -431,34 +491,28 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
   .co-sub {
     font-size: 11px;
     color: var(--muted);
-    margin-top: 1px;
-  }
-  .co-path {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
-    color: var(--subtle);
   }
 
   .tag {
-    font-size: 11px;
-    font-weight: 500;
-    padding: 2px 7px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
     border-radius: 4px;
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
     white-space: nowrap;
     border: 1px solid transparent;
   }
-  .tag-yes { background: rgba(16, 185, 129, 0.1); color: #34d399; border-color: rgba(16, 185, 129, 0.2); cursor: pointer; }
-  .tag-no { background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.2); cursor: pointer; }
-  .tag-pending { background: rgba(245, 158, 11, 0.1); color: #fbbf24; border-color: rgba(245, 158, 11, 0.2); cursor: pointer; }
+  .tag-yes { background: rgba(16, 185, 129, 0.1); color: #34d399; border-color: rgba(16, 185, 129, 0.2); }
+  .tag-no { background: rgba(239, 68, 68, 0.1); color: #f87171; border-color: rgba(239, 68, 68, 0.2); }
+  .tag-pending { background: rgba(245, 158, 11, 0.1); color: #fbbf24; border-color: rgba(245, 158, 11, 0.2); }
 
   .select-status {
     background: #0d0f15;
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 4px 7px;
+    padding: 5px 8px;
     border-radius: 5px;
     font-size: 11px;
     font-family: inherit;
@@ -469,20 +523,37 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     border-color: var(--accent);
   }
 
-  .note-line {
-    max-width: 250px;
-    color: var(--muted);
+  /* Inline Row Quick Notes */
+  .row-quick-note {
+    width: 100%;
+    min-width: 180px;
+    max-width: 260px;
+    background: #090a0f;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: #e2e8f0;
     font-size: 11px;
-    cursor: pointer;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-family: inherit;
+    padding: 6px 8px;
+    resize: vertical;
+    min-height: 32px;
+    height: 32px;
+    transition: all 0.15s;
+    outline: none;
+    line-height: 1.3;
   }
-  .note-line:hover { color: #fff; }
-  .has-chg {
-    color: var(--accent);
-    font-weight: 500;
-    margin-bottom: 1px;
+  .row-quick-note:focus {
+    border-color: var(--accent);
+    background: #11131a;
+    min-height: 60px;
+    box-shadow: 0 0 0 2px var(--accent-glow);
+  }
+  .note-saved-indicator {
+    font-size: 9px;
+    color: #10b981;
+    font-weight: 600;
+    margin-top: 2px;
+    display: none;
   }
 
   /* Modals */
@@ -509,7 +580,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     border: 1px solid var(--border-light);
     border-radius: 10px;
     width: 100%;
-    max-width: 520px;
+    max-width: 600px;
     padding: 20px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
   }
@@ -521,7 +592,7 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
   }
   .modal-title {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
   }
   .modal-x {
@@ -542,30 +613,15 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
     gap: 8px;
   }
 
-  .fg { margin-bottom: 10px; }
-  .fl { display: block; font-size: 11px; font-weight: 600; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; }
-  .fi, .ft, .fs {
-    width: 100%;
-    background: #090a0f;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 7px 10px;
-    color: #fff;
-    font-size: 12px;
-    font-family: inherit;
-    outline: none;
-  }
-  .ft { min-height: 55px; resize: vertical; }
-
   .notepad-textarea {
     width: 100%;
-    height: 380px;
+    height: 420px;
     background: #090a0f;
     border: 1px solid var(--border);
     border-radius: 6px;
     color: var(--accent);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.5;
     padding: 12px;
     outline: none;
@@ -600,27 +656,31 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
   <div class="h-left">
     <div class="h-logo">
       <span class="h-dot"></span>
-      <span>UAE Car Rentals</span>
+      <span>${ownerName.toUpperCase()}'S SALES CRM</span>
     </div>
-    <span class="panel-badge">Panel ${panelNum} (Sites ${startId}–${endId})</span>
+    <span class="panel-badge">Sites #${startId} to #${endId} (${clients.length} Clients)</span>
   </div>
   <div class="h-actions">
-    <a class="btn" href="${otherPanelUrl}" style="border-color:var(--accent); color:var(--accent);">
+    <a class="btn" href="${otherPanelUrl}" style="border-color:var(--accent); color:var(--accent); font-weight:600;">
       ${otherPanelLabel}
     </a>
-    <button onclick="openNotepad()">📝 Notepad</button>
-    <button onclick="exportCSV()">Export CSV</button>
-    <button class="btn-accent" onclick="directAll()">Show All ${clients.length}</button>
+    <button onclick="openNotepad()">📝 400+ Master Database</button>
+    <button onclick="exportCSV()">📥 Export CSV</button>
+    <button class="btn-accent" onclick="directAll()">Show All (${clients.length})</button>
   </div>
 </header>
 
 <div class="wrap">
 
-  <!-- Pipeline Status Bar -->
+  <!-- Sales Pipeline Status Bar -->
   <div class="pipe-bar">
     <div class="pipe-pill active" id="pill-all" onclick="setStage('all')">
-      <span>Panel ${panelNum} Sites</span>
+      <span>👤 ${ownerName}'s Batch</span>
       <span class="pipe-count" id="c-all">${clients.length}</span>
+    </div>
+    <div class="pipe-pill" id="pill-contacted" onclick="setStage('contacted')">
+      <span>📞 Contacted</span>
+      <span class="pipe-count" id="c-contacted">0</span>
     </div>
     <div class="pipe-pill" id="pill-interested" onclick="setStage('interested')">
       <span>🔥 Interested</span>
@@ -642,20 +702,24 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
       <span>❌ Rejected</span>
       <span class="pipe-count" id="c-rejected">0</span>
     </div>
-    <div class="pipe-pill" id="pill-archived" onclick="setStage('archived')">
-      <span>📦 Archived</span>
-      <span class="pipe-count" id="c-archived">0</span>
-    </div>
   </div>
 
   <!-- Search & Filters -->
   <div class="controls">
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" placeholder="Search company, phone, location..." oninput="handleSearch()">
+      <input type="text" id="searchInput" placeholder="Search company, phone, location, notes..." oninput="handleSearch()">
     </div>
 
     <div class="filters">
+      <select class="select-min" id="cityFilter" onchange="handleCityFilter()">
+        <option value="all">📍 Location: All Cities</option>
+        <option value="Dubai">🏙️ Dubai</option>
+        <option value="Abu Dhabi">🏛️ Abu Dhabi</option>
+        <option value="Sharjah">🕌 Sharjah</option>
+        <option value="Ajman">🏖️ Ajman</option>
+      </select>
+
       <select class="select-min" id="waFilter" onchange="handleFilter()">
         <option value="all">WhatsApp: All</option>
         <option value="yes">Has WhatsApp</option>
@@ -671,13 +735,12 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
       <table>
         <thead>
           <tr>
-            <th style="width: 36px;">#</th>
-            <th>Company</th>
-            <th>WhatsApp</th>
-            <th>Funnel Status</th>
-            <th>Changes & Notes</th>
-            <th>Live Preview</th>
-            <th style="text-align: right;">Action</th>
+            <th style="width: 40px;">#</th>
+            <th>Company & City Location</th>
+            <th>Contact Actions</th>
+            <th>Funnel Stage</th>
+            <th style="min-width: 220px;">📝 Quick Call Notes (Auto-Saved)</th>
+            <th>Live Website</th>
           </tr>
         </thead>
         <tbody id="tb">
@@ -689,15 +752,17 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
 
 </div>
 
-<!-- Notepad Modal -->
+<!-- 400+ Master Database Notepad Modal -->
 <div class="modal-bg" id="notepadModal">
-  <div class="modal-card" style="max-width: 680px;">
+  <div class="modal-card" style="max-width: 780px;">
     <div class="modal-head">
-      <div class="modal-title">📝 Panel ${panelNum} Deployment Notepad</div>
+      <div class="modal-title">📝 400+ UAE Car Rental Master Database Tracker</div>
       <button class="modal-x" onclick="closeNotepad()">✕</button>
     </div>
     <div class="modal-body">
-      <div style="font-size:11px; color:var(--muted); margin-bottom:8px;">Auto-saves to browser storage.</div>
+      <div style="font-size:11px; color:var(--muted); margin-bottom:8px;">
+        Tracking all 400+ companies. Notes auto-save to browser storage.
+      </div>
       <textarea class="notepad-textarea" id="notepadText" oninput="saveNotepad()"></textarea>
     </div>
     <div class="modal-foot">
@@ -707,106 +772,39 @@ function generatePanelHtml(panelNum, clients, otherPanelUrl, otherPanelLabel) {
   </div>
 </div>
 
-<!-- Archive Modal -->
-<div class="modal-bg" id="archiveModal">
-  <div class="modal-card">
-    <div class="modal-head">
-      <div class="modal-title">Archive Company</div>
-      <button class="modal-x" onclick="closeArchiveModal()">✕</button>
-    </div>
-    <div class="modal-body" id="archiveModalText"></div>
-    <div class="modal-foot">
-      <button onclick="closeArchiveModal()">Cancel</button>
-      <button class="btn-danger" onclick="confirmArchive()">Move to Archive</button>
-    </div>
-  </div>
-</div>
-
-<!-- Edit Modal -->
-<div class="modal-bg" id="editModal">
-  <div class="modal-card">
-    <div class="modal-head">
-      <div class="modal-title">Edit Details</div>
-      <button class="modal-x" onclick="closeEditModal()">✕</button>
-    </div>
-    <div class="modal-body">
-      <input type="hidden" id="eId">
-      <div class="fg">
-        <label class="fl">Company Name</label>
-        <input type="text" class="fi" id="eName">
-      </div>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-        <div class="fg">
-          <label class="fl">Phone</label>
-          <input type="text" class="fi" id="ePhone">
-        </div>
-        <div class="fg">
-          <label class="fl">WhatsApp</label>
-          <input type="text" class="fi" id="eWa">
-        </div>
-      </div>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
-        <div class="fg">
-          <label class="fl">WhatsApp Status</label>
-          <select class="fs" id="eWaStatus">
-            <option value="yes">Has WhatsApp</option>
-            <option value="no">No WhatsApp</option>
-            <option value="pending">Pending</option>
-          </select>
-        </div>
-        <div class="fg">
-          <label class="fl">Funnel Stage</label>
-          <select class="fs" id="eFunnel">
-            <option value="new">New Lead</option>
-            <option value="contacted">Contacted</option>
-            <option value="interested">Interested</option>
-            <option value="in_process">In Process</option>
-            <option value="paid">Paid</option>
-            <option value="not_decided">Not Decided</option>
-            <option value="rejected">Rejected</option>
-          </select>
-        </div>
-      </div>
-      <div class="fg">
-        <label class="fl">Website Changes</label>
-        <textarea class="ft" id="eChanges"></textarea>
-      </div>
-      <div class="fg">
-        <label class="fl">Internal Notes</label>
-        <textarea class="ft" id="eNotes"></textarea>
-      </div>
-    </div>
-    <div class="modal-foot">
-      <button onclick="closeEditModal()">Cancel</button>
-      <button class="btn-accent" onclick="saveEdit()">Save</button>
-    </div>
-  </div>
-</div>
-
-<div class="toast" id="toast">Saved</div>
+<div class="toast" id="toast"></div>
 
 <script>
 const INITIAL_DATA = ${JSON.stringify(clients, null, 2)};
-const STORAGE_KEY = 'uae_panel_${panelNum}_data_v1';
-const NOTEPAD_KEY = 'uae_panel_${panelNum}_notepad_v1';
+const STORAGE_KEY = 'uae_crm_clients_p${panelNum}';
+const NOTEPAD_KEY = 'uae_crm_notepad_master';
+const ROW_NOTES_PREFIX = 'uae_crm_note_p${panelNum}_';
 
 let list = [];
 let stage = 'all';
 let q = '';
 let wa = 'all';
-let pendingArchiveId = null;
+let city = 'all';
 
 function init() {
   const s = localStorage.getItem(STORAGE_KEY);
   if (s) {
-    try { list = JSON.parse(s); } catch(e) { list = JSON.parse(JSON.stringify(INITIAL_DATA)); }
+    try { 
+      const parsed = JSON.parse(s);
+      list = INITIAL_DATA.map(initItem => {
+        const found = parsed.find(p => p.id === initItem.id);
+        return found ? { ...initItem, funnel: found.funnel, notes: found.notes } : initItem;
+      });
+    } catch(e) { 
+      list = JSON.parse(JSON.stringify(INITIAL_DATA)); 
+    }
   } else {
     list = JSON.parse(JSON.stringify(INITIAL_DATA));
     save();
   }
 
   const note = localStorage.getItem(NOTEPAD_KEY);
-  document.getElementById('notepadText').value = note || '=== Panel ${panelNum} (Sites ${startId}–${endId}) Notes ===\\n';
+  document.getElementById('notepadText').value = note || ${JSON.stringify(trackerTxt)};
 
   updateCounts();
   render();
@@ -815,6 +813,27 @@ function init() {
 function save() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
   updateCounts();
+}
+
+function saveRowNote(id, text) {
+  localStorage.setItem(ROW_NOTES_PREFIX + id, text);
+  const item = list.find(x => x.id === id);
+  if (item) item.notes = text;
+  save();
+
+  const ind = document.getElementById('saved-' + id);
+  if (ind) {
+    ind.style.display = 'block';
+    clearTimeout(ind._t);
+    ind._t = setTimeout(() => { ind.style.display = 'none'; }, 1500);
+  }
+}
+
+function getRowNote(id) {
+  const local = localStorage.getItem(ROW_NOTES_PREFIX + id);
+  if (local !== null) return local;
+  const item = list.find(x => x.id === id);
+  return item ? (item.notes || '') : '';
 }
 
 function saveNotepad() {
@@ -827,7 +846,7 @@ function downloadNotepad() {
   const val = document.getElementById('notepadText').value;
   const a = document.createElement('a');
   a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(val);
-  a.download = 'panel${panelNum}-tracker.txt';
+  a.download = 'uae-400-companies-tracker.txt';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -841,27 +860,23 @@ function toast(msg) {
 }
 
 function updateCounts() {
-  const act = list.filter(c => !c.archived);
-  document.getElementById('c-all').innerText = act.length;
-  document.getElementById('c-interested').innerText = act.filter(c => c.funnel === 'interested').length;
-  document.getElementById('c-in_process').innerText = act.filter(c => c.funnel === 'in_process').length;
-  document.getElementById('c-paid').innerText = act.filter(c => c.funnel === 'paid').length;
-  document.getElementById('c-not_decided').innerText = act.filter(c => c.funnel === 'not_decided').length;
-  document.getElementById('c-rejected').innerText = act.filter(c => c.funnel === 'rejected').length;
-  document.getElementById('c-archived').innerText = list.filter(c => c.archived).length;
+  document.getElementById('c-all').innerText = list.length;
+  document.getElementById('c-contacted').innerText = list.filter(c => c.funnel === 'contacted').length;
+  document.getElementById('c-interested').innerText = list.filter(c => c.funnel === 'interested').length;
+  document.getElementById('c-in_process').innerText = list.filter(c => c.funnel === 'in_process').length;
+  document.getElementById('c-paid').innerText = list.filter(c => c.funnel === 'paid').length;
+  document.getElementById('c-not_decided').innerText = list.filter(c => c.funnel === 'not_decided').length;
+  document.getElementById('c-rejected').innerText = list.filter(c => c.funnel === 'rejected').length;
 }
 
 function getFiltered() {
   return list.filter(c => {
-    if (stage === 'archived') {
-      if (!c.archived) return false;
-    } else {
-      if (c.archived) return false;
-      if (stage !== 'all' && c.funnel !== stage) return false;
-    }
+    if (stage !== 'all' && c.funnel !== stage) return false;
     if (wa !== 'all' && c.waStatus !== wa) return false;
+    if (city !== 'all' && c.city !== city) return false;
     if (q) {
-      const match = (c.name + ' ' + c.phone + ' ' + c.location + ' ' + c.folder + ' ' + (c.websiteChanges || '')).toLowerCase();
+      const rowNote = getRowNote(c.id);
+      const match = (c.name + ' ' + c.phone + ' ' + c.location + ' ' + c.city + ' ' + (c.notes || '') + ' ' + rowNote).toLowerCase();
       if (!match.includes(q.toLowerCase())) return false;
     }
     return true;
@@ -872,12 +887,14 @@ function directAll() {
   stage = 'all';
   q = '';
   wa = 'all';
+  city = 'all';
   document.getElementById('searchInput').value = '';
   document.getElementById('waFilter').value = 'all';
+  document.getElementById('cityFilter').value = 'all';
   document.querySelectorAll('.pipe-pill').forEach(p => p.classList.remove('active'));
   document.getElementById('pill-all')?.classList.add('active');
   render();
-  toast('Showing all ' + list.length + ' sites');
+  toast('Showing all ' + list.length + ' clients');
 }
 
 function setStage(st) {
@@ -897,11 +914,36 @@ function handleFilter() {
   render();
 }
 
+function handleCityFilter() {
+  city = document.getElementById('cityFilter').value;
+  render();
+}
+
+function changeStatus(id, newStatus) {
+  const c = list.find(x => x.id === id);
+  if (c) {
+    c.funnel = newStatus;
+    save();
+    updateCounts();
+    toast('Stage updated to ' + newStatus);
+  }
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 function render() {
   const items = getFiltered();
   const tb = document.getElementById('tb');
   if (items.length === 0) {
-    tb.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:30px; color:var(--muted);">No matching companies.</td></tr>';
+    tb.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:30px; color:var(--muted);">No matching clients found.</td></tr>';
     return;
   }
 
@@ -909,33 +951,33 @@ function render() {
     const waClass = c.waStatus === 'yes' ? 'tag-yes' : (c.waStatus === 'no' ? 'tag-no' : 'tag-pending');
     const waLabel = c.waStatus === 'yes' ? '● Has WA' : (c.waStatus === 'no' ? '● No WA' : '● Pending');
     const waUrl = \`https://wa.me/\${c.whatsapp}?text=\${encodeURIComponent("Hello " + c.name + ", here is your live website.")}\`;
-    
-    // Live production link (Vercel URL or fallback)
-    const siteUrl = c.liveUrl || \`/\${c.folder}/index.html\`;
+    const siteUrl = c.liveUrl || '#';
+    const currentNote = getRowNote(c.id);
 
     return \`
-      <tr class="\${c.archived ? 'archived' : ''}">
-        <td style="color:var(--subtle); font-family:'JetBrains Mono'; font-size:11px;">\${c.id}</td>
+      <tr>
+        <td style="color:var(--subtle); font-family:'JetBrains Mono'; font-size:11px; font-weight:700;">#\${String(c.id).padStart(3, '0')}</td>
         
         <td>
-          <a class="co-title" href="\${siteUrl}" target="_blank">\${c.name} ↗</a>
-          <div class="co-sub">📍 \${c.location}</div>
-          <div class="co-path">/\${c.folder}</div>
+          <a class="co-title" href="\${siteUrl}" target="_blank">\${escapeHtml(c.name)} ↗</a>
+          <div style="display:flex; align-items:center; gap:6px; margin-top:3px; flex-wrap:wrap;">
+            <span class="city-badge \${c.cityClass}">📍 \${c.city}</span>
+            <span class="co-sub">\${escapeHtml(c.location)}</span>
+          </div>
         </td>
 
         <td>
           <div style="display:flex; align-items:center; gap:6px;">
             <a class="btn-call" href="tel:\${(c.phone||'').replace(/[^0-9+]/g, '')}">📞 Call</a>
-            <span class="tag \${waClass}" onclick="cycleWA(\${c.id})" title="Click to cycle status">\${waLabel}</span>
-            \${c.waStatus === 'yes' ? \`<a class="btn-wa" href="\${waUrl}" target="_blank">💬 WA</a>\` : ''}
+            \${c.waStatus === 'yes' ? \`<a class="btn-wa" href="\${waUrl}" target="_blank">💬 WA</a>\` : \`<span class="tag \${waClass}">\${waLabel}</span>\`}
           </div>
-          <div style="font-size:10px; color:var(--muted); font-family:'JetBrains Mono'; margin-top:2px;">\${c.phone}</div>
+          <div style="font-size:10px; color:var(--muted); font-family:'JetBrains Mono'; margin-top:3px;">\${c.phone}</div>
         </td>
 
         <td>
           <select class="select-status" onchange="changeStatus(\${c.id}, this.value)">
             <option value="new" \${c.funnel === 'new' ? 'selected' : ''}>New Lead</option>
-            <option value="contacted" \${c.funnel === 'contacted' ? 'selected' : ''}>Contacted</option>
+            <option value="contacted" \${c.funnel === 'contacted' ? 'selected' : ''}>📞 Contacted</option>
             <option value="interested" \${c.funnel === 'interested' ? 'selected' : ''}>🔥 Interested</option>
             <option value="in_process" \${c.funnel === 'in_process' ? 'selected' : ''}>⚙️ In Process</option>
             <option value="paid" \${c.funnel === 'paid' ? 'selected' : ''}>💰 Paid</option>
@@ -945,136 +987,36 @@ function render() {
         </td>
 
         <td>
-          <div class="note-line" onclick="openEdit(\${c.id})">
-            \${c.websiteChanges ? \`<div class="has-chg">⚙️ \${c.websiteChanges}</div>\` : ''}
-            <div>\${c.notes || '<span style=\"color:var(--subtle);\">+ Add note / changes</span>'}</div>
-          </div>
+          <textarea class="row-quick-note" placeholder="Write call note..." oninput="saveRowNote(\${c.id}, this.value)">\${escapeHtml(currentNote)}</textarea>
+          <div class="note-saved-indicator" id="saved-\${c.id}">✓ Saved</div>
         </td>
 
         <td>
-          <a class="btn-sm" href="\${siteUrl}" target="_blank">🌐 Live Site</a>
-        </td>
-
-        <td style="text-align: right; white-space:nowrap;">
-          <button class="btn-sm" onclick="openEdit(\${c.id})">Edit</button>
-          \${c.archived ? \`
-            <button class="btn-sm" onclick="restore(\${c.id})">Restore</button>
-          \` : \`
-            <button class="btn-sm btn-danger" onclick="reqArchive(\${c.id})">Archive</button>
-          \`}
+          <a class="btn-visit" href="\${siteUrl}" target="_blank">🌐 Live Website ↗</a>
         </td>
       </tr>
     \`;
   }).join('');
 }
 
-function cycleWA(id) {
-  const c = list.find(x => x.id === id);
-  if (!c) return;
-  c.waStatus = c.waStatus === 'pending' ? 'yes' : (c.waStatus === 'yes' ? 'no' : 'pending');
-  save();
-  render();
-  toast(c.name + ': ' + c.waStatus.toUpperCase());
-}
-
-function changeStatus(id, val) {
-  const c = list.find(x => x.id === id);
-  if (!c) return;
-  c.funnel = val;
-  save();
-  render();
-  toast(c.name + ': ' + val);
-}
-
-function reqArchive(id) {
-  const c = list.find(x => x.id === id);
-  if (!c) return;
-  pendingArchiveId = id;
-  document.getElementById('archiveModalText').innerHTML = 'Move <strong>' + c.name + '</strong> to archive?';
-  document.getElementById('archiveModal').classList.add('open');
-}
-
-function closeArchiveModal() {
-  document.getElementById('archiveModal').classList.remove('open');
-  pendingArchiveId = null;
-}
-
-function confirmArchive() {
-  if (!pendingArchiveId) return;
-  const c = list.find(x => x.id === pendingArchiveId);
-  if (c) {
-    c.archived = true;
-    save();
-    render();
-    toast('Moved to Archive');
-  }
-  closeArchiveModal();
-}
-
-function restore(id) {
-  const c = list.find(x => x.id === id);
-  if (c) {
-    c.archived = false;
-    save();
-    render();
-    toast('Restored');
-  }
-}
-
-function openEdit(id) {
-  const c = list.find(x => x.id === id);
-  if (!c) return;
-  document.getElementById('eId').value = c.id;
-  document.getElementById('eName').value = c.name;
-  document.getElementById('ePhone').value = c.phone;
-  document.getElementById('eWa').value = c.whatsapp;
-  document.getElementById('eWaStatus').value = c.waStatus;
-  document.getElementById('eFunnel').value = c.funnel;
-  document.getElementById('eChanges').value = c.websiteChanges || '';
-  document.getElementById('eNotes').value = c.notes || '';
-  document.getElementById('editModal').classList.add('open');
-}
-
-function closeEditModal() { document.getElementById('editModal').classList.remove('open'); }
-
-function saveEdit() {
-  const id = parseInt(document.getElementById('eId').value, 10);
-  const c = list.find(x => x.id === id);
-  if (!c) return;
-  c.name = document.getElementById('eName').value.trim();
-  c.phone = document.getElementById('ePhone').value.trim();
-  c.whatsapp = document.getElementById('eWa').value.replace(/[^0-9]/g, '');
-  c.waStatus = document.getElementById('eWaStatus').value;
-  c.funnel = document.getElementById('eFunnel').value;
-  c.websiteChanges = document.getElementById('eChanges').value.trim();
-  c.notes = document.getElementById('eNotes').value.trim();
-  save();
-  closeEditModal();
-  render();
-  toast('Saved');
-}
-
 function exportCSV() {
-  const headers = ['ID', 'Company', 'Folder', 'Phone', 'WhatsApp', 'WA Status', 'Funnel', 'Changes', 'Notes', 'Archived'];
+  const headers = ['ID', 'Company', 'City', 'Location', 'Phone', 'WhatsApp', 'Funnel Stage', 'Call Notes', 'Live URL'];
   const rows = list.map(c => [
-    c.id, '"' + c.name.replace(/"/g, '""') + '"', c.folder, '"' + c.phone + '"', c.whatsapp, c.waStatus, c.funnel,
-    '"' + (c.websiteChanges||'').replace(/"/g, '""') + '"', '"' + (c.notes||'').replace(/"/g, '""') + '"', c.archived ? 'YES' : 'NO'
+    c.id, '"' + c.name.replace(/"/g, '""') + '"', c.city, '"' + c.location.replace(/"/g, '""') + '"',
+    '"' + c.phone + '"', c.whatsapp, c.funnel,
+    '"' + (getRowNote(c.id)||'').replace(/"/g, '""') + '"', c.liveUrl
   ]);
   const csv = 'data:text/csv;charset=utf-8,' + [headers.join(','), ...rows.map(r => r.join(','))].join('\\n');
   const a = document.createElement('a');
   a.href = encodeURI(csv);
-  a.download = 'panel${panelNum}_leads.csv';
+  a.download = '${ownerName.toLowerCase()}-sales-clients.csv';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
 }
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    closeArchiveModal();
-    closeEditModal();
-    closeNotepad();
-  }
+  if (e.key === 'Escape') closeNotepad();
 });
 
 window.addEventListener('DOMContentLoaded', init);
@@ -1083,19 +1025,18 @@ window.addEventListener('DOMContentLoaded', init);
 </html>`;
 }
 
-// Write panel1/index.html and panel2/index.html
+// Generate Panel 1 (Rahul) and Panel 2 (Het)
 fs.mkdirSync(path.join(WORKSPACE, 'panel1'), { recursive: true });
 fs.mkdirSync(path.join(WORKSPACE, 'panel2'), { recursive: true });
 
-const html1 = generatePanelHtml(1, panel1Clients, 'https://panel2-uae.vercel.app', 'Switch to Panel 2 (Sites 51–100) →');
-const html2 = generatePanelHtml(2, panel2Clients, 'https://panel1-uae.vercel.app', '← Switch to Panel 1 (Sites 1–50)');
+const html1 = generatePanelHtml(1, 'Rahul', rahulClients, 'https://panel2-uae.vercel.app', '👤 Switch to Het\'s Panel (#31–60) →');
+const html2 = generatePanelHtml(2, 'Het', hetClients, 'https://panel1-uae.vercel.app', '← 👤 Switch to Rahul\'s Panel (#1–30)');
 
 fs.writeFileSync(path.join(WORKSPACE, 'panel1/index.html'), html1);
 fs.writeFileSync(path.join(WORKSPACE, 'panel2/index.html'), html2);
-
-
-// Also save panel1.html and panel2.html in root for instant direct access
 fs.writeFileSync(path.join(WORKSPACE, 'panel1.html'), html1);
 fs.writeFileSync(path.join(WORKSPACE, 'panel2.html'), html2);
 
-console.log('Successfully created Panel 1 (1-50) and Panel 2 (51-100)!');
+console.log('Successfully generated:');
+console.log('1. Rahul Sales Panel: Sites 1 to 30 (with Dubai, Abu Dhabi, Sharjah location badges and filter)');
+console.log('2. Het Sales Panel: Sites 31 to 60 (with Dubai, Abu Dhabi, Sharjah location badges and filter)');

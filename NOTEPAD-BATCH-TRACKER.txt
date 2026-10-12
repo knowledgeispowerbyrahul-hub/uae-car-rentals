@@ -1,243 +1,2219 @@
-=====================================================
-UAE CAR RENTAL NETWORK - LIVE & PENDING STATUS NOTES
-Updated: 2026-10-12T13:47:22.231Z
-=====================================================
+=========================================================================
+UAE CAR RENTAL NETWORK - 400+ CLIENT MASTER TRACKER
+Generated: 2026-10-12T15:56:27.700Z
+=========================================================================
 
-TOTAL SITES: 100
-LIVE ON VERCEL: 31
-PENDING:        69
+TOTAL CLIENT DATABASE: 427 Companies
+🟢 TOTAL LIVE WEBSITES: 60 / 427
+   - RAHUL'S SALES BATCH: 30 Live Websites (#001 to #030)
+   - HET'S SALES BATCH:   30 Live Websites (#031 to #060)
+⏳ PENDING DEPLOYMENTS:   367 Companies (#061 to #427)
 
-[MANAGEMENT PANELS]:
-Panel 1 (Sites 1-50):   https://panel1-uae.vercel.app
-Panel 2 (Sites 51-100):  https://panel2-uae.vercel.app
+[LIVE CRM SALES PANELS]:
+1. RAHUL'S PANEL (Sites 1-30):  https://panel1-uae.vercel.app
+2. HET'S PANEL   (Sites 31-60): https://panel2-uae.vercel.app
 
-=====================================================
-🟢 LIVE WEBSITES (31)
-=====================================================
-[LIVE] #001 - QAS Dubai Car Rental
-       URL:    https://qas-rent-tan.vercel.app
-       Phone:  +971 58 521 1777
-       Folder: /qas-dubai-car-rental
+=========================================================================
+👤 1. RAHUL'S SALES CLIENTS (30 LIVE WEBSITES)
+=========================================================================
+[LIVE - RAHUL] #001 - QAS Dubai Car Rental
+               Live URL: https://qas-rent-tan.vercel.app
+               Phone:    +971 58 521 1777
+               WhatsApp: https://wa.me/971585211777
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #002 - FAST MOTORS CAR RENTAL LLC
-       URL:    https://fast-motors-rent-resxspf35-carrental3.vercel.app
-       Phone:  +971 50 754 4408
-       Folder: /fast-motors-car-rental
+[LIVE - RAHUL] #002 - FAST MOTORS CAR RENTAL LLC
+               Live URL: https://fast-motors-uae.vercel.app
+               Phone:    +971 50 754 4408
+               WhatsApp: https://wa.me/971507544408
+               Location: Al Barsha / Al Quoz,  Dubai
 
-[LIVE] #003 - ADRES CAR RENTAL
-       URL:    https://adres-rent-3418o6o97-carrental3.vercel.app
-       Phone:  +971 56 811 9209
-       Folder: /adres-car-rental
+[LIVE - RAHUL] #003 - ADRES CAR RENTAL
+               Live URL: https://adres-uae.vercel.app
+               Phone:    +971 56 811 9209
+               WhatsApp: https://wa.me/971568119209
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #004 - Rent a car Al barsha
-       URL:    https://al-barsha.vercel.app
-       Phone:  +971 55 541 1362
-       Folder: /al-barsha-rent-a-car
+[LIVE - RAHUL] #004 - Rent a car Al barsha
+               Live URL: https://al-barsha.vercel.app
+               Phone:    +971 55 541 1362
+               WhatsApp: https://wa.me/971555411362
+               Location: Al Barsha,  Dubai
 
-[LIVE] #005 - Swift Car Rental | No Security Deposit
-       URL:    https://swift-jxabo5rrb-carrental3.vercel.app
-       Phone:  +971 54 266 1154
-       Folder: /swift-car-rental
+[LIVE - RAHUL] #005 - Swift Car Rental | No Security Deposit
+               Live URL: https://swift-uae.vercel.app
+               Phone:    +971 54 266 1154
+               WhatsApp: https://wa.me/971542661154
+               Location: Al Barsha South,  Dubai
 
-[LIVE] #006 - Exotic Ride Supercar & Chauffeur Service Dubai
-       URL:    https://exotic-ride-do2aghjsw-carrental3.vercel.app
-       Phone:  +971 55 358 6068
-       Folder: /exotic-ride-supercar-chauffeur-service-dubai
+[LIVE - RAHUL] #006 - Exotic Ride Supercar & Chauffeur Service Dubai
+               Live URL: https://exotic-ride-du-uae.vercel.app
+               Phone:    +971 55 358 6068
+               WhatsApp: https://wa.me/971553586068
+               Location: Dubai Marina,  Dubai
 
-[LIVE] #007 - Carx Dubai - Rent a Car in Dubai
-       URL:    https://carx-dubai-in-9vy08kiwc-carrental3.vercel.app
-       Phone:  +971 52 120 1531
-       Folder: /carx-dubai-rent-a-car-in-dubai
+[LIVE - RAHUL] #007 - Carx Dubai - Rent a Car in Dubai
+               Live URL: https://carx-dubai-in-uae.vercel.app
+               Phone:    +971 52 120 1531
+               WhatsApp: https://wa.me/971521201531
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #008 - LUXURY CAR RENTAL
-       URL:    https://luxury-ihe24g0p9-carrental3.vercel.app
-       Phone:  +971 58 929 5875
-       Folder: /luxury-car-rental
+[LIVE - RAHUL] #008 - LUXURY CAR RENTAL
+               Live URL: https://luxury-uae.vercel.app
+               Phone:    +971 58 929 5875
+               WhatsApp: https://wa.me/971589295875
+               Location: Al Barsha,  Dubai
 
-[LIVE] #009 - RENT & RIDE CAR RENTAL
-       URL:    https://rent-ride-nb6mum4hs-carrental3.vercel.app
-       Phone:  +971 56 414 1472
-       Folder: /rent-ride-car-rental
+[LIVE - RAHUL] #009 - RENT & RIDE CAR RENTAL
+               Live URL: https://rent-ride-uae.vercel.app
+               Phone:    +971 56 414 1472
+               WhatsApp: https://wa.me/971564141472
+               Location: Jumeirah Village Circle,  Dubai
 
-[LIVE] #010 - Leo Exotics Car Rental - No Deposit
-       URL:    https://leo-exotics-3o2w383kt-carrental3.vercel.app
-       Phone:  +971 58 588 1133
-       Folder: /leo-exotics-car-rental-no-deposit
+[LIVE - RAHUL] #010 - Leo Exotics Car Rental - No Deposit
+               Live URL: https://leo-exotics-no-uae.vercel.app
+               Phone:    +971 58 588 1133
+               WhatsApp: https://wa.me/971585881133
+               Location: Al Barsha South,  Dubai
 
-[LIVE] #011 - Rayan Rent a Car LLC
-       URL:    https://rayan-27pwpyxw7-carrental3.vercel.app
-       Phone:  +971 58 262 6154
-       Folder: /rayan-rent-a-car-llc
+[LIVE - RAHUL] #011 - Rayan Rent a Car LLC
+               Live URL: https://rayan-uae.vercel.app
+               Phone:    +971 58 262 6154
+               WhatsApp: https://wa.me/971582626154
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #012 - Ferro Car Rental
-       URL:    https://ferro-ag5rnjx4o-carrental3.vercel.app
-       Phone:  +971 50 119 9113
-       Folder: /ferro-car-rental
+[LIVE - RAHUL] #012 - Ferro Car Rental
+               Live URL: https://ferro-uae.vercel.app
+               Phone:    +971 50 119 9113
+               WhatsApp: https://wa.me/971501199113
+               Location: Al Quoz 3,  Dubai
 
-[LIVE] #013 - Autobaba Car Rental L.L.C
-       URL:    https://autobaba-l-l-19aawjgym-carrental3.vercel.app
-       Phone:  +971 58 577 1771
-       Folder: /autobaba-car-rental-l-l-c
+[LIVE - RAHUL] #013 - Autobaba Car Rental L.L.C
+               Live URL: https://autobaba-l-l-c-uae.vercel.app
+               Phone:    +971 58 577 1771
+               WhatsApp: https://wa.me/971585771771
+               Location: Al Quoz,  Dubai
 
-[LIVE] #014 - DUBAI.RENT
-       URL:    https://dubai-rent-lqdqjld01-carrental3.vercel.app
-       Phone:  +971 52 266 5566
-       Folder: /dubai-rent
+[LIVE - RAHUL] #014 - DUBAI.RENT
+               Live URL: https://dubai-rent-uae.vercel.app
+               Phone:    +971 52 266 5566
+               WhatsApp: https://wa.me/971522665566
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #015 - Luxxio Car Rental
-       URL:    https://luxxio-3muwh10vn-carrental3.vercel.app
-       Phone:  +971 55 136 5705
-       Folder: /luxxio-car-rental
+[LIVE - RAHUL] #015 - Luxxio Car Rental
+               Live URL: https://luxxio-uae.vercel.app
+               Phone:    +971 55 136 5705
+               WhatsApp: https://wa.me/971551365705
+               Location: Al Barsha,  Dubai
 
-[LIVE] #016 - Davinci Car Rental Dubai
-       URL:    https://davinci-dubai-m7kn8iwdl-carrental3.vercel.app
-       Phone:  +971 54 555 5248
-       Folder: /davinci-car-rental-dubai
+[LIVE - RAHUL] #016 - Davinci Car Rental Dubai
+               Live URL: https://davinci-dubai-uae.vercel.app
+               Phone:    +971 54 555 5248
+               WhatsApp: https://wa.me/971545555248
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #017 - Dubai RENT A CAR G63 Range Rover Mustang
-       URL:    https://dubai-g63-range-b01mr77mr-carrental3.vercel.app
-       Phone:  +971 52 983 3683
-       Folder: /dubai-rent-a-car-g63-range-rover-mustang
+[LIVE - RAHUL] #017 - Dubai RENT A CAR G63 Range Rover Mustang
+               Live URL: https://dubai-g63-rang-uae.vercel.app
+               Phone:    +971 52 983 3683
+               WhatsApp: https://wa.me/971529833683
+               Location: Al Quoz 3,  Dubai
 
-[LIVE] #018 - Camaro Rental Dubai
-       URL:    https://camaro-dubai-nj1ewbgzb-carrental3.vercel.app
-       Phone:  +971 56 684 9661
-       Folder: /camaro-rental-dubai
+[LIVE - RAHUL] #018 - Camaro Rental Dubai
+               Live URL: https://camaro-dubai-uae.vercel.app
+               Phone:    +971 56 684 9661
+               WhatsApp: https://wa.me/971566849661
+               Location: Al Barsha South,  Dubai
 
-[LIVE] #019 - Vintx Car Rental
-       URL:    https://vintx-obvut1tlw-carrental3.vercel.app
-       Phone:  +971 52 102 7698
-       Folder: /vintx-car-rental
+[LIVE - RAHUL] #019 - Vintx Car Rental
+               Live URL: https://vintx-uae.vercel.app
+               Phone:    +971 52 102 7698
+               WhatsApp: https://wa.me/971521027698
+               Location: Al Barsha 1,  Dubai
 
-[LIVE] #020 - Dubai Wheel Drive Car Rental
-       URL:    https://dubai-wheel-mhe49727n-carrental3.vercel.app
-       Phone:  +971 55 544 3017
-       Folder: /dubai-wheel-drive-car-rental
+[LIVE - RAHUL] #020 - Dubai Wheel Drive Car Rental
+               Live URL: https://dubai-wheel-dr-uae.vercel.app
+               Phone:    +971 55 544 3017
+               WhatsApp: https://wa.me/971555443017
+               Location: Al Quoz,  Dubai
 
-[LIVE] #021 - Black Moon Car Rental
-       URL:    https://black-moon-dxk4t05d2-carrental3.vercel.app
-       Phone:  +971 58 832 0814
-       Folder: /black-moon-car-rental
+[LIVE - RAHUL] #021 - Black Moon Car Rental
+               Live URL: https://black-moon-uae.vercel.app
+               Phone:    +971 58 832 0814
+               WhatsApp: https://wa.me/971588320814
+               Location: Al Quoz Industrial Area,  Dubai
 
-[LIVE] #022 - F10 Luxury Car Rental
-       URL:    https://f10-luxury-pq848pwci-carrental3.vercel.app
-       Phone:  +971 52 608 0580
-       Folder: /f10-luxury-car-rental
+[LIVE - RAHUL] #022 - F10 Luxury Car Rental
+               Live URL: https://f10-luxury-uae.vercel.app
+               Phone:    +971 52 608 0580
+               WhatsApp: https://wa.me/971526080580
+               Location: Al Quoz 1,  Dubai
 
-[LIVE] #023 - Veloce Dubai Car Rental
-       URL:    https://veloce-dubai-q6qrg3nqn-carrental3.vercel.app
-       Phone:  +971 55 658 9839
-       Folder: /veloce-dubai-car-rental
+[LIVE - RAHUL] #023 - Veloce Dubai Car Rental
+               Live URL: https://veloce-dubai-uae.vercel.app
+               Phone:    +971 55 658 9839
+               WhatsApp: https://wa.me/971556589839
+               Location: Al Quoz 3,  Dubai
 
-[LIVE] #024 - IRC CAR RENTAL
-       URL:    https://irc-91iz2r4oa-carrental3.vercel.app
-       Phone:  +971 58 294 1116
-       Folder: /irc-car-rental
+[LIVE - RAHUL] #024 - IRC CAR RENTAL
+               Live URL: https://irc-uae.vercel.app
+               Phone:    +971 58 294 1116
+               WhatsApp: https://wa.me/971582941116
+               Location: Al Quoz 1,  Dubai
 
-[LIVE] #025 - Gulf Tiger Car Rental LLC
-       URL:    https://gulf-tiger-6apj5oq85-carrental3.vercel.app
-       Phone:  +971 50 879 7626
-       Folder: /gulf-tiger-car-rental-llc
+[LIVE - RAHUL] #025 - Gulf Tiger Car Rental LLC
+               Live URL: https://gulf-tiger-uae.vercel.app
+               Phone:    +971 50 879 7626
+               WhatsApp: https://wa.me/971508797626
+               Location: Al Quoz 3,  Dubai
 
-[LIVE] #026 - Abu Dhabi Car Rental With Driver
-       URL:    https://abu-dhabi-with-2f6a43ohh-carrental3.vercel.app
-       Phone:  +971 55 858 6734
-       Folder: /abu-dhabi-car-rental-with-driver
+[LIVE - RAHUL] #026 - Abu Dhabi Car Rental With Driver
+               Live URL: https://abu-dhabi-with-uae.vercel.app
+               Phone:    +971 55 858 6734
+               WhatsApp: https://wa.me/971558586734
+               Location: Al Danah,  Abu Dhabi
 
-[LIVE] #027 - ROAD KING RENT CAR MZJ
-       URL:    https://road-king-eug5i6fpj-carrental3.vercel.app
-       Phone:  +971 50 174 1267
-       Folder: /road-king-rent-car-mzj
+[LIVE - RAHUL] #027 - ROAD KING RENT CAR MZJ
+               Live URL: https://road-king-mzj-uae.vercel.app
+               Phone:    +971 50 174 1267
+               WhatsApp: https://wa.me/971501741267
+               Location: Mussafah ME-10,  Abu Dhabi
 
-[LIVE] #028 - SHIFT Car Rental | Shams Boutik Mall
-       URL:    https://shift-shams-xvonr6ipi-carrental3.vercel.app
-       Phone:  +971 50 912 8370
-       Folder: /shift-car-rental-shams-boutik-mall
+[LIVE - RAHUL] #028 - SHIFT Car Rental | Shams Boutik Mall
+               Live URL: https://shift-shams-bo-uae.vercel.app
+               Phone:    +971 50 912 8370
+               WhatsApp: https://wa.me/971509128370
+               Location: Al Reem Island,  Abu Dhabi
 
-[LIVE] #029 - AUTO PLUS RENT A CAR ABU DHABI
-       URL:    https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app
-       Phone:  +971 50 977 2483
-       Folder: /auto-plus-rent-a-car-abu-dhabi
+[LIVE - RAHUL] #029 - AUTO PLUS RENT A CAR ABU DHABI
+               Live URL: https://auto-plus-abu-uae.vercel.app
+               Phone:    +971 50 977 2483
+               WhatsApp: https://wa.me/971509772483
+               Location: Al Zahiyah,  Abu Dhabi
 
-[LIVE] #030 - Harakat Rent a Car
-       URL:    https://harakat-bpff3rk1v-carrental3.vercel.app
-       Phone:  +971 50 810 5080
-       Folder: /harakat-rent-a-car
+[LIVE - RAHUL] #030 - Harakat Rent a Car
+               Live URL: https://harakat-uae.vercel.app
+               Phone:    +971 50 810 5080
+               WhatsApp: https://wa.me/971508105080
+               Location: Al Zahiyah,  Abu Dhabi
 
-[LIVE] #031 - Pro Car Rent - Al Salam Street
-       URL:    https://pro-car-rent-lz2js83zz-carrental3.vercel.app
-       Phone:  +971 56 216 8666
-       Folder: /pro-car-rent-al-salam-street
+=========================================================================
+👤 2. HET'S SALES CLIENTS (30 LIVE WEBSITES)
+=========================================================================
+[LIVE - HET]   #031 - Pro Car Rent - Al Salam Street
+               Live URL: https://pro-car-rent-uae.vercel.app
+               Phone:    +971 56 216 8666
+               WhatsApp: https://wa.me/971562168666
+               Location: Al Zahiyah,  Abu Dhabi
 
-=====================================================
-⏳ PENDING WEBSITES (69)
-=====================================================
-[PENDING] #032 - Shift Car Rental | Al Wahda Mall (shift-car-rental-al-wahda-mall)
-[PENDING] #033 - PLAZA CAR RENTAL (plaza-car-rental)
-[PENDING] #034 - APPLE RENT A CAR ME-10 (apple-rent-a-car-me-10)
-[PENDING] #035 - Indigo Rent A Car Khalidiya Mall (indigo-rent-a-car-khalidiya-mall)
-[PENDING] #036 - Monaco Rent A Car (monaco-rent-a-car)
-[PENDING] #037 - Safeway Car Rentals (safeway-car-rentals)
-[PENDING] #038 - Top Speed Rent A Car L.L.C. (top-speed-rent-a-car-l-l-c)
-[PENDING] #039 - On Track Car Rentals (on-track-car-rentals)
-[PENDING] #040 - Spider Rent A Car (spider-rent-a-car)
-[PENDING] #041 - White and red cars rental (white-and-red-cars-rental)
-[PENDING] #042 - AeroCar Rent A Car (aerocar-rent-a-car)
-[PENDING] #043 - Fantazya Rent A Car (fantazya-rent-a-car)
-[PENDING] #044 - Spectre Rent A Car (spectre-rent-a-car)
-[PENDING] #045 - Al Shayea Car Rental (al-shayea-car-rental)
-[PENDING] #046 - Afamia Rent a Car (afamia-rent-a-car)
-[PENDING] #047 - Alyah car rental (alyah-car-rental)
-[PENDING] #048 - Tilal Al Emarat Rent A Car (tilal-al-emarat-rent-a-car)
-[PENDING] #049 - Arkan Cars Rental (arkan-cars-rental)
-[PENDING] #050 - For You Rent A Car (for-you-rent-a-car)
-[PENDING] #051 - AL FADA RENT A CAR (al-fada-rent-a-car)
-[PENDING] #052 - Tiger Cars Rental (tiger-cars-rental)
-[PENDING] #053 - Al Sharjah Rent A Car (al-sharjah-rent-a-car)
-[PENDING] #054 - Sunasco Car Rental (sunasco-car-rental)
-[PENDING] #055 - Aldalil Cars Rental (aldalil-cars-rental)
-[PENDING] #056 - Atlantic Rent A Car Establishment (atlantic-rent-a-car-establishment)
-[PENDING] #057 - Al Fareed Rent A Car (al-fareed-rent-a-car)
-[PENDING] #058 - Perfect Rent A Car (perfect-rent-a-car)
-[PENDING] #059 - Al Mahra Rent Car (al-mahra-rent-car)
-[PENDING] #060 - Golden Cup Rent A Car (golden-cup-rent-a-car)
-[PENDING] #061 - Monte Carlo Rent a Car (monte-carlo-rent-a-car)
-[PENDING] #062 - Seven Seas Rent A Car (seven-seas-rent-a-car)
-[PENDING] #063 - Eurocar (eurocar)
-[PENDING] #064 - ALNASEH Car Rental (alnaseh-car-rental)
-[PENDING] #065 - Best Choice Car Rental LLC (best-choice-car-rental-llc)
-[PENDING] #066 - Creek Rent A Car (creek-rent-a-car)
-[PENDING] #067 - Selective Car Rental (selective-car-rental)
-[PENDING] #068 - Aldy Rent A Car (aldy-rent-a-car)
-[PENDING] #069 - Ahlan Rent A Car (ahlan-rent-a-car)
-[PENDING] #070 - Al Attar Car Rental (al-attar-car-rental)
-[PENDING] #071 - Makkiayh Car Rental LLC. (makkiayh-car-rental-llc)
-[PENDING] #072 - ATU Luxury Cars Dubai (atu-luxury-cars-dubai)
-[PENDING] #073 - Armeny Rent A Car Dubai (armeny-rent-a-car-dubai)
-[PENDING] #074 - ACC Car Rental LLC (acc-car-rental-llc)
-[PENDING] #075 - Ashtar Car Rental (ashtar-car-rental)
-[PENDING] #076 - R Car Rental LLC (r-car-rental-llc)
-[PENDING] #077 - Golden Drive Car Rental LLC (golden-drive-car-rental-llc)
-[PENDING] #078 - Al Fadhel Car Rental (al-fadhel-car-rental)
-[PENDING] #079 - Easy Deal Car Rental Dubai (easy-deal-car-rental-dubai)
-[PENDING] #080 - SAS Luxury Car Rentals Dubai (sas-luxury-car-rentals-dubai)
-[PENDING] #081 - Rent A Car In Dubai (rent-a-car-in-dubai)
-[PENDING] #082 - R Dynamic Car Rental (r-dynamic-car-rental)
-[PENDING] #083 - SS1 Rent A Car (ss1-rent-a-car)
-[PENDING] #084 - Oro Car Rental (oro-car-rental)
-[PENDING] #085 - 4AZ Super Car Rentals Dubai (4az-super-car-rentals-dubai)
-[PENDING] #086 - Sast Urus Car Rental (sast-urus-car-rental)
-[PENDING] #087 - Venusyum Car Rental (venusyum-car-rental)
-[PENDING] #088 - Driftty Speed Car Rental LLC (driftty-speed-car-rental-llc)
-[PENDING] #089 - Shawaheen Car Rental (shawaheen-car-rental)
-[PENDING] #090 - Haiwan Car Rental Dubai (haiwan-car-rental-dubai)
-[PENDING] #091 - Al Ramool Rent A Car (al-ramool-rent-a-car)
-[PENDING] #092 - Ready To Ride Car Rental (ready-to-ride-car-rental)
-[PENDING] #093 - Miete Car Rental Company (miete-car-rental-company)
-[PENDING] #094 - Prime Keys Car Rental LLC (prime-keys-car-rental-llc)
-[PENDING] #095 - Come And Rent Car Rental (come-and-rent-car-rental)
-[PENDING] #096 - Al-Emad Cars & Bus Rental (al-emad-cars-bus-rental)
-[PENDING] #097 - Al Omari Rent A Car (al-omari-rent-a-car)
-[PENDING] #098 - Atlantic Rent A Car LLC (atlantic-rent-a-car-llc)
-[PENDING] #099 - Silver Drive Rent A Car (silver-drive-rent-a-car)
-[PENDING] #100 - Harrods Rent A Car LLC (harrods-rent-a-car-llc)
+[LIVE - HET]   #032 - Shift Car Rental | Al Wahda Mall
+               Live URL: https://shift-al-wahda-hazel.vercel.app
+               Phone:    +971 50 476 3544
+               WhatsApp: https://wa.me/971504763544
+               Location: Al Wahda Mall,  Abu Dhabi
+
+[LIVE - HET]   #033 - PLAZA CAR RENTAL
+               Live URL: https://plaza-weld.vercel.app
+               Phone:    +971 50 508 7729
+               WhatsApp: https://wa.me/971505087729
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #034 - APPLE RENT A CAR ME-10
+               Live URL: https://apple-me-10-two.vercel.app
+               Phone:    +971 58 966 9192
+               WhatsApp: https://wa.me/971589669192
+               Location: Mussafah ME-10,  Abu Dhabi
+
+[LIVE - HET]   #035 - Indigo Rent A Car Khalidiya Mall
+               Live URL: https://indigo-khalidiy-dusky.vercel.app
+               Phone:    +971 55 401 3567
+               WhatsApp: https://wa.me/971554013567
+               Location: Khalidiya Mall,  Abu Dhabi
+
+[LIVE - HET]   #036 - Monaco Rent A Car
+               Live URL: https://monaco-bice.vercel.app
+               Phone:    +971 50 620 2627
+               WhatsApp: https://wa.me/971506202627
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #037 - Safeway Car Rentals
+               Live URL: https://safeways-five.vercel.app
+               Phone:    +971 50 446 5020
+               WhatsApp: https://wa.me/971504465020
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #038 - Top Speed Rent A Car L.L.C.
+               Live URL: https://top-speed-l-l-c-two.vercel.app
+               Phone:    +971 55 860 0067
+               WhatsApp: https://wa.me/971558600067
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #039 - On Track Car Rentals
+               Live URL: https://on-tracks-five.vercel.app
+               Phone:    +971 50 236 6699
+               WhatsApp: https://wa.me/971502366699
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #040 - Spider Rent A Car
+               Live URL: https://spider-delta-seven.vercel.app
+               Phone:    +971 55 722 8882
+               WhatsApp: https://wa.me/971557228882
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #041 - White and red cars rental
+               Live URL: https://white-and-red-sigma.vercel.app
+               Phone:    +971 52 580 2027
+               WhatsApp: https://wa.me/971525802027
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #042 - AeroCar Rent A Car
+               Live URL: https://aerocar-mu.vercel.app
+               Phone:    +971 55 145 5788
+               WhatsApp: https://wa.me/971551455788
+               Location: Airport Road,  Abu Dhabi
+
+[LIVE - HET]   #043 - Fantazya Rent A Car
+               Live URL: https://fantazya-eta.vercel.app
+               Phone:    +971 50 115 8090
+               WhatsApp: https://wa.me/971501158090
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #044 - Spectre Rent A Car
+               Live URL: https://spectre-khaki-three.vercel.app
+               Phone:    +971 56 773 3374
+               WhatsApp: https://wa.me/971567733374
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #045 - Al Shayea Car Rental
+               Live URL: https://al-shayea-fawn.vercel.app
+               Phone:    +971 52 966 9977
+               WhatsApp: https://wa.me/971529669977
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #046 - Afamia Rent a Car
+               Live URL: https://afamia-dusky.vercel.app
+               Phone:    +971 50 791 1711
+               WhatsApp: https://wa.me/971507911711
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #047 - Alyah car rental
+               Live URL: https://alyah-kappa.vercel.app
+               Phone:    +971 56 888 8795
+               WhatsApp: https://wa.me/971568888795
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #048 - Tilal Al Emarat Rent A Car
+               Live URL: https://tilal-al-emarat-gray.vercel.app
+               Phone:    +971 56 911 4113
+               WhatsApp: https://wa.me/971569114113
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #049 - Arkan Cars Rental
+               Live URL: https://arkan-gray.vercel.app
+               Phone:    +971 50 775 7876
+               WhatsApp: https://wa.me/971507757876
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #050 - For You Rent A Car
+               Live URL: https://for-you-self-three.vercel.app
+               Phone:    +971 55 110 4322
+               WhatsApp: https://wa.me/971551104322
+               Location: Al Markaziyah,  Abu Dhabi
+
+[LIVE - HET]   #051 - AL FADA RENT A CAR
+               Live URL: https://al-fada.vercel.app
+               Phone:    +971 52 929 0500
+               WhatsApp: https://wa.me/971529290500
+               Location: Al Markaziyah,  Abu Dhabi
+
+[LIVE - HET]   #052 - Tiger Cars Rental
+               Live URL: https://tiger-woad.vercel.app
+               Phone:    +971 52 697 2432
+               WhatsApp: https://wa.me/971526972432
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #053 - Al Sharjah Rent A Car
+               Live URL: https://al-sharjah.vercel.app
+               Phone:    +971 50 699 9877
+               WhatsApp: https://wa.me/971506999877
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #054 - Sunasco Car Rental
+               Live URL: https://sunasco.vercel.app
+               Phone:    +971 54 460 5609
+               WhatsApp: https://wa.me/971544605609
+               Location: Al Markaziyah,  Abu Dhabi
+
+[LIVE - HET]   #055 - Aldalil Cars Rental
+               Live URL: https://aldalil-phi.vercel.app
+               Phone:    +971 50 777 5334
+               WhatsApp: https://wa.me/971507775334
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #056 - Atlantic Rent A Car Establishment
+               Live URL: https://atlantic-iota.vercel.app
+               Phone:    +971 50 580 6622
+               WhatsApp: https://wa.me/971505806622
+               Location: Al Zahiyah,  Abu Dhabi
+
+[LIVE - HET]   #057 - Al Fareed Rent A Car
+               Live URL: https://al-fareed.vercel.app
+               Phone:    +971 50 522 7400
+               WhatsApp: https://wa.me/971505227400
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #058 - Perfect Rent A Car
+               Live URL: https://perfect-pied.vercel.app
+               Phone:    +971 50 616 4858
+               WhatsApp: https://wa.me/971506164858
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #059 - Al Mahra Rent Car
+               Live URL: https://al-mahra-six.vercel.app
+               Phone:    +971 54 777 8358
+               WhatsApp: https://wa.me/971547778358
+               Location: Al Danah,  Abu Dhabi
+
+[LIVE - HET]   #060 - Golden Cup Rent A Car
+               Live URL: https://golden-cup-flax.vercel.app
+               Phone:    +971 58 517 1916
+               WhatsApp: https://wa.me/971585171916
+               Location: Al Danah,  Abu Dhabi
+
+=========================================================================
+⏳ PENDING CLIENTS QUEUE (367 COMPANIES - SITES #061 to #427)
+=========================================================================
+[PENDING] #061 - Monte Carlo Rent a Car
+          Phone:    +971 56 300 4141
+          WhatsApp: https://wa.me/971563004141
+          Location: Al Danah,  Abu Dhabi
+
+[PENDING] #062 - Seven Seas Rent A Car
+          Phone:    +971 50 811 9306
+          WhatsApp: https://wa.me/971508119306
+          Location: Al Markaziyah,  Abu Dhabi
+
+[PENDING] #063 - Eurocar
+          Phone:    +971 50 445 0072
+          WhatsApp: https://wa.me/971504450072
+          Location: Al Zahiyah,  Abu Dhabi
+
+[PENDING] #064 - ALNASEH Car Rental
+          Phone:    +971 50 660 7966
+          WhatsApp: https://wa.me/971506607966
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #065 - Best Choice Car Rental LLC
+          Phone:    +971 50 998 7959
+          WhatsApp: https://wa.me/971509987959
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #066 - Creek Rent A Car
+          Phone:    +971 54 411 0100
+          WhatsApp: https://wa.me/971544110100
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #067 - Selective Car Rental
+          Phone:    +971 56 243 0109
+          WhatsApp: https://wa.me/971562430109
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #068 - Aldy Rent A Car
+          Phone:    +971 50 677 1216
+          WhatsApp: https://wa.me/971506771216
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #069 - Ahlan Rent A Car
+          Phone:    +971 55 774 9977
+          WhatsApp: https://wa.me/971557749977
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #070 - Al Attar Car Rental
+          Phone:    +971 50 883 0335
+          WhatsApp: https://wa.me/971508830335
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #071 - Makkiayh Car Rental LLC.
+          Phone:    +971 50 855 1334
+          WhatsApp: https://wa.me/971508551334
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #072 - ATU Luxury Cars Dubai
+          Phone:    +971 50 580 7596
+          WhatsApp: https://wa.me/971505807596
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #073 - Armeny Rent A Car Dubai
+          Phone:    +971 50 955 8865
+          WhatsApp: https://wa.me/971509558865
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #074 - ACC Car Rental LLC
+          Phone:    +971 55 641 9333
+          WhatsApp: https://wa.me/971556419333
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #075 - Ashtar Car Rental
+          Phone:    +971 54 220 8946
+          WhatsApp: https://wa.me/971542208946
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #076 - R Car Rental LLC
+          Phone:    +971 52 652 5890
+          WhatsApp: https://wa.me/971526525890
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #077 - Golden Drive Car Rental LLC
+          Phone:    +971 54 245 7038
+          WhatsApp: https://wa.me/971542457038
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #078 - Al Fadhel Car Rental
+          Phone:    +971 52 734 6056
+          WhatsApp: https://wa.me/971527346056
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #079 - Easy Deal Car Rental Dubai
+          Phone:    +971 52 869 1930
+          WhatsApp: https://wa.me/971528691930
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #080 - SAS Luxury Car Rentals Dubai
+          Phone:    +971 54 707 2111
+          WhatsApp: https://wa.me/971547072111
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #081 - Rent A Car In Dubai
+          Phone:    +971 56 981 9772
+          WhatsApp: https://wa.me/971569819772
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #082 - R Dynamic Car Rental
+          Phone:    +971 52 414 5956
+          WhatsApp: https://wa.me/971524145956
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #083 - SS1 Rent A Car
+          Phone:    +971 55 693 7007
+          WhatsApp: https://wa.me/971556937007
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #084 - Oro Car Rental
+          Phone:    +971 56 544 1457
+          WhatsApp: https://wa.me/971565441457
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #085 - 4AZ Super Car Rentals Dubai
+          Phone:    +971 50 594 6222
+          WhatsApp: https://wa.me/971505946222
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #086 - Sast Urus Car Rental
+          Phone:    +971 58 802 9434
+          WhatsApp: https://wa.me/971588029434
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #087 - Venusyum Car Rental
+          Phone:    +971 50 511 5839
+          WhatsApp: https://wa.me/971505115839
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #088 - Driftty Speed Car Rental LLC
+          Phone:    +971 50 464 4555
+          WhatsApp: https://wa.me/971504644555
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #089 - Shawaheen Car Rental
+          Phone:    +971 50 692 2619
+          WhatsApp: https://wa.me/971506922619
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #090 - Haiwan Car Rental Dubai
+          Phone:    +971 52 171 8977
+          WhatsApp: https://wa.me/971521718977
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #091 - Al Ramool Rent A Car
+          Phone:    +971 56 511 4114
+          WhatsApp: https://wa.me/971565114114
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #092 - Ready To Ride Car Rental
+          Phone:    +971 54 555 4644
+          WhatsApp: https://wa.me/971545554644
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #093 - Miete Car Rental Company
+          Phone:    +971 50 470 8004
+          WhatsApp: https://wa.me/971504708004
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #094 - Prime Keys Car Rental LLC
+          Phone:    +971 56 155 5590
+          WhatsApp: https://wa.me/971561555590
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #095 - Come And Rent Car Rental
+          Phone:    +971 56 424 4309
+          WhatsApp: https://wa.me/971564244309
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #096 - Al-Emad Cars & Bus Rental
+          Phone:    +971 55 558 5239
+          WhatsApp: https://wa.me/971555585239
+          Location: Al Garhoud,  Deira,  Dubai
+
+[PENDING] #097 - Al Omari Rent A Car
+          Phone:    +971 56 397 0709
+          WhatsApp: https://wa.me/971563970709
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #098 - Atlantic Rent A Car LLC
+          Phone:    +971 52 777 7835
+          WhatsApp: https://wa.me/971527777835
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #099 - Silver Drive Rent A Car
+          Phone:    +971 54 469 0606
+          WhatsApp: https://wa.me/971544690606
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #100 - Harrods Rent A Car LLC
+          Phone:    +971 50 723 5243
+          WhatsApp: https://wa.me/971507235243
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #101 - HRR Rent A Car
+          Phone:    +971 55 606 8899
+          WhatsApp: https://wa.me/971556068899
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #102 - Bravo Star Rent A Car L.L.C
+          Phone:    +971 54 357 5750
+          WhatsApp: https://wa.me/971543575750
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #103 - Zico Car Rental
+          Phone:    +971 58 847 2765
+          WhatsApp: https://wa.me/971588472765
+          Location: Deira,  Dubai
+
+[PENDING] #104 - IDS Rent A Car
+          Phone:    +971 56 270 1816
+          WhatsApp: https://wa.me/971562701816
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #105 - Al Shabab Car Rental
+          Phone:    +971 50 546 7171
+          WhatsApp: https://wa.me/971505467171
+          Location: Al Bateen,  Abu Dhabi
+
+[PENDING] #106 - Victoria Cars Rental Branch 1
+          Phone:    +971 50 160 9938
+          WhatsApp: https://wa.me/971501609938
+          Location: Al Khalidiya,  Abu Dhabi
+
+[PENDING] #107 - Bentley Rent A Car
+          Phone:    +971 50 444 8996
+          WhatsApp: https://wa.me/971504448996
+          Location: Al Danah,  Abu Dhabi
+
+[PENDING] #108 - Aljawdah Rent A Car
+          Phone:    +971 54 174 9710
+          WhatsApp: https://wa.me/971541749710
+          Location: Al Zahiyah,  Abu Dhabi
+
+[PENDING] #109 - Top Gear Cars Rental LLC - Ajman
+          Phone:    +971 54 447 4321
+          WhatsApp: https://wa.me/971544474321
+          Location: Industrial Area,  Ajman
+
+[PENDING] #110 - Alsharif Cars Rental L.L.C
+          Phone:    +971 58 583 8890
+          WhatsApp: https://wa.me/971585838890
+          Location: Al Jurf Industrial 3,  Ajman
+
+[PENDING] #111 - Super Car Rent A Car Al Jurf
+          Phone:    +971 55 150 0555
+          WhatsApp: https://wa.me/971551500555
+          Location: Al Jurf 2,  Ajman
+
+[PENDING] #112 - FastCar Cars Rental
+          Phone:    +971 50 270 0138
+          WhatsApp: https://wa.me/971502700138
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #113 - Discount Cars Rental L.L.C
+          Phone:    +971 56 157 7142
+          WhatsApp: https://wa.me/971561577142
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #114 - Al Tameem Cars & Buses Rental
+          Phone:    +971 50 944 3809
+          WhatsApp: https://wa.me/971509443809
+          Location: Al Rawda 3,  Ajman
+
+[PENDING] #115 - MAHA RENT A CAR
+          Phone:    +971 50 944 9361
+          WhatsApp: https://wa.me/971509449361
+          Location: Al Jurf Industrial 1,  Ajman
+
+[PENDING] #116 - Confident Rent Car
+          Phone:    +971 56 161 8211
+          WhatsApp: https://wa.me/971561618211
+          Location: Al Nuaimia 2,  Ajman
+
+[PENDING] #117 - Fazza Rent A Car
+          Phone:    +971 56 183 1113
+          WhatsApp: https://wa.me/971561831113
+          Location: Al Jurf 2,  Ajman
+
+[PENDING] #118 - Car Express Rent A Car
+          Phone:    +971 56 722 2062
+          WhatsApp: https://wa.me/971567222062
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #119 - Platinum Cars Rental
+          Phone:    +971 50 141 4099
+          WhatsApp: https://wa.me/971501414099
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #120 - Alsayf Car Rental Ajman
+          Phone:    +971 58 522 5544
+          WhatsApp: https://wa.me/971585225544
+          Location: Al Rashidiya 1,  Ajman
+
+[PENDING] #121 - Amera Rent A Car
+          Phone:    +971 52 750 6963
+          WhatsApp: https://wa.me/971527506963
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #122 - GT Cars Rent Car
+          Phone:    +971 58 698 7873
+          WhatsApp: https://wa.me/971586987873
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #123 - Stallion Rent A Car LLC
+          Phone:    +971 52 350 4227
+          WhatsApp: https://wa.me/971523504227
+          Location: Al Jurf Industrial 3,  Ajman
+
+[PENDING] #124 - Al Andalous Rent A Car
+          Phone:    +971 55 481 9009
+          WhatsApp: https://wa.me/971554819009
+          Location: Al Jerf 1,  Ajman
+
+[PENDING] #125 - V8 Cars Rental
+          Phone:    +971 54 257 3520
+          WhatsApp: https://wa.me/971542573520
+          Location: Al Jurf Industrial 1,  Ajman
+
+[PENDING] #126 - Fox Cars Rental
+          Phone:    +971 54 380 0088
+          WhatsApp: https://wa.me/971543800088
+          Location: Al Nuaimia 2,  Ajman
+
+[PENDING] #127 - Asrar Rent A Car
+          Phone:    +971 56 720 0046
+          WhatsApp: https://wa.me/971567200046
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #128 - Eagle Rent A Car
+          Phone:    +971 55 702 1991
+          WhatsApp: https://wa.me/971557021991
+          Location: Al Rashidiya 3,  Ajman
+
+[PENDING] #129 - Armani Car Rental No Deposit
+          Phone:    +971 54 230 1234
+          WhatsApp: https://wa.me/971542301234
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #130 - Car House Cars Rental
+          Phone:    +971 52 120 4120
+          WhatsApp: https://wa.me/971521204120
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #131 - My Car Rent A Car
+          Phone:    +971 55 455 8313
+          WhatsApp: https://wa.me/971554558313
+          Location: Al Jurf Industrial 1,  Ajman
+
+[PENDING] #132 - Thasneem Rent A Car
+          Phone:    +971 56 501 2800
+          WhatsApp: https://wa.me/971565012800
+          Location: Al Jerf 1,  Ajman
+
+[PENDING] #133 - Almutahida Rent A Car
+          Phone:    +971 58 292 7501
+          WhatsApp: https://wa.me/971582927501
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #134 - Al Mustaqbal Car Rental
+          Phone:    +971 55 433 8363
+          WhatsApp: https://wa.me/971554338363
+          Location: Al Nuaimia 2,  Ajman
+
+[PENDING] #135 - Meydan Cars & Buses Rental
+          Phone:    +971 52 689 9944
+          WhatsApp: https://wa.me/971526899944
+          Location: Al Rashidiya 2,  Ajman
+
+[PENDING] #136 - Al Ostol Car Rental LLC
+          Phone:    +971 55 675 5766
+          WhatsApp: https://wa.me/971556755766
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #137 - Season Rent A Car
+          Phone:    +971 55 226 6909
+          WhatsApp: https://wa.me/971552266909
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #138 - Nokhba Cars Rental Ajman
+          Phone:    +971 52 729 0473
+          WhatsApp: https://wa.me/971527290473
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #139 - Alhayba Rent A Car
+          Phone:    +971 56 110 5050
+          WhatsApp: https://wa.me/971561105050
+          Location: Al Jurf 2,  Ajman
+
+[PENDING] #140 - Taiba Rent A Car LLC
+          Phone:    +971 50 200 6629
+          WhatsApp: https://wa.me/971502006629
+          Location: Al Rawda 1,  Ajman
+
+[PENDING] #141 - Stars Rent A Car
+          Phone:    +971 55 130 8855
+          WhatsApp: https://wa.me/971551308855
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #142 - Miete Cars Rental
+          Phone:    +971 54 708 2000
+          WhatsApp: https://wa.me/971547082000
+          Location: Al Nuaimia 2,  Ajman
+
+[PENDING] #143 - Remal Cars Rental
+          Phone:    +971 52 929 1229
+          WhatsApp: https://wa.me/971529291229
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #144 - Muftah Rent A Car
+          Phone:    +971 50 464 1006
+          WhatsApp: https://wa.me/971504641006
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #145 - Althuraya Cars Rental
+          Phone:    +971 54 490 5246
+          WhatsApp: https://wa.me/971544905246
+          Location: Al Jerf 1,  Ajman
+
+[PENDING] #146 - Car Lift Ajman
+          Phone:    +971 52 577 3136
+          WhatsApp: https://wa.me/971525773136
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #147 - Alandalous Rent A Car Branch 1
+          Phone:    +971 56 215 5595
+          WhatsApp: https://wa.me/971562155595
+          Location: Industrial Area 2,  Ajman
+
+[PENDING] #148 - Online Car Rental Ajman
+          Phone:    +971 52 997 2019
+          WhatsApp: https://wa.me/971529972019
+          Location: Al Jurf 2,  Ajman
+
+[PENDING] #149 - Al Seyada Rent A Car
+          Phone:    +971 56 677 5506
+          WhatsApp: https://wa.me/971566775506
+          Location: Al Rawda 1,  Ajman
+
+[PENDING] #150 - Al Yasmeen Car Rental
+          Phone:    +971 55 155 4210
+          WhatsApp: https://wa.me/971551554210
+          Location: Al Rawda 1,  Ajman
+
+[PENDING] #151 - Ababeel Cars Rental SPS LLC
+          Phone:    +971 55 517 5210
+          WhatsApp: https://wa.me/971555175210
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #152 - Almethaley Rent A Car
+          Phone:    +971 50 555 9277
+          WhatsApp: https://wa.me/971505559277
+          Location: Al Jerf 2,  Ajman
+
+[PENDING] #153 - Al Hawary Car Rental
+          Phone:    +971 50 157 5760
+          WhatsApp: https://wa.me/971501575760
+          Location: Al Nuaimia 1,  Ajman
+
+[PENDING] #154 - Al Faris Rent A Car Ajman
+          Phone:    +971 52 276 3720
+          WhatsApp: https://wa.me/971522763720
+          Location: Al Nuaimia,  Ajman
+
+[PENDING] #155 - Suhaj Rent A Car Company
+          Phone:    +971 55 567 0909
+          WhatsApp: https://wa.me/971555670909
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #156 - Excellent Cars Rental
+          Phone:    +971 50 324 0221
+          WhatsApp: https://wa.me/971503240221
+          Location: Al Jurf Industrial 2,  Ajman
+
+[PENDING] #157 - Turbo Rent A Car Ajman
+          Phone:    +971 56 941 3525
+          WhatsApp: https://wa.me/971569413525
+          Location: Al Nuaimia 3,  Ajman
+
+[PENDING] #158 - Rent A Car & Hiace
+          Phone:    +971 56 312 5710
+          WhatsApp: https://wa.me/971563125710
+          Location: Al Rawda 2,  Ajman
+
+[PENDING] #159 - G Wagon Car Rental Dubai
+          Phone:    +971 55 435 1399
+          WhatsApp: https://wa.me/971554351399
+          Location: Jumeirah Beach Residence,  Dubai
+
+[PENDING] #160 - Deals On Wheels Rent A Car L.L.C
+          Phone:    +971 50 900 0238
+          WhatsApp: https://wa.me/971509000238
+          Location: Al Quoz 3,  Dubai
+
+[PENDING] #161 - Dar Khalifa Car Rental
+          Phone:    +971 50 391 1929
+          WhatsApp: https://wa.me/971503911929
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #162 - Wheels On Lease Car Rental LLC
+          Phone:    +971 50 706 1230
+          WhatsApp: https://wa.me/971507061230
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #163 - Zig Zag Car Rental Al Quoz
+          Phone:    +971 58 566 7177
+          WhatsApp: https://wa.me/971585667177
+          Location: Al Quoz 3,  Dubai
+
+[PENDING] #164 - Spring Car Rental
+          Phone:    +971 50 363 0246
+          WhatsApp: https://wa.me/971503630246
+          Location: Business Bay / Al Wasl,  Dubai
+
+[PENDING] #165 - Drive Plus Rent A Car Dubai
+          Phone:    +971 50 578 3676
+          WhatsApp: https://wa.me/971505783676
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #166 - Elite Ride Luxury Car Rental
+          Phone:    +971 50 849 4449
+          WhatsApp: https://wa.me/971508494449
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #167 - Casablanca Car Rental
+          Phone:    +971 58 508 0995
+          WhatsApp: https://wa.me/971585080995
+          Location: Al Quoz 3,  Dubai
+
+[PENDING] #168 - RZR Rent A Car
+          Phone:    +971 56 501 4929
+          WhatsApp: https://wa.me/971565014929
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #169 - Rent A Car Al Quoz
+          Phone:    +971 56 379 2012
+          WhatsApp: https://wa.me/971563792012
+          Location: Al Quoz 2,  Dubai
+
+[PENDING] #170 - LCR Luxury Car Rental
+          Phone:    +971 54 328 7419
+          WhatsApp: https://wa.me/971543287419
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #171 - RB Prestige Car Rental
+          Phone:    +971 52 727 1127
+          WhatsApp: https://wa.me/971527271127
+          Location: Al Quoz 3,  Dubai
+
+[PENDING] #172 - Flexible Car Rentals
+          Phone:    +971 58 940 7003
+          WhatsApp: https://wa.me/971589407003
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #173 - Chaudry Transport
+          Phone:    +971 50 679 1933
+          WhatsApp: https://wa.me/971506791933
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #174 - ABD Luxury Car Rental
+          Phone:    +971 56 344 1149
+          WhatsApp: https://wa.me/971563441149
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #175 - Supernova Luxury Car Rental
+          Phone:    +971 52 374 0244
+          WhatsApp: https://wa.me/971523740244
+          Location: Sheikh Zayed Road,  Dubai
+
+[PENDING] #176 - Superior Car Rental LLC
+          Phone:    +971 50 686 9555
+          WhatsApp: https://wa.me/971506869555
+          Location: Al Quoz 3,  Dubai
+
+[PENDING] #177 - Auto Rent Service Center
+          Phone:    +971 50 137 8932
+          WhatsApp: https://wa.me/971501378932
+          Location: Al Quoz 4,  Dubai
+
+[PENDING] #178 - Al Nabooda Car Rental
+          Phone:    +971 50 653 9905
+          WhatsApp: https://wa.me/971506539905
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #179 - Noor Drive Fleet Management
+          Phone:    +971 52 395 9439
+          WhatsApp: https://wa.me/971523959439
+          Location: Al Quoz 1,  Dubai
+
+[PENDING] #180 - Emily Car Rental
+          Phone:    +971 58 216 0017
+          WhatsApp: https://wa.me/971582160017
+          Location: DIFC / Trade Centre,  Dubai
+
+[PENDING] #181 - Your Choice Rent A Car L.L.C
+          Phone:    +971 50 116 5683
+          WhatsApp: https://wa.me/971501165683
+          Location: DIFC / Trade Centre,  Dubai
+
+[PENDING] #182 - Desire Rent A Car
+          Phone:    +971 56 275 5676
+          WhatsApp: https://wa.me/971562755676
+          Location: Zabeel,  Dubai
+
+[PENDING] #183 - TripJohn Rent A Car Dubai
+          Phone:    +971 56 544 8474
+          WhatsApp: https://wa.me/971565448474
+          Location: World Trade Centre,  Dubai
+
+[PENDING] #184 - Al Kafi Rent A Car
+          Phone:    +971 58 801 9938
+          WhatsApp: https://wa.me/971588019938
+          Location: Karama,  Dubai
+
+[PENDING] #185 - Spin Rent A Car
+          Phone:    +971 50 276 3222
+          WhatsApp: https://wa.me/971502763222
+          Location: Al Mankhool,  Bur Dubai
+
+[PENDING] #186 - Al Falah Car Rental L L C
+          Phone:    +971 50 528 2490
+          WhatsApp: https://wa.me/971505282490
+          Location: Karama,  Dubai
+
+[PENDING] #187 - NCF Car Rental
+          Phone:    +971 54 552 3060
+          WhatsApp: https://wa.me/971545523060
+          Location: Al Mankhool,  Bur Dubai
+
+[PENDING] #188 - GT Sport Car Rental LLC
+          Phone:    +971 50 694 8881
+          WhatsApp: https://wa.me/971506948881
+          Location: Deira,  Dubai
+
+[PENDING] #189 - Speedway Car Rental LLC
+          Phone:    +971 50 414 1794
+          WhatsApp: https://wa.me/971504141794
+          Location: Al Mankhool,  Bur Dubai
+
+[PENDING] #190 - Sun Souk Car Rental Dubai
+          Phone:    +971 50 665 9523
+          WhatsApp: https://wa.me/971506659523
+          Location: Al Karama,  Dubai
+
+[PENDING] #191 - Travel Easy Car Rental LLC
+          Phone:    +971 56 930 5907
+          WhatsApp: https://wa.me/971569305907
+          Location: Al Karama,  Dubai
+
+[PENDING] #192 - Unique Concept Rent A Car LLC
+          Phone:    +971 50 742 5067
+          WhatsApp: https://wa.me/971507425067
+          Location: Al Mankhool,  Bur Dubai
+
+[PENDING] #193 - Perfect Line Rent A Car L.L.C
+          Phone:    +971 54 495 7070
+          WhatsApp: https://wa.me/971544957070
+          Location: Al Karama,  Dubai
+
+[PENDING] #194 - It's A Rent A Car
+          Phone:    +971 54 722 2389
+          WhatsApp: https://wa.me/971547222389
+          Location: Umm Hurair,  Dubai
+
+[PENDING] #195 - Island Car Park Rental
+          Phone:    +971 55 455 4471
+          WhatsApp: https://wa.me/971554554471
+          Location: Bur Dubai,  Dubai
+
+[PENDING] #196 - Jawhrat Alsharq Rent A Car
+          Phone:    +971 50 457 8969
+          WhatsApp: https://wa.me/971504578969
+          Location: Al Karama,  Dubai
+
+[PENDING] #197 - FireBird Rent A Car
+          Phone:    +971 50 123 2044
+          WhatsApp: https://wa.me/971501232044
+          Location: Al Nahda 1,  Dubai
+
+[PENDING] #198 - Thunders Rent A Car
+          Phone:    +971 50 166 2487
+          WhatsApp: https://wa.me/971501662487
+          Location: Bur Dubai,  Dubai
+
+[PENDING] #199 - Dualuxury Rent A Car
+          Phone:    +971 56 255 8441
+          WhatsApp: https://wa.me/971562558441
+          Location: Al Mankhool,  Bur Dubai
+
+[PENDING] #200 - Monarch Car Rental Dubai
+          Phone:    +971 52 957 8006
+          WhatsApp: https://wa.me/971529578006
+          Location: Business Bay,  Dubai
+
+[PENDING] #201 - Next Drive Luxury Car Rental
+          Phone:    +971 52 857 6327
+          WhatsApp: https://wa.me/971528576327
+          Location: Business Bay,  Dubai
+
+[PENDING] #202 - Dany Luxury Car Rental
+          Phone:    +971 52 642 2261
+          WhatsApp: https://wa.me/971526422261
+          Location: Business Bay,  Dubai
+
+[PENDING] #203 - Indigo Rent A Car Business Bay
+          Phone:    +971 56 744 8008
+          WhatsApp: https://wa.me/971567448008
+          Location: Business Bay,  Dubai
+
+[PENDING] #204 - Speed Switch Car Rental
+          Phone:    +971 54 799 4711
+          WhatsApp: https://wa.me/971547994711
+          Location: Business Bay,  Dubai
+
+[PENDING] #205 - Adrenaline Car Rental Dubai
+          Phone:    +971 54 325 5550
+          WhatsApp: https://wa.me/971543255550
+          Location: Business Bay,  Dubai
+
+[PENDING] #206 - World Gate Rent A Car
+          Phone:    +971 52 673 2480
+          WhatsApp: https://wa.me/971526732480
+          Location: Business Bay,  Dubai
+
+[PENDING] #207 - Tornado Car Rental JVC
+          Phone:    +971 54 266 1150
+          WhatsApp: https://wa.me/971542661150
+          Location: JVC,  Dubai
+
+[PENDING] #208 - SFK Rent A Car
+          Phone:    +971 58 501 8841
+          WhatsApp: https://wa.me/971585018841
+          Location: Business Bay,  Dubai
+
+[PENDING] #209 - Urban Ride Car Rental Co.
+          Phone:    +971 50 126 1521
+          WhatsApp: https://wa.me/971501261521
+          Location: Business Bay,  Dubai
+
+[PENDING] #210 - Torino Rent A Car
+          Phone:    +971 56 664 4443
+          WhatsApp: https://wa.me/97156644443
+          Location: Business Bay,  Dubai
+
+[PENDING] #211 - Business Bay Rent A Car
+          Phone:    +971 56 800 4747
+          WhatsApp: https://wa.me/971568004747
+          Location: Business Bay,  Dubai
+
+[PENDING] #212 - Rent Any Car Dubai
+          Phone:    +971 50 602 6209
+          WhatsApp: https://wa.me/971506026209
+          Location: DIFC,  Dubai
+
+[PENDING] #213 - Autohire Rent A Car LLC
+          Phone:    +971 50 471 0368
+          WhatsApp: https://wa.me/971504710368
+          Location: DIFC / Trade Centre,  Dubai
+
+[PENDING] #214 - Elite Drive Car Rental
+          Phone:    +971 54 444 2114
+          WhatsApp: https://wa.me/971544442114
+          Location: Trade Centre 1,  Dubai
+
+[PENDING] #215 - Hys Rent A Car
+          Phone:    +971 52 911 1666
+          WhatsApp: https://wa.me/971529111666
+          Location: Deira,  Dubai
+
+[PENDING] #216 - Deira Dubai Car Rental
+          Phone:    +971 58 535 6931
+          WhatsApp: https://wa.me/971585356931
+          Location: Deira,  Dubai
+
+[PENDING] #217 - Mkani Car Rental Dubai
+          Phone:    +971 52 445 2047
+          WhatsApp: https://wa.me/971524452047
+          Location: Al Nahda 1,  Dubai
+
+[PENDING] #218 - Bon Rent A Car
+          Phone:    +971 55 499 7494
+          WhatsApp: https://wa.me/971554997494
+          Location: Deira,  Dubai
+
+[PENDING] #219 - Alasad Rent A Car Dubai
+          Phone:    +971 55 454 5401
+          WhatsApp: https://wa.me/971554545401
+          Location: Deira,  Dubai
+
+[PENDING] #220 - Network Rent A Car
+          Phone:    +971 58 680 1515
+          WhatsApp: https://wa.me/971586801515
+          Location: Deira,  Dubai
+
+[PENDING] #221 - SCR Rent A Car
+          Phone:    +971 50 925 7800
+          WhatsApp: https://wa.me/971509257800
+          Location: Deira,  Dubai
+
+[PENDING] #222 - Carlo Rent A Car
+          Phone:    +971 50 676 7256
+          WhatsApp: https://wa.me/971506767256
+          Location: Deira,  Dubai
+
+[PENDING] #223 - Sultan Brhan Rent A Car
+          Phone:    +971 54 477 4618
+          WhatsApp: https://wa.me/971544774618
+          Location: Abu Hail,  Deira,  Dubai
+
+[PENDING] #224 - Aventador Car Rental
+          Phone:    +971 50 577 7475
+          WhatsApp: https://wa.me/971505777475
+          Location: Al Nahda 1,  Dubai
+
+[PENDING] #225 - Rayhan Rent A Car
+          Phone:    +971 58 260 7818
+          WhatsApp: https://wa.me/971582607818
+          Location: Deira,  Dubai
+
+[PENDING] #226 - Car Rental Dubai Luxury
+          Phone:    +971 55 362 8290
+          WhatsApp: https://wa.me/971553628290
+          Location: Al Wuheida,  Deira,  Dubai
+
+[PENDING] #227 - One Way Car Rental Dubai
+          Phone:    +971 50 188 8516
+          WhatsApp: https://wa.me/971501888516
+          Location: Al Qusais 1,  Dubai
+
+[PENDING] #228 - Al Nesr Al Abyad Car Rental
+          Phone:    +971 50 806 4996
+          WhatsApp: https://wa.me/971508064996
+          Location: Trade Centre,  Dubai
+
+[PENDING] #229 - Drive Hub Rentals Dubai
+          Phone:    +971 56 580 3790
+          WhatsApp: https://wa.me/971565803790
+          Location: Trade Centre,  Dubai
+
+[PENDING] #230 - Best Deira Rent A Car
+          Phone:    +971 55 546 6692
+          WhatsApp: https://wa.me/971555466692
+          Location: Deira,  Dubai
+
+[PENDING] #231 - Dragon Rental Car LLC
+          Phone:    +971 56 403 5530
+          WhatsApp: https://wa.me/971564035530
+          Location: Business Bay,  Dubai
+
+[PENDING] #232 - Xbeast Rent A Car Dubai
+          Phone:    +971 50 499 1550
+          WhatsApp: https://wa.me/971504991550
+          Location: Downtown Dubai,  Dubai
+
+[PENDING] #233 - On Speed Car Rental
+          Phone:    +971 56 438 2500
+          WhatsApp: https://wa.me/971564382500
+          Location: Downtown Dubai,  Dubai
+
+[PENDING] #234 - Black Badge Rent A Car
+          Phone:    +971 50 958 7253
+          WhatsApp: https://wa.me/971509587253
+          Location: Downtown Dubai,  Dubai
+
+[PENDING] #235 - Al Zumurd Bus Rental Dubai
+          Phone:    +971 55 110 7817
+          WhatsApp: https://wa.me/971551107817
+          Location: Downtown Dubai,  Dubai
+
+[PENDING] #236 - VIP Star Car Rental LLC
+          Phone:    +971 50 980 1258
+          WhatsApp: https://wa.me/971509801258
+          Location: Business Bay,  Dubai
+
+[PENDING] #237 - Where To Rent A Car
+          Phone:    +971 50 137 6680
+          WhatsApp: https://wa.me/971501376680
+          Location: Dubai Hills / Al Barsha South,  Dubai
+
+[PENDING] #238 - Royal Mount Rent Car
+          Phone:    +971 50 993 1903
+          WhatsApp: https://wa.me/971509931903
+          Location: Al Barsha South,  Dubai
+
+[PENDING] #239 - Caring Car Rentals
+          Phone:    +971 58 572 6583
+          WhatsApp: https://wa.me/971585726583
+          Location: Dubai Hills,  Dubai
+
+[PENDING] #240 - Arenda Car Rental
+          Phone:    +971 55 952 7953
+          WhatsApp: https://wa.me/971559527953
+          Location: Dubai Marina / JBR,  Dubai
+
+[PENDING] #241 - Marina Car Rentals Urban Rides
+          Phone:    +971 52 859 7744
+          WhatsApp: https://wa.me/971528597744
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #242 - Sports Car Rental in Dubai
+          Phone:    +971 55 334 5226
+          WhatsApp: https://wa.me/971553345226
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #243 - Golden Key Rent Car LLC
+          Phone:    +971 54 558 9956
+          WhatsApp: https://wa.me/971545589956
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #244 - MM Exotic Car Rent Dubai
+          Phone:    +971 55 119 1374
+          WhatsApp: https://wa.me/971551191374
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #245 - Luxury Car Rental By Entourage
+          Phone:    +971 50 119 2906
+          WhatsApp: https://wa.me/971501192906
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #246 - OJ Rent A Cars
+          Phone:    +971 50 630 5023
+          WhatsApp: https://wa.me/971506305023
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #247 - JBR Cars
+          Phone:    +971 55 880 0278
+          WhatsApp: https://wa.me/971558800278
+          Location: JBR,  Dubai
+
+[PENDING] #248 - Speedracer Car Rental
+          Phone:    +971 58 257 2927
+          WhatsApp: https://wa.me/971582572927
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #249 - SS Luxury Car Rental
+          Phone:    +971 54 991 8816
+          WhatsApp: https://wa.me/971549918816
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #250 - Al Henaky Rent A Car
+          Phone:    +971 50 929 9046
+          WhatsApp: https://wa.me/971509299046
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #251 - Tan Luxury Rent
+          Phone:    +971 56 912 4341
+          WhatsApp: https://wa.me/971569124341
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #252 - McQueen Luxury Car Rental
+          Phone:    +971 56 564 7029
+          WhatsApp: https://wa.me/971565647029
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #253 - Yallafind Rent A Car
+          Phone:    +971 50 169 0696
+          WhatsApp: https://wa.me/971501690696
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #254 - Sahar Rent A Car
+          Phone:    +971 52 477 0703
+          WhatsApp: https://wa.me/971524770703
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #255 - Brh No Deposit Car Rental
+          Phone:    +971 54 279 5645
+          WhatsApp: https://wa.me/971542795645
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #256 - Space Rent A Car DXB
+          Phone:    +971 54 310 3597
+          WhatsApp: https://wa.me/971543103597
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #257 - RTC Rental Car
+          Phone:    +971 56 488 4415
+          WhatsApp: https://wa.me/971564884415
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #258 - Auto Hire No Security Deposit
+          Phone:    +971 50 346 0368
+          WhatsApp: https://wa.me/971503460368
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #259 - Wheels On Lease Silicon Oasis
+          Phone:    +971 50 706 1253
+          WhatsApp: https://wa.me/971507061253
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #260 - LCR Dubai Silicon Oasis
+          Phone:    +971 58 179 3731
+          WhatsApp: https://wa.me/971581793731
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #261 - Dream Cars Dubai
+          Phone:    +971 55 916 4496
+          WhatsApp: https://wa.me/971559164496
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #262 - Eazycarrental
+          Phone:    +971 50 387 0294
+          WhatsApp: https://wa.me/971503870294
+          Location: Dubai Silicon Oasis,  Dubai
+
+[PENDING] #263 - Lulu Rent A Car International City
+          Phone:    +971 55 996 6653
+          WhatsApp: https://wa.me/971559966653
+          Location: International City,  Dubai
+
+[PENDING] #264 - My Car VIP Rental Services
+          Phone:    +971 56 697 9991
+          WhatsApp: https://wa.me/971566979991
+          Location: International City,  Dubai
+
+[PENDING] #265 - Max Speed Wheels Car Rental LLC
+          Phone:    +971 55 116 0853
+          WhatsApp: https://wa.me/971551160853
+          Location: JVC,  Dubai
+
+[PENDING] #266 - Pulse Car Rentals
+          Phone:    +971 52 127 0002
+          WhatsApp: https://wa.me/971521270002
+          Location: JVC,  Dubai
+
+[PENDING] #267 - Top Gear Rent A Car Sharjah
+          Phone:    +971 54 447 4321
+          WhatsApp: https://wa.me/971544474321
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #268 - Challenger Rent A Car
+          Phone:    +971 54 792 4745
+          WhatsApp: https://wa.me/971547924745
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #269 - Diamond Royals Car Rental
+          Phone:    +971 50 242 5836
+          WhatsApp: https://wa.me/971502425836
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #270 - Easy Drive Cars Rental LLC
+          Phone:    +971 54 336 2233
+          WhatsApp: https://wa.me/971543362233
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #271 - Smart Cars Rental Sharjah
+          Phone:    +971 54 394 3940
+          WhatsApp: https://wa.me/971543943940
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #272 - Al Yarmook Cars Rentals
+          Phone:    +971 50 225 4819
+          WhatsApp: https://wa.me/971502254819
+          Location: Al Yarmook,  Sharjah
+
+[PENDING] #273 - Strong Wheel Car Rental
+          Phone:    +971 50 309 6131
+          WhatsApp: https://wa.me/971503096131
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #274 - Nitaq Rent A Car LLC
+          Phone:    +971 56 633 5141
+          WhatsApp: https://wa.me/971566335141
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #275 - Autolease Rent A Car Sharjah
+          Phone:    +971 52 482 3767
+          WhatsApp: https://wa.me/971524823767
+          Location: Industrial Area,  Sharjah
+
+[PENDING] #276 - Turbo Rent A Car Sharjah
+          Phone:    +971 55 558 5123
+          WhatsApp: https://wa.me/971555585123
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #277 - Qasr Al Azrah Car Rental
+          Phone:    +971 50 796 0537
+          WhatsApp: https://wa.me/971507960537
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #278 - Al Qudrah Rent Car
+          Phone:    +971 55 474 7418
+          WhatsApp: https://wa.me/971554747418
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #279 - Farna Rent A Car
+          Phone:    +971 50 870 7217
+          WhatsApp: https://wa.me/971508707217
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #280 - Ride & Save Rent A Car
+          Phone:    +971 58 277 6813
+          WhatsApp: https://wa.me/971582776813
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #281 - Al Alfiah Rent A Car
+          Phone:    +971 54 717 6056
+          WhatsApp: https://wa.me/971547176056
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #282 - Golden Star Car Rental
+          Phone:    +971 55 140 8082
+          WhatsApp: https://wa.me/971551408082
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #283 - Dar Al Afeef Rent A Car LLC
+          Phone:    +971 50 477 3134
+          WhatsApp: https://wa.me/971504773134
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #284 - Golden Fleet Car Rental Sharjah
+          Phone:    +971 56 673 3529
+          WhatsApp: https://wa.me/971566733529
+          Location: Al Majaz 3,  Sharjah
+
+[PENDING] #285 - 24/7 Rent A Car Sharjah
+          Phone:    +971 58 547 7957
+          WhatsApp: https://wa.me/971585477957
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #286 - Makellos Car Rental L.L.C
+          Phone:    +971 55 446 0313
+          WhatsApp: https://wa.me/971554460313
+          Location: Al Khan,  Sharjah
+
+[PENDING] #287 - Al Farouq Rent A Car
+          Phone:    +971 58 158 0300
+          WhatsApp: https://wa.me/971581580300
+          Location: Al Majaz 2,  Sharjah
+
+[PENDING] #288 - Al Reem Rent A Car Sharjah
+          Phone:    +971 58 679 0139
+          WhatsApp: https://wa.me/971586790139
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #289 - Allaith Alabyad Rent Car
+          Phone:    +971 50 862 4923
+          WhatsApp: https://wa.me/971508624923
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #290 - Khalid Cars Rental
+          Phone:    +971 58 559 9957
+          WhatsApp: https://wa.me/971585599957
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #291 - Smart Car Cars Rental L.L.C
+          Phone:    +971 55 577 0091
+          WhatsApp: https://wa.me/971555770091
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #292 - Golden Road Rent A Car
+          Phone:    +971 54 500 7389
+          WhatsApp: https://wa.me/971545007389
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #293 - Voyagerz Car Rentals
+          Phone:    +971 52 337 0009
+          WhatsApp: https://wa.me/971523370009
+          Location: Al Khan,  Sharjah
+
+[PENDING] #294 - Al Wissam Car Rental
+          Phone:    +971 50 822 0570
+          WhatsApp: https://wa.me/971508220570
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #295 - Al Noor Al Satee Rent A Car
+          Phone:    +971 56 670 6042
+          WhatsApp: https://wa.me/971566706042
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #296 - Indigo Rent A Car Sahara Center
+          Phone:    +971 55 401 3534
+          WhatsApp: https://wa.me/971554013534
+          Location: Sahara Center,  Sharjah
+
+[PENDING] #297 - Sano Rent A Car Br1
+          Phone:    +971 50 151 8989
+          WhatsApp: https://wa.me/971501518989
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #298 - Al Saif Al Lamiee Rent A Car
+          Phone:    +971 54 556 6772
+          WhatsApp: https://wa.me/971545566772
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #299 - New Autobots Car Rental
+          Phone:    +971 55 477 8617
+          WhatsApp: https://wa.me/971554778617
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #300 - Noble Rent A Car
+          Phone:    +971 50 521 0095
+          WhatsApp: https://wa.me/971505210095
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #301 - Khan Al Khalili Rent A Car
+          Phone:    +971 50 106 6595
+          WhatsApp: https://wa.me/971501066595
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #302 - Lahn Al Sabah Cars Rental L.L.C
+          Phone:    +971 55 622 7720
+          WhatsApp: https://wa.me/971556227720
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #303 - Manar Alraees Car Rental
+          Phone:    +971 56 111 1688
+          WhatsApp: https://wa.me/971561111688
+          Location: Al Nahda,  Sharjah
+
+[PENDING] #304 - Top Elegant Car Rental L.L.C
+          Phone:    +971 58 926 7800
+          WhatsApp: https://wa.me/971589267800
+          Location: Al Nahda 1,  Dubai
+
+[PENDING] #305 - Noor Al Jazeera Rent A Car LLC
+          Phone:    +971 58 808 8422
+          WhatsApp: https://wa.me/971588088422
+          Location: Al Nahda 1,  Dubai
+
+[PENDING] #306 - Autolease Rent A Car Dubai
+          Phone:    +971 52 482 3756
+          WhatsApp: https://wa.me/971524823756
+          Location: Al Nahda,  Dubai
+
+[PENDING] #307 - Alasaad Car Rental
+          Phone:    +971 56 964 9000
+          WhatsApp: https://wa.me/971569649000
+          Location: International City,  Dubai
+
+[PENDING] #308 - Hoot Rent A Car
+          Phone:    +971 52 776 9906
+          WhatsApp: https://wa.me/971527769906
+          Location: International City,  Dubai
+
+[PENDING] #309 - Sidra Transportation And Car Rental L.L.C
+          Phone:    +971 52 933 5533
+          WhatsApp: https://wa.me/971529335533
+          Location: International City,  Dubai
+
+[PENDING] #310 - UAE Rent A Car
+          Phone:    +971 56 468 5717
+          WhatsApp: https://wa.me/971564685717
+          Location: International City,  Dubai
+
+[PENDING] #311 - Al Ghalya Rent A Car LLC
+          Phone:    +971 50 186 4455
+          WhatsApp: https://wa.me/971501864455
+          Location: International City,  Dubai
+
+[PENDING] #312 - LuLu Rent A Car Warsan
+          Phone:    +971 55 605 6263
+          WhatsApp: https://wa.me/971556056263
+          Location: Warsan / International City,  Dubai
+
+[PENDING] #313 - Hong Lv Deng Car Rental Dubai
+          Phone:    +971 50 953 0086
+          WhatsApp: https://wa.me/971509530086
+          Location: International City,  Dubai
+
+[PENDING] #314 - TimAuto Car Rental
+          Phone:    +971 52 704 9129
+          WhatsApp: https://wa.me/971527049129
+          Location: International City,  Dubai
+
+[PENDING] #315 - Autohome Car Rental
+          Phone:    +971 55 924 3319
+          WhatsApp: https://wa.me/971559243319
+          Location: International City,  Dubai
+
+[PENDING] #316 - Al Naeem Rent A Car
+          Phone:    +971 50 906 1864
+          WhatsApp: https://wa.me/971509061864
+          Location: International City,  Dubai
+
+[PENDING] #317 - Fast Captain Rent A Car CO LLC
+          Phone:    +971 54 405 3309
+          WhatsApp: https://wa.me/971544053309
+          Location: International City,  Dubai
+
+[PENDING] #318 - Lemon Rent A Car
+          Phone:    +971 56 805 2776
+          WhatsApp: https://wa.me/971568052776
+          Location: International City,  Dubai
+
+[PENDING] #319 - AL RIFA RENT A CAR LLC
+          Phone:    +971 52 173 6421
+          WhatsApp: https://wa.me/971521736421
+          Location: International City,  Dubai
+
+[PENDING] #320 - Super Infinity Rent A Car
+          Phone:    +971 58 553 9333
+          WhatsApp: https://wa.me/971585539333
+          Location: International City,  Dubai
+
+[PENDING] #321 - Jernas Rent A Car
+          Phone:    +971 50 877 7161
+          WhatsApp: https://wa.me/971508777161
+          Location: International City,  Dubai
+
+[PENDING] #322 - Rent A Car International City
+          Phone:    +971 52 374 2232
+          WhatsApp: https://wa.me/971523742232
+          Location: International City,  Dubai
+
+[PENDING] #323 - Top Choice Rent A Car
+          Phone:    +971 52 490 5567
+          WhatsApp: https://wa.me/971524905567
+          Location: International City,  Dubai
+
+[PENDING] #324 - Ez Rentals Dubai
+          Phone:    +971 55 786 6549
+          WhatsApp: https://wa.me/971557866549
+          Location: International City,  Dubai
+
+[PENDING] #325 - Al Burraq Car Rental
+          Phone:    +971 55 646 5533
+          WhatsApp: https://wa.me/971556465533
+          Location: International City,  Dubai
+
+[PENDING] #326 - Luge Car Services
+          Phone:    +971 56 712 3333
+          WhatsApp: https://wa.me/971567123333
+          Location: International City,  Dubai
+
+[PENDING] #327 - The Emirates Travel
+          Phone:    +971 50 581 4136
+          WhatsApp: https://wa.me/971505814136
+          Location: International City,  Dubai
+
+[PENDING] #328 - Jawaher Car Rental
+          Phone:    +971 55 848 4948
+          WhatsApp: https://wa.me/971558484948
+          Location: International City,  Dubai
+
+[PENDING] #329 - RentalCarsFinder Dubai
+          Phone:    +971 55 149 4154
+          WhatsApp: https://wa.me/971551494154
+          Location: Dubai Marina,  Dubai
+
+[PENDING] #330 - JVC Car Rentals Circle
+          Phone:    +971 58 263 1621
+          WhatsApp: https://wa.me/971582631621
+          Location: JVC,  Dubai
+
+[PENDING] #331 - JVC Rent A Car No Security Deposit
+          Phone:    +971 56 200 4141
+          WhatsApp: https://wa.me/971562004141
+          Location: JVC,  Dubai
+
+[PENDING] #332 - Fresh X Rent
+          Phone:    +971 55 563 5183
+          WhatsApp: https://wa.me/971555635183
+          Location: JVC,  Dubai
+
+[PENDING] #333 - Al Abtal Car Rental LLC
+          Phone:    +971 58 832 8491
+          WhatsApp: https://wa.me/971588328491
+          Location: JVC,  Dubai
+
+[PENDING] #334 - Zero Deposit Rent A Car JVC
+          Phone:    +971 55 968 9213
+          WhatsApp: https://wa.me/971559689213
+          Location: JVC,  Dubai
+
+[PENDING] #335 - Velox Rent A Car JVC LLC
+          Phone:    +971 56 935 8522
+          WhatsApp: https://wa.me/971569358522
+          Location: JVC,  Dubai
+
+[PENDING] #336 - DAC Rent A Car
+          Phone:    +971 58 248 5294
+          WhatsApp: https://wa.me/971582485294
+          Location: JVC,  Dubai
+
+[PENDING] #337 - Grizzly Car Rental
+          Phone:    +971 58 568 0088
+          WhatsApp: https://wa.me/971585680088
+          Location: JVC,  Dubai
+
+[PENDING] #338 - Izzi Car Rental
+          Phone:    +971 52 602 3180
+          WhatsApp: https://wa.me/971526023180
+          Location: JVC,  Dubai
+
+[PENDING] #339 - Madar Rent A Car In Dubai
+          Phone:    +971 50 913 3551
+          WhatsApp: https://wa.me/971509133551
+          Location: Karama,  Dubai
+
+[PENDING] #340 - Four Wheel Drive Car Rental L.L.C.
+          Phone:    +971 50 883 4342
+          WhatsApp: https://wa.me/971508834342
+          Location: Karama,  Dubai
+
+[PENDING] #341 - Car 4 Sure Car Rental
+          Phone:    +971 56 360 6786
+          WhatsApp: https://wa.me/971563606786
+          Location: Karama,  Dubai
+
+[PENDING] #342 - Nooralmisbah Rent A Car
+          Phone:    +971 56 412 2987
+          WhatsApp: https://wa.me/971564122987
+          Location: Karama,  Dubai
+
+[PENDING] #343 - City Adventures Rent A Car LLC
+          Phone:    +971 50 578 9891
+          WhatsApp: https://wa.me/971505789891
+          Location: Karama,  Dubai
+
+[PENDING] #344 - Julia Rent A Car LLC
+          Phone:    +971 55 226 2472
+          WhatsApp: https://wa.me/971552262472
+          Location: Karama,  Dubai
+
+[PENDING] #345 - Dar Al Buraq Rent A Car
+          Phone:    +971 58 520 3830
+          WhatsApp: https://wa.me/971585203830
+          Location: Karama,  Dubai
+
+[PENDING] #346 - Innovate Car Rental LLC
+          Phone:    +971 54 492 6247
+          WhatsApp: https://wa.me/971544926247
+          Location: Karama,  Dubai
+
+[PENDING] #347 - Smart Move Luxury Rent A Car LLC
+          Phone:    +971 56 413 7242
+          WhatsApp: https://wa.me/971564137242
+          Location: Karama,  Dubai
+
+[PENDING] #348 - Carlux Rent A Car Dubai
+          Phone:    +971 50 430 5694
+          WhatsApp: https://wa.me/971504305694
+          Location: Karama,  Dubai
+
+[PENDING] #349 - Grandior Rent Car Co. L.L.C.
+          Phone:    +971 55 868 4350
+          WhatsApp: https://wa.me/971558684350
+          Location: Karama,  Dubai
+
+[PENDING] #350 - Golden Car Rent A Car
+          Phone:    +971 50 221 9708
+          WhatsApp: https://wa.me/971502219708
+          Location: Karama,  Dubai
+
+[PENDING] #351 - Territory Rent A Car
+          Phone:    +971 55 109 1883
+          WhatsApp: https://wa.me/971551091883
+          Location: Karama,  Dubai
+
+[PENDING] #352 - Jumeira Rent A Car LLC
+          Phone:    +971 50 150 5157
+          WhatsApp: https://wa.me/971501505157
+          Location: Karama,  Dubai
+
+[PENDING] #353 - Dripstar Car Rental
+          Phone:    +971 58 529 8146
+          WhatsApp: https://wa.me/971585298146
+          Location: Karama,  Dubai
+
+[PENDING] #354 - Wheel And Deal Car Rental
+          Phone:    +971 55 886 6365
+          WhatsApp: https://wa.me/971558866365
+          Location: Karama,  Dubai
+
+[PENDING] #355 - OVS Rent A Car LLC
+          Phone:    +971 56 206 4864
+          WhatsApp: https://wa.me/971562064864
+          Location: Karama,  Dubai
+
+[PENDING] #356 - ABMK Car Rental LLC
+          Phone:    +971 50 105 2633
+          WhatsApp: https://wa.me/971501052633
+          Location: Deira,  Dubai
+
+[PENDING] #357 - Samaa Al Madina Car Rental
+          Phone:    +971 55 279 9199
+          WhatsApp: https://wa.me/971552799199
+          Location: Karama,  Dubai
+
+[PENDING] #358 - Tycoon Rent A Car LLC
+          Phone:    +971 55 889 9501
+          WhatsApp: https://wa.me/971558899501
+          Location: Karama,  Dubai
+
+[PENDING] #359 - Shirok Car Rental LLC
+          Phone:    +971 56 402 1003
+          WhatsApp: https://wa.me/971564021003
+          Location: Karama,  Dubai
+
+[PENDING] #360 - Dubai Rental Car Luxury Deals
+          Phone:    +971 54 422 2274
+          WhatsApp: https://wa.me/971544222274
+          Location: Deira,  Dubai
+
+[PENDING] #361 - Dushu Buses Rental
+          Phone:    +971 52 527 5703
+          WhatsApp: https://wa.me/971525275703
+          Location: Karama,  Dubai
+
+[PENDING] #362 - Green Oasis Rent A Car LLC
+          Phone:    +971 50 459 8142
+          WhatsApp: https://wa.me/971504598142
+          Location: Karama,  Dubai
+
+[PENDING] #363 - Royal Breeze Supercar Rental
+          Phone:    +971 58 641 2034
+          WhatsApp: https://wa.me/971586412034
+          Location: World Trade Centre,  Dubai
+
+[PENDING] #364 - OMM Car Rental
+          Phone:    +971 50 844 6056
+          WhatsApp: https://wa.me/971508446056
+          Location: Port Saeed,  Deira,  Dubai
+
+[PENDING] #365 - Olympic Car Rental
+          Phone:    +971 58 236 9699
+          WhatsApp: https://wa.me/971582369699
+          Location: Karama,  Dubai
+
+[PENDING] #366 - Signature Rent A Car L.L.C
+          Phone:    +971 54 708 3191
+          WhatsApp: https://wa.me/971547083191
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #367 - Burkan Rent A Car
+          Phone:    +971 50 444 3485
+          WhatsApp: https://wa.me/971504443485
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #368 - Kinanah Rent A Car
+          Phone:    +971 50 411 7769
+          WhatsApp: https://wa.me/971504117769
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #369 - Alharis Cars Rental LLC
+          Phone:    +971 52 770 8299
+          WhatsApp: https://wa.me/971527708299
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #370 - Fox Car Rental Abu Dhabi
+          Phone:    +971 55 572 9966
+          WhatsApp: https://wa.me/971555729966
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #371 - Al Shamkha Int Rent Car
+          Phone:    +971 50 886 8511
+          WhatsApp: https://wa.me/971508868511
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #372 - Harakat Rent A Car Mussafah
+          Phone:    +971 55 813 3813
+          WhatsApp: https://wa.me/971558133813
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #373 - Cars Light Rent A Car
+          Phone:    +971 50 190 9073
+          WhatsApp: https://wa.me/971501909073
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #374 - Ashtar Rent Car Abu Dhabi
+          Phone:    +971 52 506 0199
+          WhatsApp: https://wa.me/971525060199
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #375 - Massar Rent A Car
+          Phone:    +971 50 738 0814
+          WhatsApp: https://wa.me/971507380814
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #376 - M H Sina Cars Rental
+          Phone:    +971 58 812 0916
+          WhatsApp: https://wa.me/971588120916
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #377 - Royal Road Cars Rental
+          Phone:    +971 54 297 6629
+          WhatsApp: https://wa.me/971542976629
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #378 - Qarnas Rent A Car
+          Phone:    +971 52 472 2248
+          WhatsApp: https://wa.me/971524722248
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #379 - Five Star Rent A Car
+          Phone:    +971 55 443 6789
+          WhatsApp: https://wa.me/971554436789
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #380 - Link Motors Car Rental
+          Phone:    +971 55 688 9027
+          WhatsApp: https://wa.me/971556889027
+          Location: Baniyas,  Abu Dhabi
+
+[PENDING] #381 - Special Car Rent Car
+          Phone:    +971 56 866 9046
+          WhatsApp: https://wa.me/971568669046
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #382 - Pro Car Rent Mussafah
+          Phone:    +971 50 543 6639
+          WhatsApp: https://wa.me/971505436639
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #383 - Maktab Elashry Rent Car
+          Phone:    +971 52 558 6889
+          WhatsApp: https://wa.me/971525586889
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #384 - Over Drive Car Rental
+          Phone:    +971 55 495 5781
+          WhatsApp: https://wa.me/971554955781
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #385 - Autobas Rent A Car
+          Phone:    +971 54 420 2482
+          WhatsApp: https://wa.me/971544202482
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #386 - Victoria Rent A Car Mussafah
+          Phone:    +971 50 160 9938
+          WhatsApp: https://wa.me/971501609938
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #387 - Eco Cars Rental
+          Phone:    +971 50 669 8700
+          WhatsApp: https://wa.me/971506698700
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #388 - Glitter Rent A Car SP LLC
+          Phone:    +971 52 453 4567
+          WhatsApp: https://wa.me/971524534567
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #389 - Desert King Rent A Car
+          Phone:    +971 52 123 4397
+          WhatsApp: https://wa.me/971521234397
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #390 - Maraheb Rent A Car
+          Phone:    +971 52 730 3771
+          WhatsApp: https://wa.me/971527303771
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #391 - Chartered Rent A Car
+          Phone:    +971 52 421 8021
+          WhatsApp: https://wa.me/971524218021
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #392 - Holidaycar Rent A Car Br
+          Phone:    +971 50 991 5488
+          WhatsApp: https://wa.me/971509915488
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #393 - Viva Car For Car Rental
+          Phone:    +971 55 443 6789
+          WhatsApp: https://wa.me/971554436789
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #394 - One Zero One Rent A Car
+          Phone:    +971 56 912 8800
+          WhatsApp: https://wa.me/971569128800
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #395 - Compass Car Rental
+          Phone:    +971 50 576 7872
+          WhatsApp: https://wa.me/971505767872
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #396 - Bound Rent A Car
+          Phone:    +971 55 744 0585
+          WhatsApp: https://wa.me/971557440585
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #397 - Khaleeji 18 Rent A Car
+          Phone:    +971 52 312 1511
+          WhatsApp: https://wa.me/971523121511
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #398 - Prime Rent A Car Abu Dhabi
+          Phone:    +971 55 440 5574
+          WhatsApp: https://wa.me/971554405574
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #399 - AL FADA RENT A CAR BR1
+          Phone:    +971 52 980 0750
+          WhatsApp: https://wa.me/971529800750
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #400 - Orient Lease Cars
+          Phone:    +971 56 283 3543
+          WhatsApp: https://wa.me/971562833543
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #401 - Mint Rent Car
+          Phone:    +971 50 531 1112
+          WhatsApp: https://wa.me/971505311112
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #402 - Mohammad Alshamali Car Rental LLC
+          Phone:    +971 58 997 7631
+          WhatsApp: https://wa.me/971589977631
+          Location: Ras Al Khor,  Dubai
+
+[PENDING] #403 - Titans Car Rental LLC
+          Phone:    +971 55 866 2176
+          WhatsApp: https://wa.me/971558662176
+          Location: Ras Al Khor,  Dubai
+
+[PENDING] #404 - Al Dawama Car Rental
+          Phone:    +971 50 742 0155
+          WhatsApp: https://wa.me/971507420155
+          Location: Ras Al Khor,  Dubai
+
+[PENDING] #405 - Domino Car Rental
+          Phone:    +971 52 772 0133
+          WhatsApp: https://wa.me/971527720133
+          Location: Ras Al Khor,  Dubai
+
+[PENDING] #406 - Ugharite Rent A Car
+          Phone:    +971 50 331 9620
+          WhatsApp: https://wa.me/971503319620
+          Location: Ras Al Khor,  Dubai
+
+[PENDING] #407 - ISIS Rent A Car
+          Phone:    +971 50 626 4066
+          WhatsApp: https://wa.me/971506264066
+          Location: Al Qasimia,  Sharjah
+
+[PENDING] #408 - Alfaris Alzahabi Rent A Car
+          Phone:    +971 56 879 9924
+          WhatsApp: https://wa.me/971568799924
+          Location: Al Majaz,  Sharjah
+
+[PENDING] #409 - Signature Rent A Car Al Seef
+          Phone:    +971 50 370 0135
+          WhatsApp: https://wa.me/971503700135
+          Location: Al Seef,  Abu Dhabi
+
+[PENDING] #410 - December Rent A Car
+          Phone:    +971 54 477 1034
+          WhatsApp: https://wa.me/971544771034
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #411 - Al Jasfa Car Rental L.L.C
+          Phone:    +971 52 197 4768
+          WhatsApp: https://wa.me/971521974768
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #412 - Secure Rent A Car Branch
+          Phone:    +971 50 720 8007
+          WhatsApp: https://wa.me/971507208007
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #413 - Thamar Rent A Car
+          Phone:    +971 56 324 1633
+          WhatsApp: https://wa.me/971563241633
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #414 - Titanium Rent A Car
+          Phone:    +971 50 756 2239
+          WhatsApp: https://wa.me/971507562239
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #415 - Wheels And Keys Rent A Car
+          Phone:    +971 50 463 5211
+          WhatsApp: https://wa.me/971504635211
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #416 - Fahad Al Jazeerah Rent A Car
+          Phone:    +971 58 559 9010
+          WhatsApp: https://wa.me/971585599010
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #417 - Roxy Rent A Car
+          Phone:    +971 55 190 9533
+          WhatsApp: https://wa.me/971551909533
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #418 - Smile Rent A Car Abu Dhabi ME 10
+          Phone:    +971 55 313 1177
+          WhatsApp: https://wa.me/971553131177
+          Location: Mussafah ME-10,  Abu Dhabi
+
+[PENDING] #419 - Cars World Rent A Car
+          Phone:    +971 50 571 5570
+          WhatsApp: https://wa.me/971505715570
+          Location: Airport Road,  Abu Dhabi
+
+[PENDING] #420 - Alpina Rent A Car Establishment
+          Phone:    +971 56 337 8866
+          WhatsApp: https://wa.me/971563378866
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #421 - Al Mamlakah Car Rental
+          Phone:    +971 56 797 9604
+          WhatsApp: https://wa.me/971567979604
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #422 - First Way Rent A Car
+          Phone:    +971 50 446 9777
+          WhatsApp: https://wa.me/971504469777
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #423 - Al Wathiq Rent Car
+          Phone:    +971 50 101 1016
+          WhatsApp: https://wa.me/971501011016
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #424 - Scorpion Rent A Car
+          Phone:    +971 50 762 0199
+          WhatsApp: https://wa.me/971507620199
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #425 - Seattle Rent A Car
+          Phone:    +971 50 879 512
+          WhatsApp: https://wa.me/97150879512
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #426 - Silver Car For Rent Cars
+          Phone:    +971 55 894 3522
+          WhatsApp: https://wa.me/971558943522
+          Location: Mussafah,  Abu Dhabi
+
+[PENDING] #427 - Royal Line Rent Car L.L.C
+          Phone:    +971 52 636 6352
+          WhatsApp: https://wa.me/971526366352
+          Location: Mussafah,  Abu Dhabi
+

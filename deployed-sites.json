@@ -10,15 +10,17 @@
     "id": 2,
     "folder": "fast-motors-car-rental",
     "name": "FAST MOTORS CAR RENTAL LLC",
-    "shortName": "fast-motors-rent",
-    "liveUrl": "https://fast-motors-rent-resxspf35-carrental3.vercel.app"
+    "shortName": "fast-motors-uae",
+    "phone": "+971 50 754 4408",
+    "liveUrl": "https://fast-motors-uae.vercel.app"
   },
   "3": {
     "id": 3,
     "folder": "adres-car-rental",
     "name": "ADRES CAR RENTAL",
-    "shortName": "adres-rent",
-    "liveUrl": "https://adres-rent-3418o6o97-carrental3.vercel.app"
+    "shortName": "adres-uae",
+    "phone": "+971 56 811 9209",
+    "liveUrl": "https://adres-uae.vercel.app"
   },
   "4": {
     "id": 4,
@@ -31,216 +33,447 @@
     "id": 5,
     "folder": "swift-car-rental",
     "name": "Swift Car Rental | No Security Deposit",
-    "shortName": "swift",
+    "shortName": "swift-uae",
     "phone": "+971 54 266 1154",
-    "liveUrl": "https://swift-jxabo5rrb-carrental3.vercel.app"
+    "liveUrl": "https://swift-uae.vercel.app"
   },
   "6": {
     "id": 6,
     "folder": "exotic-ride-supercar-chauffeur-service-dubai",
     "name": "Exotic Ride Supercar & Chauffeur Service Dubai",
-    "shortName": "exotic-ride-dub",
+    "shortName": "exotic-ride-du-uae",
     "phone": "+971 55 358 6068",
-    "liveUrl": "https://exotic-ride-do2aghjsw-carrental3.vercel.app"
+    "liveUrl": "https://exotic-ride-du-uae.vercel.app"
   },
   "7": {
     "id": 7,
     "folder": "carx-dubai-rent-a-car-in-dubai",
     "name": "Carx Dubai - Rent a Car in Dubai",
-    "shortName": "carx-dubai-in-d",
+    "shortName": "carx-dubai-in-uae",
     "phone": "+971 52 120 1531",
-    "liveUrl": "https://carx-dubai-in-9vy08kiwc-carrental3.vercel.app"
+    "liveUrl": "https://carx-dubai-in-uae.vercel.app"
   },
   "8": {
     "id": 8,
     "folder": "luxury-car-rental",
     "name": "LUXURY CAR RENTAL",
-    "shortName": "luxury",
+    "shortName": "luxury-uae",
     "phone": "+971 58 929 5875",
-    "liveUrl": "https://luxury-ihe24g0p9-carrental3.vercel.app"
+    "liveUrl": "https://luxury-uae.vercel.app"
   },
   "9": {
     "id": 9,
     "folder": "rent-ride-car-rental",
     "name": "RENT & RIDE CAR RENTAL",
-    "shortName": "rent-ride",
+    "shortName": "rent-ride-uae",
     "phone": "+971 56 414 1472",
-    "liveUrl": "https://rent-ride-nb6mum4hs-carrental3.vercel.app"
+    "liveUrl": "https://rent-ride-uae.vercel.app"
   },
   "10": {
     "id": 10,
     "folder": "leo-exotics-car-rental-no-deposit",
     "name": "Leo Exotics Car Rental - No Deposit",
-    "shortName": "leo-exotics-no",
+    "shortName": "leo-exotics-no-uae",
     "phone": "+971 58 588 1133",
-    "liveUrl": "https://leo-exotics-3o2w383kt-carrental3.vercel.app"
+    "liveUrl": "https://leo-exotics-no-uae.vercel.app"
   },
   "11": {
     "id": 11,
     "folder": "rayan-rent-a-car-llc",
     "name": "Rayan Rent a Car LLC",
-    "shortName": "rayan",
+    "shortName": "rayan-uae",
     "phone": "+971 58 262 6154",
-    "liveUrl": "https://rayan-27pwpyxw7-carrental3.vercel.app"
+    "liveUrl": "https://rayan-uae.vercel.app"
   },
   "12": {
     "id": 12,
     "folder": "ferro-car-rental",
     "name": "Ferro Car Rental",
-    "shortName": "ferro",
+    "shortName": "ferro-uae",
     "phone": "+971 50 119 9113",
-    "liveUrl": "https://ferro-ag5rnjx4o-carrental3.vercel.app"
+    "liveUrl": "https://ferro-uae.vercel.app"
   },
   "13": {
     "id": 13,
     "folder": "autobaba-car-rental-l-l-c",
     "name": "Autobaba Car Rental L.L.C",
-    "shortName": "autobaba-l-l-c",
+    "shortName": "autobaba-l-l-c-uae",
     "phone": "+971 58 577 1771",
-    "liveUrl": "https://autobaba-l-l-19aawjgym-carrental3.vercel.app"
+    "liveUrl": "https://autobaba-l-l-c-uae.vercel.app"
   },
   "14": {
     "id": 14,
     "folder": "dubai-rent",
     "name": "DUBAI.RENT",
-    "shortName": "dubai-rent",
+    "shortName": "dubai-rent-uae",
     "phone": "+971 52 266 5566",
-    "liveUrl": "https://dubai-rent-lqdqjld01-carrental3.vercel.app"
+    "liveUrl": "https://dubai-rent-uae.vercel.app"
   },
   "15": {
     "id": 15,
     "folder": "luxxio-car-rental",
     "name": "Luxxio Car Rental",
-    "shortName": "luxxio",
+    "shortName": "luxxio-uae",
     "phone": "+971 55 136 5705",
-    "liveUrl": "https://luxxio-3muwh10vn-carrental3.vercel.app"
+    "liveUrl": "https://luxxio-uae.vercel.app"
   },
   "16": {
     "id": 16,
     "folder": "davinci-car-rental-dubai",
     "name": "Davinci Car Rental Dubai",
-    "shortName": "davinci-dubai",
+    "shortName": "davinci-dubai-uae",
     "phone": "+971 54 555 5248",
-    "liveUrl": "https://davinci-dubai-m7kn8iwdl-carrental3.vercel.app"
+    "liveUrl": "https://davinci-dubai-uae.vercel.app"
   },
   "17": {
     "id": 17,
     "folder": "dubai-rent-a-car-g63-range-rover-mustang",
     "name": "Dubai RENT A CAR G63 Range Rover Mustang",
-    "shortName": "dubai-g63-range",
+    "shortName": "dubai-g63-rang-uae",
     "phone": "+971 52 983 3683",
-    "liveUrl": "https://dubai-g63-range-b01mr77mr-carrental3.vercel.app"
+    "liveUrl": "https://dubai-g63-rang-uae.vercel.app"
   },
   "18": {
     "id": 18,
     "folder": "camaro-rental-dubai",
     "name": "Camaro Rental Dubai",
-    "shortName": "camaro-dubai",
+    "shortName": "camaro-dubai-uae",
     "phone": "+971 56 684 9661",
-    "liveUrl": "https://camaro-dubai-nj1ewbgzb-carrental3.vercel.app"
+    "liveUrl": "https://camaro-dubai-uae.vercel.app"
   },
   "19": {
     "id": 19,
     "folder": "vintx-car-rental",
     "name": "Vintx Car Rental",
-    "shortName": "vintx",
+    "shortName": "vintx-uae",
     "phone": "+971 52 102 7698",
-    "liveUrl": "https://vintx-obvut1tlw-carrental3.vercel.app"
+    "liveUrl": "https://vintx-uae.vercel.app"
   },
   "20": {
     "id": 20,
     "folder": "dubai-wheel-drive-car-rental",
     "name": "Dubai Wheel Drive Car Rental",
-    "shortName": "dubai-wheel-dri",
+    "shortName": "dubai-wheel-dr-uae",
     "phone": "+971 55 544 3017",
-    "liveUrl": "https://dubai-wheel-mhe49727n-carrental3.vercel.app"
+    "liveUrl": "https://dubai-wheel-dr-uae.vercel.app"
   },
   "21": {
     "id": 21,
     "folder": "black-moon-car-rental",
     "name": "Black Moon Car Rental",
-    "shortName": "black-moon",
+    "shortName": "black-moon-uae",
     "phone": "+971 58 832 0814",
-    "liveUrl": "https://black-moon-dxk4t05d2-carrental3.vercel.app"
+    "liveUrl": "https://black-moon-uae.vercel.app"
   },
   "22": {
     "id": 22,
     "folder": "f10-luxury-car-rental",
     "name": "F10 Luxury Car Rental",
-    "shortName": "f10-luxury",
+    "shortName": "f10-luxury-uae",
     "phone": "+971 52 608 0580",
-    "liveUrl": "https://f10-luxury-pq848pwci-carrental3.vercel.app"
+    "liveUrl": "https://f10-luxury-uae.vercel.app"
   },
   "23": {
     "id": 23,
     "folder": "veloce-dubai-car-rental",
     "name": "Veloce Dubai Car Rental",
-    "shortName": "veloce-dubai",
+    "shortName": "veloce-dubai-uae",
     "phone": "+971 55 658 9839",
-    "liveUrl": "https://veloce-dubai-q6qrg3nqn-carrental3.vercel.app"
+    "liveUrl": "https://veloce-dubai-uae.vercel.app"
   },
   "24": {
     "id": 24,
     "folder": "irc-car-rental",
     "name": "IRC CAR RENTAL",
-    "shortName": "irc",
+    "shortName": "irc-uae",
     "phone": "+971 58 294 1116",
-    "liveUrl": "https://irc-91iz2r4oa-carrental3.vercel.app"
+    "liveUrl": "https://irc-uae.vercel.app"
   },
   "25": {
     "id": 25,
     "folder": "gulf-tiger-car-rental-llc",
     "name": "Gulf Tiger Car Rental LLC",
-    "shortName": "gulf-tiger",
+    "shortName": "gulf-tiger-uae",
     "phone": "+971 50 879 7626",
-    "liveUrl": "https://gulf-tiger-6apj5oq85-carrental3.vercel.app"
+    "liveUrl": "https://gulf-tiger-uae.vercel.app"
   },
   "26": {
     "id": 26,
     "folder": "abu-dhabi-car-rental-with-driver",
     "name": "Abu Dhabi Car Rental With Driver",
-    "shortName": "abu-dhabi-with",
+    "shortName": "abu-dhabi-with-uae",
     "phone": "+971 55 858 6734",
-    "liveUrl": "https://abu-dhabi-with-2f6a43ohh-carrental3.vercel.app"
+    "liveUrl": "https://abu-dhabi-with-uae.vercel.app"
   },
   "27": {
     "id": 27,
     "folder": "road-king-rent-car-mzj",
     "name": "ROAD KING RENT CAR MZJ",
-    "shortName": "road-king-mzj",
+    "shortName": "road-king-mzj-uae",
     "phone": "+971 50 174 1267",
-    "liveUrl": "https://road-king-eug5i6fpj-carrental3.vercel.app"
+    "liveUrl": "https://road-king-mzj-uae.vercel.app"
   },
   "28": {
     "id": 28,
     "folder": "shift-car-rental-shams-boutik-mall",
     "name": "SHIFT Car Rental | Shams Boutik Mall",
-    "shortName": "shift-shams-bou",
+    "shortName": "shift-shams-bo-uae",
     "phone": "+971 50 912 8370",
-    "liveUrl": "https://shift-shams-xvonr6ipi-carrental3.vercel.app"
+    "liveUrl": "https://shift-shams-bo-uae.vercel.app"
   },
   "29": {
     "id": 29,
     "folder": "auto-plus-rent-a-car-abu-dhabi",
     "name": "AUTO PLUS RENT A CAR ABU DHABI",
-    "shortName": "auto-plus-abu-d",
+    "shortName": "auto-plus-abu-uae",
     "phone": "+971 50 977 2483",
-    "liveUrl": "https://auto-plus-abu-l95wy8wwa-carrental3.vercel.app"
+    "liveUrl": "https://auto-plus-abu-uae.vercel.app"
   },
   "30": {
     "id": 30,
     "folder": "harakat-rent-a-car",
     "name": "Harakat Rent a Car",
-    "shortName": "harakat",
+    "shortName": "harakat-uae",
     "phone": "+971 50 810 5080",
-    "liveUrl": "https://harakat-bpff3rk1v-carrental3.vercel.app"
+    "liveUrl": "https://harakat-uae.vercel.app"
   },
   "31": {
     "id": 31,
     "folder": "pro-car-rent-al-salam-street",
     "name": "Pro Car Rent - Al Salam Street",
-    "shortName": "pro-car-rent-al",
+    "shortName": "pro-car-rent-uae",
     "phone": "+971 56 216 8666",
-    "liveUrl": "https://pro-car-rent-lz2js83zz-carrental3.vercel.app"
+    "liveUrl": "https://pro-car-rent-uae.vercel.app"
+  },
+  "32": {
+    "id": 32,
+    "folder": "shift-car-rental-al-wahda-mall",
+    "name": "Shift Car Rental | Al Wahda Mall",
+    "shortName": "shift-al-wahda",
+    "liveUrl": "https://shift-al-wahda-hazel.vercel.app"
+  },
+  "33": {
+    "id": 33,
+    "folder": "plaza-car-rental",
+    "name": "PLAZA CAR RENTAL",
+    "shortName": "plaza",
+    "phone": "+971 50 508 7729",
+    "liveUrl": "https://plaza-weld.vercel.app"
+  },
+  "34": {
+    "id": 34,
+    "folder": "apple-rent-a-car-me-10",
+    "name": "APPLE RENT A CAR ME-10",
+    "shortName": "apple-me-10",
+    "phone": "+971 58 966 9192",
+    "liveUrl": "https://apple-me-10-two.vercel.app"
+  },
+  "35": {
+    "id": 35,
+    "folder": "indigo-rent-a-car-khalidiya-mall",
+    "name": "Indigo Rent A Car Khalidiya Mall",
+    "shortName": "indigo-khalidiy",
+    "phone": "+971 55 401 3567",
+    "liveUrl": "https://indigo-khalidiy-dusky.vercel.app"
+  },
+  "36": {
+    "id": 36,
+    "folder": "monaco-rent-a-car",
+    "name": "Monaco Rent A Car",
+    "shortName": "monaco",
+    "phone": "+971 50 620 2627",
+    "liveUrl": "https://monaco-bice.vercel.app"
+  },
+  "37": {
+    "id": 37,
+    "folder": "safeway-car-rentals",
+    "name": "Safeway Car Rentals",
+    "shortName": "safeways",
+    "phone": "+971 50 446 5020",
+    "liveUrl": "https://safeways-five.vercel.app"
+  },
+  "38": {
+    "id": 38,
+    "folder": "top-speed-rent-a-car-l-l-c",
+    "name": "Top Speed Rent A Car L.L.C.",
+    "shortName": "top-speed-l-l-c",
+    "phone": "+971 55 860 0067",
+    "liveUrl": "https://top-speed-l-l-c-two.vercel.app"
+  },
+  "39": {
+    "id": 39,
+    "folder": "on-track-car-rentals",
+    "name": "On Track Car Rentals",
+    "shortName": "on-tracks-five",
+    "phone": "+971 50 236 6699",
+    "liveUrl": "https://on-tracks-five.vercel.app"
+  },
+  "40": {
+    "id": 40,
+    "folder": "spider-rent-a-car",
+    "name": "Spider Rent A Car",
+    "shortName": "spider",
+    "phone": "+971 55 722 8882",
+    "liveUrl": "https://spider-delta-seven.vercel.app"
+  },
+  "41": {
+    "id": 41,
+    "folder": "white-and-red-cars-rental",
+    "name": "White and red cars rental",
+    "shortName": "white-and-red",
+    "phone": "+971 50 252 0979",
+    "liveUrl": "https://white-and-red-sigma.vercel.app"
+  },
+  "42": {
+    "id": 42,
+    "folder": "aerocar-rent-a-car",
+    "name": "AeroCar Rent A Car",
+    "shortName": "aerocar",
+    "phone": "+971 55 145 5788",
+    "liveUrl": "https://aerocar-mu.vercel.app"
+  },
+  "43": {
+    "id": 43,
+    "folder": "fantazya-rent-a-car",
+    "name": "Fantazya Rent A Car",
+    "shortName": "fantazya",
+    "phone": "+971 50 115 8090",
+    "liveUrl": "https://fantazya-eta.vercel.app"
+  },
+  "44": {
+    "id": 44,
+    "folder": "spectre-rent-a-car",
+    "name": "Spectre Rent A Car",
+    "shortName": "spectre",
+    "phone": "+971 56 773 3374",
+    "liveUrl": "https://spectre-khaki-three.vercel.app"
+  },
+  "45": {
+    "id": 45,
+    "folder": "al-shayea-car-rental",
+    "name": "Al Shayea Car Rental",
+    "shortName": "al-shayea",
+    "phone": "+971 52 966 9977",
+    "liveUrl": "https://al-shayea-fawn.vercel.app"
+  },
+  "46": {
+    "id": 46,
+    "folder": "afamia-rent-a-car",
+    "name": "Afamia Rent a Car",
+    "shortName": "afamia",
+    "phone": "+971 50 791 1711",
+    "liveUrl": "https://afamia-dusky.vercel.app"
+  },
+  "47": {
+    "id": 47,
+    "folder": "alyah-car-rental",
+    "name": "Alyah car rental",
+    "shortName": "alyah",
+    "phone": "+971 56 888 8795",
+    "liveUrl": "https://alyah-kappa.vercel.app"
+  },
+  "48": {
+    "id": 48,
+    "folder": "tilal-al-emarat-rent-a-car",
+    "name": "Tilal Al Emarat Rent A Car",
+    "shortName": "tilal-al-emarat",
+    "phone": "+971 56 911 4113",
+    "liveUrl": "https://tilal-al-emarat-gray.vercel.app"
+  },
+  "49": {
+    "id": 49,
+    "folder": "arkan-cars-rental",
+    "name": "Arkan Cars Rental",
+    "shortName": "arkan",
+    "phone": "+971 50 775 7876",
+    "liveUrl": "https://arkan-gray.vercel.app"
+  },
+  "50": {
+    "id": 50,
+    "folder": "for-you-rent-a-car",
+    "name": "For You Rent A Car",
+    "shortName": "for-you",
+    "phone": "+971 55 110 4322",
+    "liveUrl": "https://for-you-self-three.vercel.app"
+  },
+  "51": {
+    "id": 51,
+    "folder": "al-fada-rent-a-car",
+    "name": "AL FADA RENT A CAR",
+    "shortName": "al-fada",
+    "phone": "+971 52 929 0500",
+    "liveUrl": "https://al-fada.vercel.app"
+  },
+  "52": {
+    "id": 52,
+    "folder": "tiger-cars-rental",
+    "name": "Tiger Cars Rental",
+    "shortName": "tiger",
+    "phone": "+971 52 697 2432",
+    "liveUrl": "https://tiger-woad.vercel.app"
+  },
+  "53": {
+    "id": 53,
+    "folder": "al-sharjah-rent-a-car",
+    "name": "Al Sharjah Rent A Car",
+    "shortName": "al-sharjah",
+    "phone": "+971 50 699 9877",
+    "liveUrl": "https://al-sharjah.vercel.app"
+  },
+  "54": {
+    "id": 54,
+    "folder": "sunasco-car-rental",
+    "name": "Sunasco Car Rental",
+    "shortName": "sunasco",
+    "phone": "+971 54 460 5609",
+    "liveUrl": "https://sunasco.vercel.app"
+  },
+  "55": {
+    "id": 55,
+    "folder": "aldalil-cars-rental",
+    "name": "Aldalil Cars Rental",
+    "shortName": "aldalil",
+    "phone": "+971 50 777 5334",
+    "liveUrl": "https://aldalil-phi.vercel.app"
+  },
+  "56": {
+    "id": 56,
+    "folder": "atlantic-rent-a-car-establishment",
+    "name": "Atlantic Rent A Car Establishment",
+    "shortName": "atlantic",
+    "phone": "+971 50 580 6622",
+    "liveUrl": "https://atlantic-iota.vercel.app"
+  },
+  "57": {
+    "id": 57,
+    "folder": "al-fareed-rent-a-car",
+    "name": "Al Fareed Rent A Car",
+    "shortName": "al-fareed",
+    "phone": "+971 50 522 7400",
+    "liveUrl": "https://al-fareed.vercel.app"
+  },
+  "58": {
+    "id": 58,
+    "folder": "perfect-rent-a-car",
+    "name": "Perfect Rent A Car",
+    "shortName": "perfect",
+    "phone": "+971 50 616 4858",
+    "liveUrl": "https://perfect-pied.vercel.app"
+  },
+  "59": {
+    "id": 59,
+    "folder": "al-mahra-rent-car",
+    "name": "Al Mahra Rent Car",
+    "shortName": "al-mahra",
+    "phone": "+971 54 777 8358",
+    "liveUrl": "https://al-mahra-six.vercel.app"
+  },
+  "60": {
+    "id": 60,
+    "folder": "golden-cup-rent-a-car",
+    "name": "Golden Cup Rent A Car",
+    "shortName": "golden-cup",
+    "phone": "+971 58 517 1916",
+    "liveUrl": "https://golden-cup-flax.vercel.app"
   }
 }
